@@ -138,7 +138,40 @@
     content.appendChild(blk);
   }
 
+  // short pairs: Arabic beside the English (one row); long pairs stay stacked (Arabic below).
+  // Decided per pair by measuring both halves at the real column width.
+  function lines(tx) {
+    const cs = getComputedStyle(tx);
+    let lh = parseFloat(cs.lineHeight);
+    if (!cs.lineHeight.endsWith('px')) lh = lh * parseFloat(cs.fontSize);
+    return Math.round(tx.getBoundingClientRect().height / lh);
+  }
+  // A group switches as a whole so a card never mixes the two layouts:
+  // a paragraph card, one list item with its follow-up sentences, or one summary row.
+  function trySide(pairs) {
+    pairs.forEach(p => p.classList.add('side'));
+    const ok = pairs.every(p => {
+      const en = p.querySelector('.en .tx'), ar = p.querySelector('.ar .tx');
+      return en && ar && lines(en) <= 2 && lines(ar) <= 2;
+    });
+    if (!ok) pairs.forEach(p => p.classList.remove('side'));
+  }
+  function sideBySide() {
+    const q = (el, s) => Array.from(el.querySelectorAll(s));
+    q(document, '#flow .para').forEach(c => trySide(q(c, '.pair')));
+    q(document, '#flow .summary .srow').forEach(r => trySide(q(r, '.pair')));
+    q(document, '#flow .list').forEach(list => {
+      let group = [];
+      Array.from(list.children).forEach(li => {
+        if (!li.classList.contains('cont') && group.length) { trySide(group); group = []; }
+        group.push(...q(li, '.pair'));
+      });
+      if (group.length) trySide(group);
+    });
+  }
+
   function run() {
+    sideBySide();
     const blocks = Array.from(document.getElementById('flow').children);
     newPage();
     blocks.forEach(placeBlock);
