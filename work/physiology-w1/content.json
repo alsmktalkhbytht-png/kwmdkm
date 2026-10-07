@@ -1,0 +1,2660 @@
+{
+ "meta": {
+  "subject": "Human Physiology",
+  "subject_ar": "علم وظائف الأعضاء البشري",
+  "doctor": "Prof. Dr. AL-Khafaji Nazar",
+  "doctor_ar": "أ.د. نزار الخفاجي",
+  "stage": 2,
+  "term": 1,
+  "type": "theory",
+  "unit": "week",
+  "lecture": 1,
+  "theme": "physiology"
+ },
+ "blocks": [
+  {
+   "t": "title",
+   "en": "General introduction to physiology",
+   "ar": "مقدمة عامة في علم وظائف الأعضاء",
+   "en2": "Cell physiology: General functions, Cell Membrane transport",
+   "ar2": "فسلجة الخلية: الوظائف العامة، والنقل عبر غشاء الخلية"
+  },
+  {
+   "t": "section",
+   "en": "General introduction to physiology",
+   "ar": "مقدمة عامة في علم وظائف الأعضاء"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Physiology==: Is the science which study the functions of the human body.",
+     "ar": "==علم وظائف الأعضاء (Physiology)==: هو العلم الذي يدرس وظائف جسم الإنسان."
+    },
+    {
+     "en": "It Refers to, all normal functions take place in a living organism.",
+     "ar": "ويشير إلى جميع الوظائف الطبيعية التي تحدث في الكائن الحي."
+    },
+    {
+     "en": "==Human physiology==: Is the scientific study of the normal functions and mechanisms of the human body, encompassing everything from the behavior of cells and molecules to the complex interactions of organ systems.",
+     "ar": "==علم وظائف الأعضاء البشري (Human physiology)==: هو الدراسة العلمية للوظائف والآليات الطبيعية لجسم الإنسان، ويشمل كل شيء بدءًا من سلوك الخلايا والجزيئات وصولًا إلى التفاعلات المعقدة بين أجهزة الأعضاء."
+    },
+    {
+     "en": "==Its central aim==: Is to understand how the body components work together to maintain homeostasis (a stable internal environment essential for life).",
+     "ar": "==هدفه الأساسي==: هو فهم كيفية عمل مكونات الجسم معًا للحفاظ على الاتزان الداخلي (Homeostasis)، أي بيئة داخلية مستقرة ضرورية للحياة."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Physiology operates in multiple levels==: Starting with molecules how they organized to form cell, the cell as the basic unit of life, then examining how cells form tissues, and how tissues organize into organs and organ systems (Molecules form cell; Cells form tissue; tissues form organ; Organs form system; systems form organism).",
+     "ar": "==يعمل علم وظائف الأعضاء على مستويات متعددة==: بدءًا من الجزيئات وكيفية انتظامها لتكوين الخلية، ثم الخلية بوصفها الوحدة الأساسية للحياة، ثم دراسة كيفية تكوين الخلايا للأنسجة، وكيفية انتظام الأنسجة في أعضاء وأجهزة عضوية؛ فالجزيئات تكوّن الخلية، والخلايا تكوّن النسيج، والأنسجة تكوّن العضو، والأعضاء تكوّن الجهاز، والأجهزة تكوّن الكائن الحي."
+    },
+    {
+     "en": "When many **identical cells** are organized together it is called a ==tissue== (such as muscle tissue, nervous tissue, etc.).",
+     "ar": "عندما تنتظم **خلايا متماثلة** كثيرة معًا يُطلق عليها اسم ==النسيج (Tissue)==، مثل النسيج العضلي والنسيج العصبي وغيرهما."
+    },
+    {
+     "en": "Various **tissues** organized together for a common purpose are called ==organs== (e. g. the stomach is an organ, and so is the skin, and the brain).",
+     "ar": "أما **الأنسجة** المختلفة التي تنتظم معًا لأداء غرض مشترك فتُسمى ==الأعضاء (Organs)==؛ فالمعدة مثلًا عضو، وكذلك الجلد والدماغ."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "levels.jpg",
+   "labels": [
+    [
+     "Organism",
+     "الكائن الحي"
+    ],
+    [
+     "Organ Systems",
+     "الأجهزة العضوية"
+    ],
+    [
+     "Organs",
+     "الأعضاء"
+    ],
+    [
+     "Tissues",
+     "الأنسجة"
+    ],
+    [
+     "Cells",
+     "الخلايا"
+    ],
+    [
+     "Organelles",
+     "العُضيّات"
+    ],
+    [
+     "Molecules",
+     "الجزيئات"
+    ],
+    [
+     "Genes",
+     "الجينات"
+    ]
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Key concepts in human physiology",
+   "ar": "مفاهيم أساسية في علم وظائف الأعضاء البشري"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Homeostasis==: The body’s ability to maintain a stable internal environment, such as **body temperature**, **blood pressure**, and **blood sugar levels**, despite external changes.",
+     "ar": "==الاتزان الداخلي (Homeostasis)==: قدرة الجسم على الحفاظ على بيئة داخلية مستقرة، مثل **درجة حرارة الجسم** و**ضغط الدم** و**مستوى سكر الدم**، على الرغم من التغيرات الخارجية."
+    },
+    {
+     "en": "==Interconnected systems==",
+     "ar": "==الأجهزة المترابطة=="
+    },
+    {
+     "en": "The body‘s systems are not isolated but **work together**.",
+     "ar": "أجهزة الجسم ليست معزولة بعضها عن بعض، بل **تعمل معًا**."
+    },
+    {
+     "en": "The **nervous systems** provide **fast communication**, while the **endocrine system** uses **slower chemical signals**.",
+     "ar": "إذ يوفّر **الجهاز العصبي (Nervous system)** **تواصلًا سريعًا**، في حين يستخدم **جهاز الغدد الصماء (Endocrine system)** **إشارات كيميائية أبطأ**."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Why human physiology is important",
+   "ar": "لماذا يُعدّ علم وظائف الأعضاء البشري مهمًا؟"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Why human physiology is important==: Understanding health and disease:",
+     "ar": "==أهمية علم وظائف الأعضاء البشري==: فهم الصحة والمرض:"
+    },
+    {
+     "en": "By understanding how the body functions normally, physiologists can identify what goes wrong in various diseases and conditions",
+     "ar": "من خلال فهم كيفية عمل الجسم بصورة طبيعية، يستطيع علماء وظائف الأعضاء تحديد الخلل الذي يحدث في الأمراض والحالات المختلفة."
+    },
+    {
+     "en": "The **major systems** covered the study of human physiology include: Circulatory system; Digestive / excretory system; Endocrine system; Musculoskeletal system; Nervous system; Renal / urinary system; Reproductive system; and Respiratory system.",
+     "ar": "تشمل **الأجهزة الرئيسية** التي تتناولها دراسة علم وظائف الأعضاء البشري: جهاز الدوران، والجهاز الهضمي / الإخراجي، وجهاز الغدد الصماء، والجهاز العضلي الهيكلي، والجهاز العصبي، والجهاز الكلوي / البولي، والجهاز التناسلي، والجهاز التنفسي."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Types of human physiology",
+   "ar": "أنواع علم وظائف الأعضاء البشري"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Human physiology that can be divided into the following types:",
+     "ar": "يمكن تقسيم علم وظائف الأعضاء البشري إلى الأنواع الآتية:"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. ==Cell Physiology==: This is the fundamental of human physiology, it is the **study** of the **function** of **cells**",
+     "more": [],
+     "ar": "==فسلجة الخلية (Cell Physiology)==: وهي أساس علم وظائف الأعضاء البشري، وتعنى **بدراسة** **وظيفة** **الخلايا**."
+    },
+    {
+     "lvl": 1,
+     "en": "2. ==Special physiology==: This is the study of the function of **special organs**.",
+     "more": [
+      {
+       "en": "For example, renal physiology is the study of kidney function.",
+       "ar": "فمثلًا، فسلجة الكلية (Renal physiology) هي دراسة وظيفة الكلية."
+      }
+     ],
+     "ar": "==الفسلجة الخاصة (Special physiology)==: وهي دراسة وظيفة **أعضاء معيّنة**."
+    },
+    {
+     "lvl": 1,
+     "en": "3. ==Systemic physiology==: It includes all aspects of the **function** of the **body system**.",
+     "more": [
+      {
+       "en": "Such as cardiovascular physiology, respiratory physiology, reproductive physiology etc.",
+       "ar": "مثل فسلجة القلب والأوعية الدموية، وفسلجة التنفس، وفسلجة التناسل وغيرها."
+      }
+     ],
+     "ar": "==الفسلجة الجهازية (Systemic physiology)==: وتشمل جميع جوانب **وظيفة** **أجهزة الجسم**."
+    },
+    {
+     "lvl": 1,
+     "en": "4. ==Pathophysiology==: It is the **study** of the **effects of diseases** on **organs** or **system** function.",
+     "more": [],
+     "ar": "==الفسلجة المرضية (Pathophysiology)==: وهي **دراسة** **تأثيرات الأمراض** في وظيفة **الأعضاء** أو **الأجهزة**."
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cell physiology",
+   "ar": "فسلجة الخلية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Cell physiology==: Is the biological study of the activities which takes place in a cell to keep it alive.",
+     "ar": "==فسلجة الخلية (Cell physiology)==: هي الدراسة الحيوية للأنشطة التي تجري داخل الخلية لإبقائها حية."
+    },
+    {
+     "en": "The term cell physiology often specifically **applies to** the: **physiology of membrane transport**, **neurons transmission** and (less frequently) **muscle contraction**, etc.",
+     "ar": "وغالبًا ما **يُطلق** مصطلح فسلجة الخلية تحديدًا على: **فسلجة النقل عبر الغشاء**، و**النقل في الخلايا العصبية**، و**تقلّص العضلات** بدرجة أقل، وغير ذلك."
+    },
+    {
+     "en": "In general, these cover the **digestion of food**, **circulation of blood**, and **contraction of muscles** and others, therefore, they are important aspects of human physiology.",
+     "ar": "وبوجه عام، تشمل هذه الأنشطة **هضم الطعام** و**دوران الدم** و**تقلّص العضلات** وغيرها، ولذلك فهي جوانب مهمة من علم وظائف الأعضاء البشري."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Specialized cell of the Human body",
+   "ar": "الخلايا المتخصصة في جسم الإنسان"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Although there are specialized cells- both in structure and function- within the body, **all cells have** similarities in their **structural organization** and **metabolic needs** (Such as maintaining energy levels via conversion of carbohydrate to ATP and using genes to create and maintain proteins).",
+     "ar": "على الرغم من وجود خلايا متخصصة في الجسم من حيث التركيب والوظيفة معًا، فإن **جميع الخلايا تتشابه** في **تنظيمها التركيبي** و**احتياجاتها الأيضية**، مثل المحافظة على مستويات الطاقة عن طريق تحويل الكربوهيدرات إلى ATP، واستخدام الجينات لصنع البروتينات والمحافظة عليها."
+    },
+    {
+     "en": "Here are some of the **different types of specialized cells** within the human body:",
+     "ar": "وفيما يلي بعض **الأنواع المختلفة من الخلايا المتخصصة** في جسم الإنسان:"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. Nerve cells",
+     "more": [],
+     "ar": "الخلايا العصبية"
+    },
+    {
+     "lvl": 1,
+     "en": "2. Epithelial cells",
+     "more": [],
+     "ar": "الخلايا الظهارية"
+    },
+    {
+     "lvl": 1,
+     "en": "3. Exocrine cells",
+     "more": [],
+     "ar": "خلايا الغدد خارجية الإفراز"
+    },
+    {
+     "lvl": 1,
+     "en": "4. Endocrine cells",
+     "more": [],
+     "ar": "خلايا الغدد الصماء"
+    },
+    {
+     "lvl": 1,
+     "en": "5. Blood cells",
+     "more": [],
+     "ar": "خلايا الدم"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "**The most common of blood cells are:**",
+     "ar": "**أكثر خلايا الدم شيوعًا هي:**"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "a. **Red Blood Cells** (Erythrocytes)",
+     "more": [],
+     "ar": "**كريات الدم الحمراء** (Erythrocytes)"
+    },
+    {
+     "lvl": 1,
+     "en": "b. Various types of **White Blood Cells** (Leucocytes)",
+     "more": [],
+     "ar": "أنواع مختلفة من **كريات الدم البيضاء** (Leucocytes)"
+    },
+    {
+     "lvl": 1,
+     "en": "C. **Platelets**",
+     "more": [],
+     "ar": "**الصفيحات الدموية** (Platelets)"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cell structure and function",
+   "ar": "تركيب الخلية ووظيفتها"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Cell==: Is the basic **structural** and **functional unit** of life forms.",
+     "ar": "==الخلية (Cell)==: هي **الوحدة التركيبية** و**الوظيفية** الأساسية لأشكال الحياة."
+    },
+    {
+     "en": "Each organ is an aggregate of many different cells held together by intercellular supporting structures.",
+     "ar": "وكل عضو هو تجمّع لكثير من الخلايا المختلفة التي تترابط معًا بواسطة تراكيب داعمة بين الخلايا."
+    },
+    {
+     "en": "Each type of cell is specially adapted to perform one or a few particular functions.",
+     "ar": "وكل نوع من الخلايا مهيّأ خصيصًا لأداء وظيفة واحدة أو عدد قليل من الوظائف المحددة."
+    },
+    {
+     "en": "A **typical cell**, as seen by the light microscope, is **consist of two major parts**: The **nucleus** and the **cytoplasm**.",
+     "ar": "تتكوّن **الخلية النموذجية**، كما تُرى بالمجهر الضوئي، من **جزأين رئيسيين**: **النواة (Nucleus)** و**السيتوبلازم (Cytoplasm)**."
+    },
+    {
+     "en": "The **nucleus** is separated from the cytoplasm by a **nuclear membrane**, and the **cytoplasm** is separated from the surrounding fluids by **plasma membrane**.",
+     "ar": "تنفصل **النواة** عن السيتوبلازم بواسطة **الغشاء النووي**، وينفصل **السيتوبلازم** عن السوائل المحيطة بواسطة **الغشاء البلازمي**."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Nucleus",
+   "ar": "النواة"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "The **nucleus**​ is a membrane bound structure that contains the cell's **hereditary** information and **controls** the cell's **growth** and **reproduction.**",
+     "ar": "**النواة** تركيب محاط بغشاء، يحتوي على المعلومات **الوراثية** للخلية، و**يتحكّم** في **نمو** الخلية و**تكاثرها**."
+    },
+    {
+     "en": "The cell nucleus is bound by a double membrane called the **nuclear envelope**.",
+     "ar": "تُحاط نواة الخلية بغشاء مزدوج يُسمّى **الغلاف النووي (Nuclear envelope)**."
+    },
+    {
+     "en": "This membrane separates the contents of the nucleus from the cytoplasm.",
+     "ar": "ويفصل هذا الغشاء محتويات النواة عن السيتوبلازم."
+    },
+    {
+     "en": "Like the cell membrane, the **nuclear envelope consists** of **phospholipids** that form a lipid bilayer.",
+     "ar": "وكما في غشاء الخلية، **يتكوّن الغلاف النووي** من **الدهون المفسفرة (Phospholipids)** التي تُشكّل طبقة دهنية مزدوجة."
+    },
+    {
+     "en": "The nucleus is the organelle which houses chromosomes.",
+     "ar": "النواة هي العُضيّة التي تضمّ الكروموسومات."
+    },
+    {
+     "en": "Chromosomes consist of DNA, which contains heredity information and instructions for cell growth chromosomes are organized into long entangled structures called chromatin",
+     "ar": "تتكوّن الكروموسومات من الحمض النووي الريبي منقوص الأكسجين (DNA)، الذي يحتوي على المعلومات الوراثية وتعليمات نمو الخلية، وتنتظم الكروموسومات في تراكيب طويلة متشابكة تُسمّى الكروماتين (Chromatin)."
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "Nucleus Function",
+   "ar": "وظائف النواة"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Following are the important nucleus functions:",
+     "ar": "فيما يلي أهم وظائف النواة:"
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "It contains the cell’s hereditary information and controls the cell’s growth and reproduction.",
+     "more": [],
+     "ar": "تحتوي على المعلومات الوراثية للخلية، وتتحكّم في نمو الخلية وتكاثرها."
+    },
+    {
+     "lvl": 1,
+     "en": "In addition to a storage compartment for DNA,",
+     "more": [],
+     "ar": "إضافةً إلى كونها حجرة لخزن الحمض النووي (DNA)."
+    },
+    {
+     "lvl": 1,
+     "en": "Possible to duplicate one’s DNA in the nucleus.",
+     "more": [
+      {
+       "en": "This process has been named DNA Replication and produces an identical copy of the DNA.",
+       "ar": "وقد سُمّيت هذه العملية تضاعف الحمض النووي (DNA Replication)، وهي تُنتج نسخة مطابقة منه."
+      }
+     ],
+     "ar": "يمكن مضاعفة الحمض النووي (DNA) داخل النواة."
+    },
+    {
+     "lvl": 1,
+     "en": "Producing two identical copies of the body or host is the first step in cell division, where every new cell will get its own set of instructions.",
+     "more": [],
+     "ar": "إنتاج نسختين متطابقتين هو الخطوة الأولى في انقسام الخلية، إذ تحصل كل خلية جديدة على مجموعتها الخاصة من التعليمات."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "The nucleus is the site of transcription.",
+     "ar": "النواة هي موقع عملية الاستنساخ (Transcription)."
+    },
+    {
+     "en": "Transcription creates different types of RNA from DNA.",
+     "ar": "ويُنتج الاستنساخ أنواعًا مختلفة من الحمض النووي الريبي (RNA) انطلاقًا من الحمض النووي (DNA)."
+    },
+    {
+     "en": "The central rule of biology states that DNA is copied into RNA, and then proteins.",
+     "ar": "وتنصّ القاعدة المركزية في علم الأحياء على أن الحمض النووي (DNA) يُنسخ إلى RNA، ثم إلى بروتينات."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "nucleus.jpg",
+   "caption": [
+    "Structure of Nucleus",
+    "تركيب النواة"
+   ],
+   "labels": [
+    [
+     "Anatomy of the Nucleus",
+     "تشريح النواة"
+    ],
+    [
+     "Nuclear Envelope",
+     "الغلاف النووي"
+    ],
+    [
+     "Chromatin",
+     "الكروماتين"
+    ],
+    [
+     "Nucleolus",
+     "النُّوَيّة"
+    ],
+    [
+     "Endoplasmic Reticulum",
+     "الشبكة الإندوبلازمية"
+    ],
+    [
+     "Ribosomes",
+     "الرايبوسومات"
+    ],
+    [
+     "Nuclear Pore",
+     "الثقب النووي"
+    ]
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cell Membrane",
+   "ar": "غشاء الخلية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Cell membrane== (also called the **plasma membrane**), which envelops the cell, is a thin, elastic structure only 7.5 to 10 in thick.",
+     "ar": "==غشاء الخلية (Cell membrane)==، ويُسمّى أيضًا **الغشاء البلازمي (Plasma membrane)**، وهو الذي يُغلّف الخلية، تركيب رقيق مرن لا يتجاوز سمكه 7.5 إلى 10 (in)."
+    },
+    {
+     "en": "==Chemical composition== of cell membrane: Is composed of **lipid** and **protein**, the ratio of lipid to protein is variable depending on the type and function of cell.",
+     "ar": "==التركيب الكيميائي== لغشاء الخلية: يتكوّن من **الدهون** و**البروتين**، وتختلف نسبة الدهون إلى البروتين بحسب نوع الخلية ووظيفتها."
+    },
+    {
+     "en": "Example: **nerve cell** has **high lipid** contains, whereas, membranes of **RBC** are **high protein**.",
+     "ar": "مثال ذلك: **الخلية العصبية** يكون محتواها من **الدهون مرتفعًا**، في حين تكون أغشية **كريات الدم الحمراء (RBC)** **غنية بالبروتين**."
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. ==Lipid contain==: **Cholesterol** and **phospholipid**, the function of cholesterol is to give fluidity to cell membrane and prevent cell down, **Phospholipid** has **duple layer** and **two polar**",
+     "more": [],
+     "ar": "==المحتوى الدهني==: **الكوليسترول (Cholesterol)** و**الدهون المفسفرة (Phospholipid)**؛ ووظيفة الكوليسترول هي إعطاء غشاء الخلية المرونة والسيولة ومنع انهيار الخلية، أما **الدهون المفسفرة** فلها **طبقة مزدوجة** و**قطبان**:"
+    },
+    {
+     "lvl": 2,
+     "en": "-**Hydrophilic polar** is head of phospholipid.",
+     "more": [],
+     "ar": "**القطب المحب للماء (Hydrophilic)** هو رأس جزيئة الدهون المفسفرة."
+    },
+    {
+     "lvl": 2,
+     "en": "-**Hydrophobic polar** is tail of phospholipid.",
+     "more": [
+      {
+       "en": "The **head** is **hydrophilic** because directed to the location where water is present (extra cellular fluid).",
+       "ar": "يكون **الرأس** **محبًا للماء** لأنه يتّجه نحو الموضع الذي يوجد فيه الماء، أي السائل خارج الخلية (Extracellular fluid)."
+      },
+      {
+       "en": "The **tails** is **hydrophobic** because directed to the interior (intra cellular).",
+       "ar": "وتكون **الذيول** **كارهة للماء** لأنها تتّجه نحو الداخل، أي داخل الخلية (Intracellular)."
+      }
+     ],
+     "ar": "**القطب الكاره للماء (Hydrophobic)** هو ذيل جزيئة الدهون المفسفرة."
+    },
+    {
+     "lvl": 1,
+     "en": "2. ==Proteins==: is a globular mass floating in the lipid bilayer.",
+     "more": [
+      {
+       "en": "Most of which are **glycoproteins**.",
+       "ar": "ومعظمها من **البروتينات السكرية (Glycoproteins)**."
+      },
+      {
+       "en": "Two types of proteins:",
+       "ar": "وهناك نوعان من البروتينات:"
+      }
+     ],
+     "ar": "==البروتينات (Proteins)==: كتلة كروية تطفو في الطبقة الدهنية المزدوجة."
+    },
+    {
+     "lvl": 2,
+     "en": "a. **Integral proteins** that protrude all the way through the membrane",
+     "more": [],
+     "ar": "**البروتينات المندمجة (Integral proteins)** التي تخترق الغشاء بكامل سمكه."
+    },
+    {
+     "lvl": 2,
+     "en": "b. and **peripheral proteins** that are attached only to one surface of the membrane.",
+     "more": [],
+     "ar": "و**البروتينات المحيطية (Peripheral proteins)** التي ترتبط بسطح واحد فقط من سطحي الغشاء."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "The membrane occasionally **perforated** to form membrane **pore**; the diameter between this 7-10 A˚.",
+     "ar": "يكون الغشاء **مثقّبًا** في بعض المواضع مكوّنًا **ثقوبًا** غشائية، ويتراوح قطر هذه الثقوب بين 7-10 A˚."
+    },
+    {
+     "en": "These **pores** used to **transport materials** across membrane.",
+     "ar": "وتُستخدم هذه **الثقوب** **لنقل المواد** عبر الغشاء."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Membrane proteins functions",
+   "ar": "وظائف بروتينات الغشاء"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Membrane proteins perform a variety of functions vital to the survival of organisms:",
+     "ar": "تؤدي بروتينات الغشاء مجموعة متنوعة من الوظائف الحيوية لبقاء الكائنات الحية:"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. Structural proteins",
+     "more": [],
+     "ar": "بروتينات تركيبية"
+    },
+    {
+     "lvl": 1,
+     "en": "2. Carrier proteins",
+     "more": [],
+     "ar": "بروتينات حاملة (ناقلة)"
+    },
+    {
+     "lvl": 1,
+     "en": "3. Pump proteins",
+     "more": [],
+     "ar": "بروتينات المضخات"
+    },
+    {
+     "lvl": 1,
+     "en": "4. Channel proteins",
+     "more": [],
+     "ar": "بروتينات القنوات"
+    },
+    {
+     "lvl": 1,
+     "en": "5. Enzyme proteins",
+     "more": [],
+     "ar": "بروتينات إنزيمية"
+    },
+    {
+     "lvl": 1,
+     "en": "6. Receptor proteins",
+     "more": [],
+     "ar": "بروتينات مستقبِلة"
+    },
+    {
+     "lvl": 1,
+     "en": "7. Glycoproteins.",
+     "more": [],
+     "ar": "بروتينات سكرية."
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cells are organized into three main regions",
+   "ar": "تنتظم الخلايا في ثلاث مناطق رئيسية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "**Nucleus**, **Cytoplasm** and **Plasma membrane**",
+     "ar": "**النواة**، و**السيتوبلازم**، و**الغشاء البلازمي**"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "I. ==The Nucleus==: Control center of the cell because it **contains genetic material (DNA)**.",
+     "more": [
+      {
+       "en": "It contains three regions: **Nuclear membrane**, **Nucleolus** and **chromatin**",
+       "ar": "وتحتوي على ثلاث مناطق: **الغشاء النووي**، و**النُّوَيّة**، و**الكروماتين**."
+      }
+     ],
+     "ar": "==النواة (The Nucleus)==: هي مركز التحكم في الخلية لأنها **تحتوي على المادة الوراثية (DNA)**."
+    },
+    {
+     "lvl": 2,
+     "en": "a. **Nuclear membrane**: Nuclear membrane serves as a barrier of nucleus.",
+     "more": [
+      {
+       "en": "It **consists of** a **double phospholipid membrane** and contains nuclear pores that allow for exchange of material with the rest of the cell.",
+       "ar": "وهو **يتكوّن من** **غشاء مزدوج من الدهون المفسفرة**، ويحتوي على ثقوب نووية تسمح بتبادل المواد مع بقية أجزاء الخلية."
+      }
+     ],
+     "ar": "**الغشاء النووي (Nuclear membrane)**: يعمل الغشاء النووي حاجزًا للنواة."
+    },
+    {
+     "lvl": 2,
+     "en": "b. **Nucleolus**: Nucleus **contains one or more nucleoli**.",
+     "more": [
+      {
+       "en": "It functions as sites of **ribosome production**.",
+       "ar": "وتعمل النُّوَيّة موقعًا **لإنتاج الرايبوسومات**."
+      },
+      {
+       "en": "Ribosomes then migrate to the cytoplasm through nuclear pores.",
+       "ar": "ثم تنتقل الرايبوسومات إلى السيتوبلازم عبر الثقوب النووية."
+      }
+     ],
+     "ar": "**النُّوَيّة (Nucleolus)**: **تحتوي النواة على نُوَيّة واحدة أو أكثر**."
+    },
+    {
+     "lvl": 2,
+     "en": "3. **Chromatin**: They are **composed** of **DNA** and **protein** scattered throughout the nucleus.",
+     "more": [
+      {
+       "en": "Chromatin condenses to form, chromosomes when the cell divides.",
+       "ar": "ويتكثّف الكروماتين ليُكوّن الكروموسومات عند انقسام الخلية."
+      }
+     ],
+     "ar": "**الكروماتين (Chromatin)**: **يتكوّن** من **الحمض النووي (DNA)** و**البروتين**، وينتشر في جميع أنحاء النواة."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Plasma membrane==: Barrier for cell contents.",
+     "ar": "==الغشاء البلازمي (Plasma membrane)==: حاجز لمحتويات الخلية."
+    },
+    {
+     "en": "It **consists** of **double phospholipids** layer and **monolayer** of **protein** scattered around phospholipids layer.",
+     "ar": "وهو **يتكوّن** من طبقة **مزدوجة من الدهون المفسفرة**، و**طبقة مفردة** من **البروتين** منتشرة حول طبقة الدهون المفسفرة."
+    },
+    {
+     "en": "Other materials in plasma membrane such as **cholesterol** and **glycoproteins.**",
+     "ar": "وتوجد في الغشاء البلازمي مواد أخرى مثل **الكوليسترول** و**البروتينات السكرية**."
+    },
+    {
+     "en": "==Cytoplasm==: It represents the material outside the nucleus and inside the plasma membrane.",
+     "ar": "==السيتوبلازم (Cytoplasm)==: يمثّل المادة الموجودة خارج النواة وداخل الغشاء البلازمي."
+    },
+    {
+     "en": "It consists of **Cytosol**",
+     "ar": "ويتكوّن من **العُصارة الخلوية (Cytosol)**."
+    },
+    {
+     "en": "==Cytosol==: Fluid that suspends other elements,",
+     "ar": "==العُصارة الخلوية (Cytosol)==: سائل تُعلَّق فيه العناصر الأخرى."
+    },
+    {
+     "en": "The different substances that make up the cell are collectively called **protoplasm**.",
+     "ar": "تُسمّى المواد المختلفة التي تُكوّن الخلية مجتمعةً **البروتوبلازم (Protoplasm)**."
+    },
+    {
+     "en": "==Protoplasm==: Is composed mainly of five basic substances: **water**, **electrolytes**, **proteins**, **lipids**, and **carbohydrates.**",
+     "ar": "==البروتوبلازم==: يتكوّن أساسًا من خمس مواد رئيسية: **الماء**، و**الأملاح المتأيّنة (الإلكتروليتات)**، و**البروتينات**، و**الدهون**، و**الكربوهيدرات**."
+    },
+    {
+     "en": "The cell is not only a bag of fluid, enzymes, and chemicals; it also contains highly organized physical structures, called **intracellular organelles**.",
+     "ar": "ليست الخلية مجرد كيس من السوائل والإنزيمات والمواد الكيميائية، بل تحتوي أيضًا على تراكيب فيزيائية عالية التنظيم تُسمّى **العُضيّات داخل الخلوية (Intracellular organelles)**."
+    },
+    {
+     "en": "The physical nature of each organelle is an important as the cell’s chemical constituents for cell function.",
+     "ar": "والطبيعة الفيزيائية لكل عُضيّة لا تقلّ أهمية لوظيفة الخلية عن مكوّناتها الكيميائية."
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cytoplasm organelles",
+   "ar": "عُضيّات السيتوبلازم"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Organelles, that perform the metabolic activity of the cell:",
+     "ar": "العُضيّات التي تؤدي النشاط الأيضي للخلية:"
+    },
+    {
+     "en": "These include: **Ribosome** the **endoplasmic reticulum**, the **Golgi apparatus**, **mitochondria**, **lysosomes**, **peroxisomes**, and **Nucleus**",
+     "ar": "وتشمل: **الرايبوسوم**، و**الشبكة الإندوبلازمية**، و**جهاز كولجي**، و**المايتوكوندريا**، و**الأجسام الحالّة**، و**الأجسام البيروكسيدية**، و**النواة**."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "1. Ribosomes",
+   "ar": "١. الرايبوسومات"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Ribosomes==: They represent **sites** of **protein synthesis** in the cell.",
+     "ar": "==الرايبوسومات (Ribosomes)==: تمثّل **مواقع** **تخليق البروتين** في الخلية."
+    },
+    {
+     "en": "They are found at two locations: **Free** in the cytoplasm and **attached** to endoplasmic reticulum",
+     "ar": "وتوجد في موقعين: **حرّة** في السيتوبلازم، و**مرتبطة** بالشبكة الإندوبلازمية."
+    },
+    {
+     "en": "Ribosome present where protein molecules are synthesized from amino acids.",
+     "ar": "يوجد الرايبوسوم حيث تُخلَّق جزيئات البروتين من الأحماض الأمينية."
+    },
+    {
+     "en": "They are composed of **proteins** and **RNA**.",
+     "ar": "وتتكوّن الرايبوسومات من **البروتينات** و**الحمض النووي الريبي (RNA)**."
+    },
+    {
+     "en": "Some ribosomes are found bound to granular endoplasmic reticulum, while others are free in the cytoplasm.",
+     "ar": "بعض الرايبوسومات يوجد مرتبطًا بالشبكة الإندوبلازمية الحبيبية، في حين يوجد بعضها الآخر حرًّا في السيتوبلازم."
+    },
+    {
+     "en": "The proteins synthesized on ribosomes bound to granular endoplasmic reticulum are transferred from the lumen (open space inside endoplasmic reticulum) to the **Golgi apparatus** for secretion outside the cell or distribution to other organelles.",
+     "ar": "تُنقل البروتينات المخلَّقة على الرايبوسومات المرتبطة بالشبكة الإندوبلازمية الحبيبية من التجويف (Lumen)، وهو الحيّز المفتوح داخل الشبكة الإندوبلازمية، إلى **جهاز كولجي (Golgi apparatus)** لإفرازها خارج الخلية أو توزيعها على العُضيّات الأخرى."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "ribosome.jpg",
+   "labels": [
+    [
+     "Ribosome",
+     "الرايبوسوم"
+    ],
+    [
+     "Ribosome large subunit",
+     "الوحيدة الكبيرة للرايبوسوم"
+    ],
+    [
+     "Ribosome small subunit",
+     "الوحيدة الصغيرة للرايبوسوم"
+    ],
+    [
+     "Amino acid",
+     "حمض أميني"
+    ],
+    [
+     "Growing polypeptide chain",
+     "سلسلة متعدد الببتيد النامية"
+    ],
+    [
+     "tRNA",
+     "الحمض النووي الريبي الناقل"
+    ],
+    [
+     "mRNA",
+     "الحمض النووي الريبي الرسول"
+    ]
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "2. Endoplasmic Reticulum (ER)",
+   "ar": "٢. الشبكة الإندوبلازمية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Endoplasmic reticulum (ER)==: **Fluid – filled tubules** for carrying substances.",
+     "ar": "==الشبكة الإندوبلازمية (Endoplasmic reticulum)==: **نُبيبات مملوءة بالسائل** لنقل المواد."
+    },
+    {
+     "en": "The endoplasmic reticulum (ER) is continuous system that forms a series of flattened sacs within the cytoplasm of eukaryotic cells.",
+     "ar": "الشبكة الإندوبلازمية (ER) جهاز متّصل يُكوّن سلسلة من الأكياس المسطّحة داخل سيتوبلازم الخلايا حقيقية النواة."
+    },
+    {
+     "en": "All **eukaryotic cells** contain an **ER.**",
+     "ar": "وتحتوي جميع **الخلايا حقيقية النواة (Eukaryotic cells)** على **شبكة إندوبلازمية**."
+    },
+    {
+     "en": "The ER can be classified in two functionally distinct forms: the **smooth endoplasmic reticulum** (SER) and the **rough endoplasmic reticulum** (RER).",
+     "ar": "ويمكن تصنيف الشبكة الإندوبلازمية إلى شكلين متمايزين وظيفيًا: **الشبكة الإندوبلازمية الملساء** (SER)، و**الشبكة الإندوبلازمية الخشنة** (RER)."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "er.jpg",
+   "caption": [
+    "Structure of Endoplasmic Reticulum",
+    "تركيب الشبكة الإندوبلازمية"
+   ],
+   "labels": [
+    [
+     "Nucleolus",
+     "النُّوَيّة"
+    ],
+    [
+     "Nucleus",
+     "النواة"
+    ],
+    [
+     "Nuclear pore",
+     "الثقب النووي"
+    ],
+    [
+     "Rough endoplasmic reticulum",
+     "الشبكة الإندوبلازمية الخشنة"
+    ],
+    [
+     "Smooth endoplasmic reticulum",
+     "الشبكة الإندوبلازمية الملساء"
+    ],
+    [
+     "Ribosomes",
+     "الرايبوسومات"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "There are two distinct forms of ER, which differ in structure and function:",
+     "ar": "هناك شكلان متمايزان من الشبكة الإندوبلازمية، يختلفان في التركيب والوظيفة:"
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "1. Rough ER",
+   "ar": "١. الشبكة الإندوبلازمية الخشنة"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Rough endoplasmic reticulum (RER)==, series of connected flattened sacs, Part of a continuous membrane organelle within the cytoplasm of eukaryotic cells, that plays a central role in the **synthesis of proteins**.",
+     "ar": "==الشبكة الإندوبلازمية الخشنة (RER)==: سلسلة من الأكياس المسطّحة المتصلة، وهي جزء من عُضيّة غشائية متصلة داخل سيتوبلازم الخلايا حقيقية النواة، تؤدي دورًا محوريًا في **تخليق البروتينات**."
+    },
+    {
+     "en": "The rough endoplasmic reticulum (RER) is so named for the appearance of its outer surface, which is studded with protein-synthesizing particles known as ribosomes.",
+     "ar": "سُمّيت الشبكة الإندوبلازمية الخشنة بهذا الاسم نسبةً إلى مظهر سطحها الخارجي المرصّع بجسيمات مُخلِّقة للبروتين تُعرف بالرايبوسومات."
+    },
+    {
+     "en": "This feature distinguishes it superficially and functionally from the other major type of endoplasmic reticulum (ER), The RER is also located near the Golgi apparatus, which transports, modifies, and packages proteins for delivery to targeted destinations.",
+     "ar": "وهذه الميزة تُفرّقها شكليًا ووظيفيًا عن النوع الرئيسي الآخر من الشبكة الإندوبلازمية، كما تقع الشبكة الخشنة بالقرب من جهاز كولجي الذي ينقل البروتينات ويُعدّلها ويُغلّفها لإيصالها إلى وجهاتها المستهدفة."
+    },
+    {
+     "en": "Many proteins that are synthesized in the RER are packaged into vesicles and transported to the Golgi apparatus",
+     "ar": "وكثير من البروتينات المخلَّقة في الشبكة الخشنة تُغلَّف في حويصلات وتُنقل إلى جهاز كولجي."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "rer.jpg",
+   "caption": [
+    "Structure of Rough Endoplasmic Reticulum",
+    "تركيب الشبكة الإندوبلازمية الخشنة"
+   ],
+   "labels": [
+    [
+     "Rough Endoplasmic Reticulum",
+     "الشبكة الإندوبلازمية الخشنة"
+    ],
+    [
+     "Membranes",
+     "الأغشية"
+    ],
+    [
+     "Ribosomes",
+     "الرايبوسومات"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Rough endoplasmic reticulum==: Carry ribosomes that represent sites where proteins are synthesized.",
+     "ar": "==الشبكة الإندوبلازمية الخشنة==: تحمل الرايبوسومات التي تمثّل مواقع تخليق البروتينات."
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "2. Smooth ER",
+   "ar": "٢. الشبكة الإندوبلازمية الملساء"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Smooth ER==: extends from the rough ER to form a network of membrane tubules.",
+     "ar": "==الشبكة الإندوبلازمية الملساء (Smooth ER)==: تمتد من الشبكة الخشنة لتُكوّن شبكة من النُبيبات الغشائية."
+    },
+    {
+     "en": "Smooth ER **lacks ribosomes**, smooth ER does **not synthesize proteins**, but it does **synthesize fatty acids** and **steroids**, such as **estrogens** and **testosterone**.",
+     "ar": "**تفتقر** الشبكة الملساء **إلى الرايبوسومات**، ولذلك **لا تُخلّق البروتينات**، لكنها **تُخلّق الأحماض الدهنية** و**الستيرويدات**، مثل **الإستروجينات (Estrogens)** و**التستوستيرون (Testosterone)**."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "ser.jpg",
+   "caption": [
+    "Structure of Smooth Endoplasmic Reticulum",
+    "تركيب الشبكة الإندوبلازمية الملساء"
+   ],
+   "labels": [
+    [
+     "Smooth Endoplasmic Reticulum",
+     "الشبكة الإندوبلازمية الملساء"
+    ],
+    [
+     "Membranes",
+     "الأغشية"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Smooth endoplasmic reticulum==: Functions in **cholesterol synthesis** and breakdown, **fat metabolism**, and **detoxification of drugs.**",
+     "ar": "==الشبكة الإندوبلازمية الملساء==: تعمل في **تخليق الكوليسترول** وتفكيكه، و**أيض الدهون**، و**إزالة سمّية الأدوية**."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "3. Golgi apparatus",
+   "ar": "٣. جهاز كولجي"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Also known the Golgi complex or Golgi body, is a membrane-bound organelle of eukaryotic cells that is made up of a series of flattened, stacked pouches called cisternae.",
+     "ar": "ويُعرف أيضًا بمعقّد كولجي أو جسم كولجي، وهو عُضيّة محاطة بغشاء في الخلايا حقيقية النواة، تتكوّن من سلسلة من الجيوب المسطّحة المتراصّة تُسمّى الصهاريج (Cisternae)."
+    },
+    {
+     "en": "The Golgi apparatus is responsible for transporting, modifying, and **packaging proteins** and **lipids** into vesicles for delivery to targeted destinations.",
+     "ar": "وجهاز كولجي مسؤول عن نقل **البروتينات** و**الدهون** وتعديلها و**تغليفها** في حويصلات لإيصالها إلى وجهاتها المستهدفة."
+    },
+    {
+     "en": "It is located in the cytoplasm next to the endoplasmic reticulum and near the cell nucleus.",
+     "ar": "ويقع في السيتوبلازم بجوار الشبكة الإندوبلازمية وقرب نواة الخلية."
+    },
+    {
+     "en": "While many types of cells contain only one or several Golgi apparatus, plant cells can contain hundreds.",
+     "ar": "وفي حين تحتوي أنواع كثيرة من الخلايا على جهاز كولجي واحد أو بضعة أجهزة فقط، يمكن أن تحتوي الخلايا النباتية على المئات منها."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "golgi.jpg",
+   "caption": [
+    "Structure of Golgi apparatus",
+    "تركيب جهاز كولجي"
+   ],
+   "labels": [
+    [
+     "Golgi Apparatus",
+     "جهاز كولجي"
+    ],
+    [
+     "Cis Face",
+     "الوجه الداخلي (المستقبِل)"
+    ],
+    [
+     "Trans Face",
+     "الوجه الخارجي (المُفرِز)"
+    ],
+    [
+     "Lumen",
+     "التجويف"
+    ],
+    [
+     "Cisternae",
+     "الصهاريج"
+    ],
+    [
+     "Incoming transport vesicles",
+     "حويصلات النقل الواردة"
+    ],
+    [
+     "Newly forming vesicle",
+     "حويصلة حديثة التكوّن"
+    ],
+    [
+     "Secretory vesicle",
+     "حويصلة إفرازية"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Golgi apparatus==: Their functions are modified and packaged proteins, secrete vesicles, plasma membrane components and lysosomes.",
+     "ar": "==جهاز كولجي==: تتمثّل وظائفه في تعديل البروتينات وتغليفها، وإفراز الحويصلات، وتكوين مكوّنات الغشاء البلازمي والأجسام الحالّة."
+    },
+    {
+     "en": "==Lysosomes==: They contain enzymes that digest not usable materials within the cell",
+     "ar": "==الأجسام الحالّة (Lysosomes)==: تحتوي على إنزيمات تهضم المواد غير القابلة للاستخدام داخل الخلية."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "4. Lysosomes",
+   "ar": "٤. الأجسام الحالّة"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "is a membrane-bound organelle found in many animal cells.",
+     "ar": "عُضيّة محاطة بغشاء توجد في كثير من الخلايا الحيوانية."
+    },
+    {
+     "en": "They are spherical vesicles surrounded by a single membrane and contain highly acidic fluid that contain hydrolytic enzymes that can break down many kinds of biomolecules such as carbohydrates, lipids, proteins, nucleic acids bacteria and cell debris.",
+     "ar": "وهي حويصلات كروية يحيط بها غشاء مفرد، وتحتوي على سائل عالي الحموضة فيه إنزيمات حالّة مائيًا (Hydrolytic enzymes) قادرة على تفكيك أنواع كثيرة من الجزيئات الحيوية، مثل الكربوهيدرات والدهون والبروتينات والأحماض النووية والبكتيريا وحطام الخلايا."
+    },
+    {
+     "en": "Also play an important role in the cells of the immune system.",
+     "ar": "كما تؤدي دورًا مهمًا في خلايا الجهاز المناعي."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "lysosome.jpg",
+   "labels": [
+    [
+     "Lysosome",
+     "الجسم الحالّ"
+    ],
+    [
+     "Lipid layer",
+     "الطبقة الدهنية"
+    ],
+    [
+     "Membrane",
+     "الغشاء"
+    ],
+    [
+     "Glycosylated membrane transport proteins",
+     "بروتينات نقل غشائية مرتبطة بالسكر"
+    ],
+    [
+     "Hydrolytic enzyme mixture",
+     "خليط الإنزيمات الحالّة مائيًا"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Lysosomes have many functions include:",
+     "ar": "للأجسام الحالّة وظائف كثيرة، منها:"
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "They take part in the digestion of food obtained through phagosomes known as intercellular digestion.",
+     "more": [],
+     "ar": "تشارك في هضم الغذاء الذي يُحصل عليه عن طريق الأجسام البلعمية (Phagosomes)، ويُعرف ذلك بالهضم داخل الخلوي."
+    },
+    {
+     "lvl": 1,
+     "en": "Lysosomes release their enzymes to the outside through exocytosis to perform extracellular digestion.",
+     "more": [],
+     "ar": "تُطلق الأجسام الحالّة إنزيماتها إلى الخارج عن طريق الإخراج الخلوي (Exocytosis) لتؤدي الهضم خارج الخلوي."
+    },
+    {
+     "lvl": 1,
+     "en": "Lysosomes destroy the obstructing structures.",
+     "more": [],
+     "ar": "تُحطّم الأجسام الحالّة التراكيب المعرقِلة."
+    },
+    {
+     "lvl": 1,
+     "en": "In sperms, lysosomes provide enzymes for breaking the limiting membrane of eggs.",
+     "more": [],
+     "ar": "في النطف، توفّر الأجسام الحالّة الإنزيمات اللازمة لتحطيم الغشاء المحيط بالبيضة."
+    },
+    {
+     "lvl": 1,
+     "en": "Leucocyte granules are derived from lysosomes.",
+     "more": [],
+     "ar": "تُشتقّ حبيبات كريات الدم البيضاء من الأجسام الحالّة."
+    },
+    {
+     "lvl": 1,
+     "en": "Lysosomes cause the breakdown of aging and dead cells.",
+     "more": [],
+     "ar": "تُسبّب الأجسام الحالّة تفكّك الخلايا الهرمة والميتة."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "5. Peroxisomes",
+   "ar": "٥. الأجسام البيروكسيدية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Peroxisomes are small vesicles, single membrane-bound organelles found in the eukaryotic cells.",
+     "ar": "الأجسام البيروكسيدية (Peroxisomes) حويصلات صغيرة، وهي عُضيّات محاطة بغشاء مفرد توجد في الخلايا حقيقية النواة."
+    },
+    {
+     "en": "They contain digestive enzymes for breaking down toxic materials in the cell and oxidative enzymes for metabolic activity.",
+     "ar": "وتحتوي على إنزيمات هاضمة لتفكيك المواد السامة في الخلية، وإنزيمات مؤكسِدة للنشاط الأيضي."
+    },
+    {
+     "en": "Peroxisomes play an important role in lipid production and are also involved in the conversion of reactive oxygen species such as hydrogen peroxide (H~2~O~2~) into safer molecules like water and oxygen by the enzyme catalase",
+     "ar": "تؤدي الأجسام البيروكسيدية دورًا مهمًا في إنتاج الدهون، كما تشارك في تحويل أنواع الأكسجين التفاعلية مثل بيروكسيد الهيدروجين (H~2~O~2~) إلى جزيئات أكثر أمانًا كالماء والأكسجين بوساطة إنزيم الكاتاليز (Catalase)."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "peroxisome.jpg",
+   "labels": [
+    [
+     "Peroxisome",
+     "الجسم البيروكسيدي"
+    ],
+    [
+     "Anatomy of the Peroxisome",
+     "تشريح الجسم البيروكسيدي"
+    ],
+    [
+     "Plasma Membrane",
+     "الغشاء البلازمي"
+    ],
+    [
+     "Lipid Bilayer",
+     "الطبقة الدهنية المزدوجة"
+    ],
+    [
+     "Urate Oxidase Crystalline Core",
+     "اللبّ البلّوري لإنزيم أوكسيديز اليورات"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Peroxisomes==: Membranous sacs of oxidase enzymes.",
+     "ar": "==الأجسام البيروكسيدية==: أكياس غشائية تحتوي على إنزيمات الأوكسيديز (Oxidase)."
+    },
+    {
+     "en": "They detoxify harmful substances and break down free radicals.",
+     "ar": "وهي تُزيل سمّية المواد الضارة وتُفكّك الجذور الحرة."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "6. Mitochondria",
+   "ar": "٦. المايتوكوندريا"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "A mitochondrion **are membrane-bound organelles,** round to oval-shaped **present in the cytoplasm of all eukaryotic cells.**",
+     "ar": "المايتوكوندريا (Mitochondria) **عُضيّات محاطة بغشاء**، كروية إلى بيضوية الشكل، **توجد في سيتوبلازم جميع الخلايا حقيقية النواة**."
+    },
+    {
+     "en": "**Also called** the **“powerhouses”**, due to consider the site of various chemical processes involved in the synthesis of energy packets called ATP (adenosine triphosphate).",
+     "ar": "**وتُسمّى أيضًا** **«محطات الطاقة»**، لأنها تُعدّ موقع عمليات كيميائية متعددة تشارك في تخليق حزم الطاقة المسمّاة ATP، أي ثلاثي فوسفات الأدينوسين."
+    },
+    {
+     "en": "Produce the energy necessary for the cell’s survival and functioning.",
+     "ar": "وهي تُنتج الطاقة اللازمة لبقاء الخلية وأداء وظائفها."
+    },
+    {
+     "en": "Through a series of chemical reactions, mitochondria break down glucose into an energy molecule known as adenosine triphosphate (ATP), which is used to fuel various other cellular processes.",
+     "ar": "فمن خلال سلسلة من التفاعلات الكيميائية، تُفكّك المايتوكوندريا الكلوكوز إلى جزيئة طاقة تُعرف بثلاثي فوسفات الأدينوسين (ATP)، التي تُستخدم لتزويد العمليات الخلوية الأخرى بالطاقة."
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "Each mitochondrion is surrounded by two membranes.",
+     "more": [
+      {
+       "en": "The outer membrane is smooth, while the inner one is folded into tubule structure called cristae.",
+       "ar": "الغشاء الخارجي أملس، أما الداخلي فمطويّ على هيئة تراكيب نُبيبية تُسمّى الأعراف (Cristae)."
+      },
+      {
+       "en": "The elaborate folds of the cristae provide an enormous surface area for the chemical reactions that are part of the aerobic phase of cellular respiration, the reactions that produce most of a cell’s ATP.",
+       "ar": "وتوفّر الطيّات المعقّدة للأعراف مساحة سطحية هائلة للتفاعلات الكيميائية التي تُعدّ جزءًا من المرحلة الهوائية للتنفس الخلوي، وهي التفاعلات التي تُنتج معظم ATP الخلية."
+      },
+      {
+       "en": "The enzymes that catalyze these reactions are located on the cristae and in the matrix of the mitochondria.",
+       "ar": "وتقع الإنزيمات التي تُحفّز هذه التفاعلات على الأعراف وفي حشوة المايتوكوندريا."
+      }
+     ],
+     "ar": "تُحاط كل مايتوكوندريا بغشاءين."
+    },
+    {
+     "lvl": 1,
+     "en": "The central cavity of a mitochondrion, called the mitochondrial matrix.",
+     "more": [
+      {
+       "en": "Synthesis of some proteins needed for mitochondrial functions occurs on the ribosomes that are present in the mitochondrial matrix.",
+       "ar": "ويحدث تخليق بعض البروتينات اللازمة لوظائف المايتوكوندريا على الرايبوسومات الموجودة في الحشوة."
+      }
+     ],
+     "ar": "يُسمّى التجويف المركزي للمايتوكوندريا حشوة المايتوكوندريا (Mitochondrial matrix)."
+    },
+    {
+     "lvl": 1,
+     "en": "Mitochondria are unique in that they contain small amounts of DNA containing the genes for the synthesis of some mitochondrial proteins.",
+     "more": [
+      {
+       "en": "Cells with greater activity have more mitochondria, while those that are less active have less need for energy-producing mitochondria.",
+       "ar": "والخلايا الأكثر نشاطًا تحتوي على عدد أكبر من المايتوكوندريا، أما الخلايا الأقل نشاطًا فحاجتها إلى المايتوكوندريا المنتجة للطاقة أقل."
+      }
+     ],
+     "ar": "تتميّز المايتوكوندريا باحتوائها على كميات صغيرة من الحمض النووي (DNA) تضمّ الجينات اللازمة لتخليق بعض بروتيناتها."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "mitochondria.jpg",
+   "caption": [
+    "Structure of Mitochondria",
+    "تركيب المايتوكوندريا"
+   ],
+   "labels": [
+    [
+     "DNA",
+     "الحمض النووي"
+    ],
+    [
+     "matrix",
+     "الحشوة"
+    ],
+    [
+     "intermembrane space",
+     "الحيّز بين الغشاءين"
+    ],
+    [
+     "ribosome",
+     "رايبوسوم"
+    ],
+    [
+     "inner membrane",
+     "الغشاء الداخلي"
+    ],
+    [
+     "cristae",
+     "الأعراف"
+    ],
+    [
+     "outer membrane",
+     "الغشاء الخارجي"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Mitochondria==: They represent **powerhouse** of the cell.",
+     "ar": "==المايتوكوندريا==: تمثّل **محطة الطاقة** في الخلية."
+    },
+    {
+     "en": "They can change shape continuously.",
+     "ar": "ويمكنها تغيير شكلها باستمرار."
+    },
+    {
+     "en": "They also carry out reactions where oxygen is used to break down food to provide ATP for cellular activities.",
+     "ar": "كما تُجري تفاعلات يُستخدم فيها الأكسجين لتفكيك الغذاء وتوفير ATP للأنشطة الخلوية."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "7. Centrosome, Centrioles and Cytoskeleton",
+   "ar": "٧. الجسم المركزي والمريكزات والهيكل الخلوي"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Centrosome==: The centrosome is composed of two centrioles surrounded by an amorphous mass of protein.",
+     "ar": "==الجسم المركزي (Centrosome)==: يتكوّن من مريكزين يحيط بهما كتلة بروتينية عديمة الشكل."
+    },
+    {
+     "en": "Centrosomes are associated with the nuclear membrane during prophase of the cell cycle.",
+     "ar": "وترتبط الأجسام المركزية بالغشاء النووي خلال الطور التمهيدي (Prophase) من دورة الخلية."
+    },
+    {
+     "en": "In mitosis the nuclear membrane breaks down and the centrosome can interact with the chromosomes to build the mitotic spindle",
+     "ar": "وفي الانقسام الخيطي (Mitosis) يتفكّك الغشاء النووي، ويمكن للجسم المركزي أن يتفاعل مع الكروموسومات لبناء المغزل الانقسامي."
+    },
+    {
+     "en": "==Centrioles==: Centrioles are self- replicating organelles made up of nine bundles of microtubules.",
+     "ar": "==المريكزات (Centrioles)==: عُضيّات ذاتية التضاعف تتكوّن من تسع حزم من الأنيبيبات الدقيقة."
+    },
+    {
+     "en": "They appear to help in organizing cell division, but aren’t essential to the process.",
+     "ar": "ويبدو أنها تساعد في تنظيم انقسام الخلية، لكنها ليست ضرورية لهذه العملية."
+    },
+    {
+     "en": "==Cytoskeleton==: Network of protein structures that extend throughout the cytoplasm.",
+     "ar": "==الهيكل الخلوي (Cytoskeleton)==: شبكة من التراكيب البروتينية تمتد في أرجاء السيتوبلازم."
+    },
+    {
+     "en": "It provides the cell with an internal framework.",
+     "ar": "ويزوّد الخلية بإطار داخلي."
+    },
+    {
+     "en": "For example, Microfilaments ad Microtubules.",
+     "ar": "ومن أمثلته: الخيوط الدقيقة (Microfilaments) والأنيبيبات الدقيقة (Microtubules)."
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cell membranes",
+   "ar": "أغشية الخلية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "The membrane that surrounds the cell is a remarkable structure.",
+     "ar": "الغشاء الذي يحيط بالخلية تركيب لافت للنظر."
+    },
+    {
+     "en": "It is made up of **lipids** and **proteins** and is **semipermeable**, allowing some substances to pass through it and excluding others.",
+     "ar": "فهو يتكوّن من **الدهون** و**البروتينات**، وهو **شبه منفذ**؛ يسمح لبعض المواد بالمرور خلاله ويمنع غيرها."
+    },
+    {
+     "en": "However, its permeability can also be varied because it contains numerous regulated ion channels and other transport proteins that can change the amount of substances moving across it.",
+     "ar": "غير أن نفاذيته يمكن أن تتغيّر أيضًا، لأنه يحتوي على عدد كبير من قنوات الأيونات المنظَّمة وبروتينات النقل الأخرى القادرة على تغيير كمية المواد التي تعبره."
+    },
+    {
+     "en": "It is generally referred to as the **plasma membrane**.",
+     "ar": "ويُشار إليه عمومًا باسم **الغشاء البلازمي**."
+    },
+    {
+     "en": "The nucleus and other organelles in the cell are bound by similar membranous structures.",
+     "ar": "وتُحاط النواة والعُضيّات الأخرى في الخلية بتراكيب غشائية مماثلة."
+    },
+    {
+     "en": "Although the chemical structures of membranes and their properties vary considerably from one location to another, they have certain common features.",
+     "ar": "وعلى الرغم من أن التراكيب الكيميائية للأغشية وخصائصها تختلف كثيرًا من موضع إلى آخر، فإن لها سمات مشتركة معينة."
+    },
+    {
+     "en": "They are generally about 7.5 nm.",
+     "ar": "ويبلغ سمكها عمومًا نحو 7.5 nm."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "The major **lipids** are **phospholipids** such as **phosphatidylcholine**, **phosphatidylserine**, and **phosphatidylethanolamine**.",
+     "ar": "**الدهون** الرئيسية هي **الدهون المفسفرة**، مثل **فوسفاتيديل كولين (Phosphatidylcholine)**، و**فوسفاتيديل سيرين (Phosphatidylserine)**، و**فوسفاتيديل إيثانول أمين (Phosphatidylethanolamine)**."
+    },
+    {
+     "en": "The shape of the phospholipid molecule reflects its solubility properties: the **head end** of the molecule contains the phosphate portion and is relatively soluble in water (**polar; hydrophilic**) and the **tail ends** are relatively insoluble (**nonpolar; hydrophobic**).",
+     "ar": "يعكس شكل جزيئة الدهون المفسفرة خصائص ذوبانها: فـ**طرف الرأس** في الجزيئة يحتوي على الجزء الفوسفاتي، وهو قابل للذوبان في الماء نسبيًا (**قطبي؛ محب للماء**)، أما **أطراف الذيل** فهي غير قابلة للذوبان نسبيًا (**غير قطبية؛ كارهة للماء**)."
+    },
+    {
+     "en": "The possession of both hydrophilic and hydrophobic properties makes the lipid an amphipathic molecule.",
+     "ar": "وامتلاك الدهن لخصائص محبة للماء وكارهة له في آن واحد يجعله جزيئة مزدوجة الألفة (Amphipathic)."
+    },
+    {
+     "en": "In the membrane, the hydrophobic ends of the molecules are exposed to, the aqueous environment that bathes the exterior of the cells and the aqueous cytoplasm, the hydrophobic ends meet in the water – or interior of the membrane",
+     "ar": "في الغشاء، تتعرّض أطراف الجزيئات للبيئة المائية التي تغمر السطح الخارجي للخلايا وللسيتوبلازم المائي، أما الأطراف الكارهة للماء فتلتقي في الجزء الداخلي من الغشاء."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Many different proteins are embedded in the membrane.",
+     "ar": "تنغرس في الغشاء بروتينات مختلفة كثيرة."
+    },
+    {
+     "en": "The **membrane proteins** are classified into two categories: **integral proteins** or **intrinsic membrane proteins** and **peripheral proteins** or **extrinsic membrane proteins.**",
+     "ar": "وتُصنَّف **بروتينات الغشاء** إلى فئتين: **البروتينات المندمجة** أو **بروتينات الغشاء الداخلية (Intrinsic)**، و**البروتينات المحيطية** أو **بروتينات الغشاء الخارجية (Extrinsic)**."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "cell.jpg",
+   "caption": [
+    "Figure 1: Structure of the human Cell",
+    "الشكل 1: تركيب خلية الإنسان"
+   ],
+   "labels": [
+    [
+     "nuclear envelope",
+     "الغلاف النووي"
+    ],
+    [
+     "nucleus",
+     "النواة"
+    ],
+    [
+     "nuclear pore",
+     "الثقب النووي"
+    ],
+    [
+     "nucleolus",
+     "النُّوَيّة"
+    ],
+    [
+     "chromatin",
+     "الكروماتين"
+    ],
+    [
+     "mitochondrion",
+     "المايتوكوندريا"
+    ],
+    [
+     "ribosomes",
+     "الرايبوسومات"
+    ],
+    [
+     "centrioles",
+     "المريكزات"
+    ],
+    [
+     "microtubules",
+     "الأنيبيبات الدقيقة"
+    ],
+    [
+     "vacuole",
+     "الفجوة"
+    ],
+    [
+     "lysosome",
+     "الجسم الحالّ"
+    ],
+    [
+     "cytoplasm",
+     "السيتوبلازم"
+    ],
+    [
+     "plasma membrane",
+     "الغشاء البلازمي"
+    ],
+    [
+     "secretory vesicle",
+     "الحويصلة الإفرازية"
+    ],
+    [
+     "smooth endoplasmic reticulum",
+     "الشبكة الإندوبلازمية الملساء"
+    ],
+    [
+     "rough endoplasmic reticulum",
+     "الشبكة الإندوبلازمية الخشنة"
+    ],
+    [
+     "Golgi apparatus",
+     "جهاز كولجي"
+    ]
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Cell membrane Functions",
+   "ar": "وظائف غشاء الخلية"
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. Supporting and retaining the cytoplasm.",
+     "more": [],
+     "ar": "دعم السيتوبلازم والاحتفاظ به."
+    },
+    {
+     "lvl": 1,
+     "en": "2. Act as a selective barrier: Some molecules can cross the membrane without assistance, most cannot.",
+     "more": [],
+     "ar": "يعمل حاجزًا انتقائيًا: بعض الجزيئات تستطيع عبور الغشاء دون مساعدة، لكن معظمها لا تستطيع."
+    },
+    {
+     "lvl": 1,
+     "en": "3. Transport: Many of the proteins in the membrane function in selective transport.",
+     "more": [],
+     "ar": "النقل: كثير من بروتينات الغشاء تعمل في النقل الانتقائي."
+    },
+    {
+     "lvl": 1,
+     "en": "4. Communication (via receptors): Hormones and neurotransmitters effect on cell though its membrane.",
+     "more": [],
+     "ar": "التواصل (عن طريق المستقبِلات): تؤثّر الهرمونات والنواقل العصبية في الخلية عن طريق غشائها."
+    },
+    {
+     "lvl": 1,
+     "en": "5. Recognition: The cell identifies other cells and microorganisms though its membrane.",
+     "more": [],
+     "ar": "التعرّف: تتعرّف الخلية على الخلايا الأخرى والأحياء المجهرية عن طريق غشائها."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "membrane.jpg",
+   "caption": [
+    "Figure 2: Structure of Cell membrane",
+    "الشكل 2: تركيب غشاء الخلية"
+   ],
+   "labels": [
+    [
+     "Extracellular Fluid",
+     "السائل خارج الخلية"
+    ],
+    [
+     "Cytoplasm",
+     "السيتوبلازم"
+    ],
+    [
+     "Protein channel (transport protein)",
+     "قناة بروتينية (بروتين ناقل)"
+    ],
+    [
+     "Globular protein",
+     "بروتين كروي"
+    ],
+    [
+     "Glycoprotein",
+     "بروتين سكري"
+    ],
+    [
+     "Carbohydrate",
+     "كربوهيدرات"
+    ],
+    [
+     "Hydrophilic heads",
+     "الرؤوس المحبة للماء"
+    ],
+    [
+     "Hydrophobic tails",
+     "الذيول الكارهة للماء"
+    ],
+    [
+     "Phospholipid bilayer",
+     "الطبقة المزدوجة من الدهون المفسفرة"
+    ],
+    [
+     "Phospholipid molecule",
+     "جزيئة الدهون المفسفرة"
+    ],
+    [
+     "Cholesterol",
+     "الكوليسترول"
+    ],
+    [
+     "Glycolipid",
+     "دهن سكري"
+    ],
+    [
+     "Peripheral protein",
+     "بروتين محيطي"
+    ],
+    [
+     "Integral protein",
+     "بروتين مندمج"
+    ],
+    [
+     "Surface protein",
+     "بروتين سطحي"
+    ],
+    [
+     "Filaments of cytoskeleton",
+     "خيوط الهيكل الخلوي"
+    ],
+    [
+     "Alpha-Helix protein",
+     "بروتين حلزوني ألفا"
+    ]
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Membrane permeability and Membrane transport proteins",
+   "ar": "نفاذية الغشاء وبروتينات النقل الغشائي"
+  },
+  {
+   "t": "sub",
+   "en": "Transport of materials across plasma membrane",
+   "ar": "نقل المواد عبر الغشاء البلازمي"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "There are many methods for transport:",
+     "ar": "هناك طرائق عديدة للنقل:"
+    },
+    {
+     "en": "Small, nonpolar molecules (including O~2~ and N~2~) and small uncharged polar molecules such as CO~2~ **diffuse across the lipid membranes of cells**.",
+     "ar": "الجزيئات الصغيرة غير القطبية (ومنها O~2~ و N~2~)، والجزيئات القطبية الصغيرة غير المشحونة مثل CO~2~، **تنتشر عبر الأغشية الدهنية للخلايا**."
+    },
+    {
+     "en": "However, the membranes have very limited permeability to other substances.",
+     "ar": "غير أن نفاذية الأغشية للمواد الأخرى محدودة جدًا."
+    },
+    {
+     "en": "Instead, they cross the membranes by **endocytosis** and **exocytosis** by the passage through highly specific transport proteins, **transmembrane proteins** that form channels for ions or transport substances such as **glucose**, **urea**, and **amino acids**.",
+     "ar": "بدلًا من ذلك، تعبر هذه المواد الأغشية عن طريق **الإدخال الخلوي (Endocytosis)** و**الإخراج الخلوي (Exocytosis)**، وبالمرور عبر بروتينات نقل عالية التخصص، وهي **بروتينات عابرة للغشاء** تُكوّن قنوات للأيونات أو تنقل مواد مثل **الكلوكوز** و**اليوريا** و**الأحماض الأمينية**."
+    },
+    {
+     "en": "The limited permeability applies even to water, with simple diffusion being supplemented throughout the body with various water channels (**Aquaporins**).",
+     "ar": "وتنطبق محدودية النفاذية حتى على الماء، إذ يُدعَم الانتشار البسيط في أنحاء الجسم بقنوات مائية متنوعة (**Aquaporins**)."
+    },
+    {
+     "en": "Some transport proteins are simple aqueous ion channels, though many of these have special features that made them selective for a given substance such as Ca~2~+ or, in the case of aquaporins, for water.",
+     "ar": "بعض بروتينات النقل قنوات أيونية مائية بسيطة، وإن كان كثير منها يمتلك خصائص مميزة تجعله انتقائيًا لمادة معينة مثل Ca~2~+، أو للماء كما في حالة القنوات المائية."
+    },
+    {
+     "en": "These membrane – spanning proteins (or collections of proteins) have tightly regulated pores that can be gated opened or closed in response to local changes.",
+     "ar": "ولهذه البروتينات العابرة للغشاء (أو مجموعات البروتينات) ثقوب منظَّمة بإحكام، يمكن فتح بواباتها أو غلقها استجابةً للتغيرات الموضعية."
+    },
+    {
+     "en": "There are a variety of membrane proteins that serve various functions:",
+     "ar": "هناك أنواع متعددة من بروتينات الغشاء تؤدي وظائف مختلفة:"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. ==Passive transport across the cell membrane==: Passive transport describes the movement of substances down a concentration gradient and does not require energy use.",
+     "more": [],
+     "ar": "==النقل السلبي عبر غشاء الخلية (Passive transport)==: يصف النقل السلبي حركة المواد باتجاه انحدار التركيز، ولا يتطلب استهلاك طاقة."
+    },
+    {
+     "lvl": 1,
+     "en": "2. ==Bulk flow==: Is the collective movement of substances in the same direction in response to a force, such as pressure.",
+     "more": [
+      {
+       "en": "Blood moving through a vessel is an example of bulk flow.",
+       "ar": "وحركة الدم خلال الوعاء الدموي مثال على الجريان الكتلي."
+      }
+     ],
+     "ar": "==الجريان الكتلي (Bulk flow)==: هو الحركة الجماعية للمواد في الاتجاه نفسه استجابةً لقوة ما، مثل الضغط."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "1. Diffusion (Passive transport)",
+   "ar": "١. الانتشار (النقل السلبي)"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==1. Diffusion==: or Passive transport: Movement of molecules across cell membrane from the region of higher concentration to areas of lower concentration.",
+     "ar": "==١. الانتشار (Diffusion)==، أو النقل السلبي: حركة الجزيئات عبر غشاء الخلية من منطقة التركيز الأعلى إلى مناطق التركيز الأقل."
+    },
+    {
+     "en": "It doesn’t need energy of transport.",
+     "ar": "ولا يحتاج إلى طاقة للنقل."
+    },
+    {
+     "en": "This type of transport includes:",
+     "ar": "ويشمل هذا النوع من النقل:"
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "a. Simple diffusion",
+   "ar": "أ. الانتشار البسيط"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==a. Simple diffusion==: Movement of molecules through the pore according to concentration gradient.",
+     "ar": "==أ. الانتشار البسيط (Simple diffusion)==: حركة الجزيئات عبر الثقب وفقًا لانحدار التركيز."
+    },
+    {
+     "en": "The size of these molecules should be less than the size of pore, ex: Na, K, H~2~O, Ca.",
+     "ar": "ويجب أن يكون حجم هذه الجزيئات أصغر من حجم الثقب، مثل: Na و K و H~2~O و Ca."
+    },
+    {
+     "en": "They all have less than 7 A˚.",
+     "ar": "وجميعها أقل من 7 A˚."
+    },
+    {
+     "en": "==Simple diffusion==: Is the net movement of substances from an area of higher concentration to an area of lower concentration.",
+     "ar": "==الانتشار البسيط==: هو الحركة الصافية للمواد من منطقة ذات تركيز أعلى إلى منطقة ذات تركيز أقل."
+    },
+    {
+     "en": "This movement occurs a result of the random and constant motion characteristic of all molecules, (atoms or ions) and is independent from the motion of other molecules",
+     "ar": "وتحدث هذه الحركة نتيجةً للحركة العشوائية المستمرة التي تتّصف بها جميع الجزيئات (أو الذرات أو الأيونات)، وهي مستقلة عن حركة الجزيئات الأخرى."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "simple-diffusion.jpg",
+   "caption": [
+    "Figure 3: Simple diffusion",
+    "الشكل 3: الانتشار البسيط"
+   ],
+   "labels": [
+    [
+     "Simple Diffusion",
+     "الانتشار البسيط"
+    ],
+    [
+     "Movement of particles from high to low concentration without a protein",
+     "حركة الجسيمات من التركيز العالي إلى المنخفض دون بروتين"
+    ],
+    [
+     "High concentration of particles",
+     "تركيز عالٍ من الجسيمات"
+    ],
+    [
+     "Outside cell",
+     "خارج الخلية"
+    ],
+    [
+     "Cell membrane",
+     "غشاء الخلية"
+    ],
+    [
+     "Inside cell",
+     "داخل الخلية"
+    ],
+    [
+     "Low concentration",
+     "تركيز منخفض"
+    ],
+    [
+     "Same concentration (equilibrium)",
+     "تركيز متساوٍ (اتزان)"
+    ]
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "b. Facilitated Diffusion",
+   "ar": "ب. الانتشار الميسَّر"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==b. Facilitated Diffusion (carrier-mediated transport)==: This is transport of material have size large than the size of pore.",
+     "ar": "==ب. الانتشار الميسَّر (النقل بوساطة الحامل)==: وهو نقل المواد التي يكون حجمها أكبر من حجم الثقب."
+    },
+    {
+     "en": "This is done by using carrier protein on the cell membrane, there are specific carriers for specific material.",
+     "ar": "ويتم ذلك باستخدام بروتين حامل على غشاء الخلية، وتوجد حوامل متخصصة لمواد معينة."
+    },
+    {
+     "en": "==Facilitated diffusion==: is the diffusion of solutes through channel proteins in the plasma membrane.",
+     "ar": "==الانتشار الميسَّر (Facilitated diffusion)==: هو انتشار المواد المذابة عبر البروتينات القناتية في الغشاء البلازمي."
+    },
+    {
+     "en": "Water can pass freely through the plasma membrane without the aid of specialized proteins (through facilitated by **aquaporins**).",
+     "ar": "ويستطيع الماء المرور بحرية عبر الغشاء البلازمي دون مساعدة بروتينات متخصصة، مع أن مروره يُيسَّر بوساطة **القنوات المائية (Aquaporins)**."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "facilitated-diffusion.jpg",
+   "caption": [
+    "Figure 4: Facilitated Diffusion",
+    "الشكل 4: الانتشار الميسَّر"
+   ],
+   "labels": [
+    [
+     "Facilitated Diffusion",
+     "الانتشار الميسَّر"
+    ],
+    [
+     "Movement of particles from high to low concentration using a protein",
+     "حركة الجسيمات من التركيز العالي إلى المنخفض باستخدام بروتين"
+    ],
+    [
+     "Same concentration",
+     "تركيز متساوٍ"
+    ],
+    [
+     "Diffusion by channel protein",
+     "الانتشار عبر بروتين قناتي"
+    ],
+    [
+     "Diffusion by carrier protein",
+     "الانتشار عبر بروتين حامل"
+    ]
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "Factors that influence passive transport",
+   "ar": "العوامل المؤثرة في النقل السلبي"
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. ==Solubility==: Fat soluble materials are transport passively thought cell membrane because cell membrane contains a great amount of fat.",
+     "more": [],
+     "ar": "==الذوبانية (Solubility)==: تنتقل المواد الذائبة في الدهون نقلًا سلبيًا عبر غشاء الخلية، لأن غشاء الخلية يحتوي على كمية كبيرة من الدهون."
+    },
+    {
+     "lvl": 1,
+     "en": "2. ==Size of molecules==: Must be smaller than (7-10 A˚) they can movement faster.",
+     "more": [],
+     "ar": "==حجم الجزيئات==: يجب أن يكون أصغر من (7-10 A˚)، وعندها تتحرك أسرع."
+    },
+    {
+     "lvl": 1,
+     "en": "3. ==Charge of molecules==: Negative charge is faster than positive charge because the lining of the pore is positive charge.",
+     "more": [],
+     "ar": "==شحنة الجزيئات==: الشحنة السالبة أسرع من الشحنة الموجبة، لأن بطانة الثقب موجبة الشحنة."
+    },
+    {
+     "lvl": 1,
+     "en": "4. ==Concentration gradient==.",
+     "more": [],
+     "ar": "==انحدار التركيز (Concentration gradient)==."
+    },
+    {
+     "lvl": 1,
+     "en": "5. ==Surface area of diffusion==.",
+     "more": [],
+     "ar": "==مساحة سطح الانتشار==."
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "Osmosis",
+   "ar": "الأزموزية (التنافذ)"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Osmosis==: Is the diffusion of water molecules across a selectively permeable membrane.",
+     "ar": "==الأزموزية (Osmosis)==: هي انتشار جزيئات الماء عبر غشاء اختياري النفاذية."
+    },
+    {
+     "en": "When water moves into a body by osmosis, hydrostatic pressure or osmotic pressure may build up inside the body",
+     "ar": "وعندما ينتقل الماء إلى داخل جسمٍ ما بالأزموزية، قد يتراكم داخله ضغط هيدروستاتيكي أو ضغط أزموزي."
+    },
+    {
+     "en": "==Osmosis==: Transport of solvent through a semi permeable membrane from region of low solute concentration to higher solute concentration.",
+     "ar": "==الأزموزية==: انتقال المذيب عبر غشاء شبه منفذ من منطقة ذات تركيز منخفض من المذاب إلى منطقة ذات تركيز أعلى من المذاب."
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "==Isotonic== (equal tension).",
+     "more": [
+      {
+       "en": "Mean two solutions that have the same concentration of solutes.",
+       "ar": "ويعني محلولين لهما التركيز نفسه من المواد المذابة."
+      },
+      {
+       "en": "When cells and their extracellular environments are isotonic, the concentration of water molecules is the same outside and inside the cells, and the cells maintain their normal shape (and function).",
+       "ar": "وعندما تكون الخلايا وبيئاتها خارج الخلوية متساوية التوتر، يكون تركيز جزيئات الماء متماثلًا خارج الخلايا وداخلها، فتحتفظ الخلايا بشكلها الطبيعي (ووظيفتها)."
+      }
+     ],
+     "ar": "==المحلول متساوي التوتر (Isotonic)==، أي متساوي الشدّ."
+    },
+    {
+     "lvl": 1,
+     "en": "==Hypertonic== solution that has a higher concentration of solutes than another solution, and water molecules tend to diffuse into a hypertonic solution, This Osmosis occurs when there is an imbalance of solutes outside of a cell versus inside.",
+     "more": [
+      {
+       "en": "Cells in a hypertonic solution will shrivel as water leaves the cell via osmosis.",
+       "ar": "والخلايا الموضوعة في محلول عالي التوتر تنكمش لخروج الماء منها بالأزموزية."
+      }
+     ],
+     "ar": "==المحلول عالي التوتر (Hypertonic)==: محلول يحتوي على تركيز من المواد المذابة أعلى من محلول آخر، وتميل جزيئات الماء إلى الانتشار نحو المحلول عالي التوتر، وتحدث هذه الأزموزية عندما يختلّ توازن المواد المذابة بين خارج الخلية وداخلها."
+    },
+    {
+     "lvl": 1,
+     "en": "==Hypotonic== a solution that has a lower concentration of solutes than another solution, and water molecules tend to diffuse out of a hypotonic solution.",
+     "more": [
+      {
+       "en": "Cells in a hypotonic solution will take on too much water and swell, with the risk of eventually bursting.",
+       "ar": "والخلايا الموضوعة في محلول منخفض التوتر تمتصّ كمية كبيرة من الماء وتنتفخ، مع خطر انفجارها في النهاية."
+      }
+     ],
+     "ar": "==المحلول منخفض التوتر (Hypotonic)==: محلول يحتوي على تركيز من المواد المذابة أقل من محلول آخر، وتميل جزيئات الماء إلى الانتشار خارجةً من المحلول منخفض التوتر."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "osmosis.jpg",
+   "caption": [
+    "Figure 5: Osmosis",
+    "الشكل 5: الأزموزية"
+   ],
+   "labels": [
+    [
+     "Tonicity",
+     "التوتّر (التوترية)"
+    ],
+    [
+     "Hypertonic",
+     "عالي التوتر"
+    ],
+    [
+     "Isotonic",
+     "متساوي التوتر"
+    ],
+    [
+     "Hypotonic",
+     "منخفض التوتر"
+    ],
+    [
+     "H₂O",
+     "الماء"
+    ]
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Active transport",
+   "ar": "النقل الفعّال"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Active transport==: Movement of molecules across cell membrane from the region lower concentration to areas of higher concentration.",
+     "ar": "==النقل الفعّال (Active transport)==: حركة الجزيئات عبر غشاء الخلية من منطقة التركيز الأقل إلى مناطق التركيز الأعلى."
+    },
+    {
+     "en": "This type is need expenditure energy, characterized of this transport is similar to the carrier transport, ex: Na-K-ATPase.",
+     "ar": "ويحتاج هذا النوع إلى صرف طاقة، وخصائصه مشابهة للنقل بوساطة الحامل، ومثاله: Na-K-ATPase."
+    },
+    {
+     "en": "**Active transport can be differentiated into:**",
+     "ar": "**يمكن تمييز نوعين من النقل الفعّال:**"
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "Primary Active Transport",
+   "ar": "النقل الفعّال الأولي"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==-Primary Active Transport==: also called direct active transport, directly uses energy to transport molecules across a membrane.",
+     "ar": "==النقل الفعّال الأولي (Primary Active Transport)==: ويُسمّى أيضًا النقل الفعّال المباشر، ويستخدم الطاقة مباشرةً لنقل الجزيئات عبر الغشاء."
+    },
+    {
+     "en": "It depends on electricity generating proton pump H+ -ATPase – in the cell membrane which transform the energy of ATP from inside cell into proton chemoelectrical gradient that work to drive absorption of sugars, amino acids, inorganic ions (e.g., Sodium-Potassium Pump).",
+     "ar": "ويعتمد على مضخة البروتونات المولِّدة للكهرباء H+ -ATPase في غشاء الخلية، التي تُحوّل طاقة ATP من داخل الخلية إلى انحدار كهروكيميائي للبروتونات، يعمل على دفع امتصاص السكريات والأحماض الأمينية والأيونات غير العضوية، مثل مضخة الصوديوم والبوتاسيوم (Sodium-Potassium Pump)."
+    },
+    {
+     "en": "It consume about 38-50 % of ATP in the cell.",
+     "ar": "وهو يستهلك نحو 38-50 % من ATP في الخلية."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "na-k-pump.jpg",
+   "caption": [
+    "Figure 6: The action of the sodium-potassium pump is an example of primary active transport.",
+    "الشكل 6: عمل مضخة الصوديوم والبوتاسيوم مثال على النقل الفعّال الأولي."
+   ],
+   "labels": [
+    [
+     "Active Transport in Cells",
+     "النقل الفعّال في الخلايا"
+    ],
+    [
+     "Cell membrane",
+     "غشاء الخلية"
+    ],
+    [
+     "Intracellular space",
+     "الحيّز داخل الخلية"
+    ],
+    [
+     "ATP",
+     "ثلاثي فوسفات الأدينوسين"
+    ],
+    [
+     "ADP",
+     "ثنائي فوسفات الأدينوسين"
+    ],
+    [
+     "Concentration",
+     "التركيز"
+    ]
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "Secondary Active Transport",
+   "ar": "النقل الفعّال الثانوي"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==- Secondary Active Transport==: Secondary active transport is a kind of active transport that uses electrochemical energy.",
+     "ar": "==النقل الفعّال الثانوي (Secondary Active Transport)==: هو نوع من النقل الفعّال يستخدم الطاقة الكهروكيميائية."
+    },
+    {
+     "en": "It takes place across a biological membrane where a transporter protein couples the movement of an electrochemical ion (typically Na+ or H+) down its electrochemical gradient to the upward movement of another molecule or an ion against a concentration or electrochemical gradient.",
+     "ar": "ويحدث عبر غشاء حيوي، حيث يقرن بروتين ناقل حركة أيون كهروكيميائي (عادةً Na+ أو H+) باتجاه انحداره الكهروكيميائي، بحركة جزيئة أخرى أو أيون آخر صعودًا عكس انحدار التركيز أو الانحدار الكهروكيميائي."
+    },
+    {
+     "en": "This can be done by two forms:",
+     "ar": "ويمكن أن يتم ذلك بشكلين:"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. ==Symport==: Two molecules are transported at a time and in the same direction.",
+     "more": [
+      {
+       "en": "An example is the glucose symporter, which co-transports one glucose (or galactose) molecule into the cell for every two sodium ions it imports into the cell.",
+       "ar": "ومثال ذلك ناقل الكلوكوز المتوافق، الذي ينقل جزيئة كلوكوز (أو كالاكتوز) واحدة إلى داخل الخلية مقابل كل أيوني صوديوم يُدخلهما إليها."
+      },
+      {
+       "en": "This symporter is located in the small intestines, trachea, heart, brain, testis, and prostate.",
+       "ar": "ويوجد هذا الناقل المتوافق في الأمعاء الدقيقة والقصبة الهوائية والقلب والدماغ والخصية والبروستات."
+      }
+     ],
+     "ar": "==النقل المتوافق (Symport)==: تُنقل جزيئتان في الوقت نفسه وفي الاتجاه نفسه."
+    },
+    {
+     "lvl": 1,
+     "en": "2. ==Antiport==: Two molecules are transported at a time but in opposite direction.",
+     "more": [
+      {
+       "en": "Example in transport of glutamate through efflux of sodium ions, influx of protons and sodium-calcium exchanger.",
+       "ar": "ومثاله نقل الكلوتاميت عن طريق خروج أيونات الصوديوم ودخول البروتونات، ومبادِل الصوديوم والكالسيوم."
+      }
+     ],
+     "ar": "==النقل المعاكس (Antiport)==: تُنقل جزيئتان في الوقت نفسه ولكن في اتجاهين متعاكسين."
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "symport-antiport.jpg",
+   "caption": [
+    "Figure 7: Secondary Active Transport (symport and antiport).",
+    "الشكل 7: النقل الفعّال الثانوي (النقل المتوافق والنقل المعاكس)."
+   ],
+   "labels": [
+    [
+     "Uniporter",
+     "ناقل أحادي"
+    ],
+    [
+     "Symporter",
+     "ناقل متوافق"
+    ],
+    [
+     "Antiporter",
+     "ناقل معاكس"
+    ]
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Transport of very large molecules",
+   "ar": "نقل الجزيئات الكبيرة جدًا"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==4. Transport of very large molecules==: Transport large molecules more than 7-10 A˚ and not have carriers .",
+     "ar": "==٤. نقل الجزيئات الكبيرة جدًا==: نقل الجزيئات الكبيرة التي تزيد على 7-10 A˚ وليس لها حوامل."
+    },
+    {
+     "en": "Very large particles enter the cell by a specialized function of the cell membrane called **endocytosis.**",
+     "ar": "تدخل الجسيمات الكبيرة جدًا إلى الخلية بوظيفة متخصصة لغشاء الخلية تُسمّى **الإدخال الخلوي (Endocytosis)**."
+    },
+    {
+     "en": "The principal forms of endocytosis are **pinocytosis** and **phagocytosis.**",
+     "ar": "والشكلان الرئيسيان للإدخال الخلوي هما **الشرب الخلوي (Pinocytosis)** و**البلعمة (Phagocytosis)**."
+    }
+   ]
+  },
+  {
+   "t": "ul",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "==Pinocytosis== means drinking of minute particles that include vesicles of extracellular fluid and particulate constituents inside the cell cytoplasm.",
+     "more": [],
+     "ar": "==الشرب الخلوي (Pinocytosis)==: يعني شرب الجسيمات الدقيقة، ويتضمّن إدخال حويصلات من السائل خارج الخلوي ومكوّناته الدقائقية إلى داخل سيتوبلازم الخلية."
+    },
+    {
+     "lvl": 1,
+     "en": "==Phagocytosis== means ingestion of large particles, such as bacteria or portions of degenerating tissue.",
+     "more": [],
+     "ar": "==البلعمة (Phagocytosis)==: تعني ابتلاع الجسيمات الكبيرة، مثل البكتيريا أو أجزاء من النسيج المتنكّس."
+    }
+   ]
+  },
+  {
+   "t": "sub2",
+   "en": "Steps of endocytosis",
+   "ar": "خطوات الإدخال الخلوي"
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "1. The cell membrane receptors attach to the surface ligands of the particle.",
+     "more": [],
+     "ar": "ترتبط مستقبِلات غشاء الخلية بالروابط (Ligands) الموجودة على سطح الجسيم."
+    },
+    {
+     "lvl": 1,
+     "en": "2. The edges of the membrane around the points of attachment evaginate outward within a fraction of a second to surround the entire particle; then, progressively more and more membrane receptors attach to the particle ligands.",
+     "more": [
+      {
+       "en": "All this occurs suddenly in a zipper-like manner to form a closed phagocytic vesicle.",
+       "ar": "ويحدث كل ذلك فجأةً بطريقة تشبه السحّاب، لتتكوّن حويصلة بلعمية مغلقة."
+      }
+     ],
+     "ar": "تبرز حواف الغشاء المحيطة بنقاط الارتباط إلى الخارج خلال جزء من الثانية لتحيط بالجسيم كله، ثم ترتبط تدريجيًا مستقبِلات غشائية أكثر فأكثر بروابط الجسيم."
+    },
+    {
+     "lvl": 1,
+     "en": "3. The vesicle pushed to the interior.",
+     "more": [],
+     "ar": "تُدفع الحويصلة إلى الداخل."
+    },
+    {
+     "lvl": 1,
+     "en": "4. The vesicle separates from the cell membrane, leaving the vesicle in the cell interior",
+     "more": [],
+     "ar": "تنفصل الحويصلة عن غشاء الخلية، فتبقى داخل الخلية."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "**Not / phagocytosis called cell eating, pinocytosis called cell drinking.**",
+     "ar": "**ملاحظة: البلعمة تُسمّى أكل الخلية، والشرب الخلوي يُسمّى شرب الخلية.**"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "endocytosis.jpg",
+   "caption": [
+    "Figure 8: Endocytosis (pinocytosis and phagocytosis).",
+    "الشكل 8: الإدخال الخلوي (الشرب الخلوي والبلعمة)."
+   ],
+   "labels": [
+    [
+     "Phagocytosis",
+     "البلعمة"
+    ],
+    [
+     "Pinocytosis",
+     "الشرب الخلوي"
+    ],
+    [
+     "Receptor-mediated endocytosis",
+     "الإدخال الخلوي بوساطة المستقبِلات"
+    ],
+    [
+     "Large particle",
+     "جسيم كبير"
+    ],
+    [
+     "Plasma membrane",
+     "الغشاء البلازمي"
+    ],
+    [
+     "Vacuole",
+     "فجوة"
+    ],
+    [
+     "Vesicle",
+     "حويصلة"
+    ],
+    [
+     "Ligand",
+     "رابطة"
+    ],
+    [
+     "Receptor",
+     "مستقبِل"
+    ],
+    [
+     "Coated vesicle",
+     "حويصلة مغلّفة"
+    ]
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Dialysis==: Is the diffusion of solutes across a selectively permeable membrane",
+     "ar": "==الديلزة (Dialysis)==: هي انتشار المواد المذابة عبر غشاء اختياري النفاذية."
+    }
+   ]
+  },
+  {
+   "t": "sub",
+   "en": "Active transport across the cell membrane",
+   "ar": "النقل الفعّال عبر غشاء الخلية"
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "Active transport is the movement of solutes against a gradient and requires the expenditure of energy, usually in the form of ATP.",
+     "ar": "النقل الفعّال هو حركة المواد المذابة عكس الانحدار، ويتطلّب صرف طاقة، تكون عادةً على شكل ATP."
+    },
+    {
+     "en": "Active transport is achieved through one of these **two mechanisms**:",
+     "ar": "ويتحقّق النقل الفعّال بإحدى **الآليتين** الآتيتين:"
+    }
+   ]
+  },
+  {
+   "t": "ol",
+   "items": [
+    {
+     "lvl": 1,
+     "en": "a. ==Protein pump==: Transport proteins in the plasma membrane transfer solutes such as ions (Na+, K+, Cl- , H+) , amino acid and mono saccharides",
+     "more": [],
+     "ar": "==المضخة البروتينية (Protein pump)==: تنقل بروتينات النقل في الغشاء البلازمي المواد المذابة، مثل الأيونات (Na+, K+, Cl- , H+) والأحماض الأمينية والسكريات الأحادية."
+    },
+    {
+     "lvl": 1,
+     "en": "b. ==Cell metabolism==: Cell metabolism: Is the total energy released and consumed by a cell.",
+     "more": [
+      {
+       "en": "It is the chemical reactions that are happening in the body.",
+       "ar": "وهو التفاعلات الكيميائية التي تحدث في الجسم."
+      },
+      {
+       "en": "Some reactions, called **anabolic reactions**.",
+       "ar": "بعض هذه التفاعلات يُسمّى **تفاعلات البناء (Anabolic reactions)**."
+      },
+      {
+       "en": "Other reactions, called catabolic reactions.",
+       "ar": "وتفاعلات أخرى تُسمّى تفاعلات الهدم (Catabolic reactions)."
+      },
+      {
+       "en": "Break down products.",
+       "ar": "وهي تُفكّك النواتج."
+      },
+      {
+       "en": "The body is performing both anabolic and catabolic reactions at the same time twenty four hours a day, to keep the body alive",
+       "ar": "ويُجري الجسم تفاعلات البناء والهدم معًا في الوقت نفسه على مدى أربع وعشرين ساعة يوميًا، لإبقاء الجسم حيًا."
+      }
+     ],
+     "ar": "==أيض الخلية (Cell metabolism)==: هو مجموع الطاقة التي تُطلقها الخلية وتستهلكها."
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "items": [
+    {
+     "en": "==Catabolism==: The energy releasing process in which a chemical or food is used (broken down) by degradation or decomposition, into small pieces",
+     "ar": "==الهدم (Catabolism)==: العملية المُطلِقة للطاقة، التي تُستخدم فيها مادة كيميائية أو غذاء، أي تُفكَّك بالتحلّل أو التفكّك إلى أجزاء صغيرة."
+    },
+    {
+     "en": "==Fat catabolism==: also known as **lipid catabolism**, is the process of lipids or phospholipids being broken down by lipases.",
+     "ar": "==هدم الدهون (Fat catabolism)==: ويُعرف أيضًا **بهدم الليبيدات**، وهو عملية تفكيك الدهون أو الدهون المفسفرة بوساطة إنزيمات الليبيز (Lipases)."
+    },
+    {
+     "en": "The opposite of fat catabolism is **fat anabolism**, involving the storage of energy, and the polymerization into new proteins via the use of ribonucleic acid (RNA) and ribosomes.",
+     "ar": "وعكس هدم الدهون هو **بناء الدهون (Fat anabolism)**، الذي يتضمّن خزن الطاقة، والبلمرة إلى بروتينات جديدة باستخدام الحمض النووي الريبي (RNA) والرايبوسومات."
+    },
+    {
+     "en": "==Anabolism==: Anabolism is just the opposite of catabolism.",
+     "ar": "==البناء (Anabolism)==: البناء هو عكس الهدم تمامًا."
+    },
+    {
+     "en": "In this portion of metabolism, the cell consumes energy to produce larger molecules via smaller ones.",
+     "ar": "ففي هذا الجزء من الأيض، تستهلك الخلية الطاقة لإنتاج جزيئات أكبر من جزيئات أصغر."
+    },
+    {
+     "en": "Carbohydrates literally undergo combustion to retrieve the large amounts of energy in their bonds.",
+     "ar": "وتخضع الكربوهيدرات حرفيًا للاحتراق لاستخلاص الكميات الكبيرة من الطاقة المخزونة في أواصرها."
+    }
+   ]
+  },
+  {
+   "t": "summary",
+   "items": [
+    {
+     "en": "Physiology is the science that studies the normal functions of the human body; its central aim is to understand how body components work together to maintain homeostasis.",
+     "ar": "علم وظائف الأعضاء هو العلم الذي يدرس الوظائف الطبيعية لجسم الإنسان، وهدفه الأساسي فهم كيفية عمل مكونات الجسم معًا للحفاظ على الاتزان الداخلي."
+    },
+    {
+     "en": "The body is organized in levels: molecules → cell → tissue → organ → system → organism.",
+     "ar": "ينتظم الجسم في مستويات: الجزيئات ← الخلية ← النسيج ← العضو ← الجهاز ← الكائن الحي."
+    },
+    {
+     "en": "Human physiology is divided into cell physiology, special physiology, systemic physiology, and pathophysiology.",
+     "ar": "ينقسم علم وظائف الأعضاء البشري إلى: فسلجة الخلية، والفسلجة الخاصة، والفسلجة الجهازية، والفسلجة المرضية."
+    },
+    {
+     "en": "The cell is the basic structural and functional unit of life; it has three main regions: nucleus, cytoplasm, and plasma membrane.",
+     "ar": "الخلية هي الوحدة التركيبية والوظيفية الأساسية للحياة، ولها ثلاث مناطق رئيسية: النواة، والسيتوبلازم، والغشاء البلازمي."
+    },
+    {
+     "en": "The nucleus contains DNA, controls growth and reproduction, and is the site of DNA replication and transcription.",
+     "ar": "تحتوي النواة على الحمض النووي (DNA)، وتتحكّم في النمو والتكاثر، وهي موقع تضاعف الحمض النووي والاستنساخ."
+    },
+    {
+     "en": "The cell membrane is a lipid bilayer of phospholipids and cholesterol with integral and peripheral proteins; its pores are 7-10 A˚ in diameter.",
+     "ar": "غشاء الخلية طبقة دهنية مزدوجة من الدهون المفسفرة والكوليسترول، فيها بروتينات مندمجة ومحيطية، ويبلغ قطر ثقوبه 7-10 A˚."
+    },
+    {
+     "en": "Organelles: ribosomes (protein synthesis), RER (proteins), SER (lipids, steroids, detoxification), Golgi (modifying and packaging), lysosomes (digestion), peroxisomes (detoxification), and mitochondria (ATP).",
+     "ar": "العُضيّات: الرايبوسومات (تخليق البروتين)، والشبكة الخشنة (البروتينات)، والشبكة الملساء (الدهون والستيرويدات وإزالة السمّية)، وجهاز كولجي (التعديل والتغليف)، والأجسام الحالّة (الهضم)، والأجسام البيروكسيدية (إزالة السمّية)، والمايتوكوندريا (إنتاج ATP)."
+    },
+    {
+     "en": "Passive transport moves substances down a concentration gradient without energy: simple diffusion, facilitated diffusion, and osmosis.",
+     "ar": "النقل السلبي ينقل المواد باتجاه انحدار التركيز دون طاقة، ويشمل: الانتشار البسيط، والانتشار الميسَّر، والأزموزية."
+    },
+    {
+     "en": "Active transport moves substances against the gradient using energy (ATP): primary (Na⁺-K⁺ pump) and secondary (symport and antiport).",
+     "ar": "النقل الفعّال ينقل المواد عكس الانحدار باستخدام الطاقة (ATP)، ويشمل: الأولي (مضخة الصوديوم والبوتاسيوم)، والثانوي (النقل المتوافق والمعاكس)."
+    },
+    {
+     "en": "Very large particles enter the cell by endocytosis: phagocytosis (cell eating) and pinocytosis (cell drinking).",
+     "ar": "تدخل الجسيمات الكبيرة جدًا إلى الخلية بالإدخال الخلوي: البلعمة (أكل الخلية) والشرب الخلوي (شرب الخلية)."
+    }
+   ]
+  },
+  {
+   "t": "keypoints",
+   "items": [
+    {
+     "en": "Homeostasis = a stable internal environment despite external changes.",
+     "ar": "الاتزان الداخلي = بيئة داخلية مستقرة رغم التغيرات الخارجية."
+    },
+    {
+     "en": "Nervous system → fast communication; endocrine system → slower chemical signals.",
+     "ar": "الجهاز العصبي ← تواصل سريع؛ جهاز الغدد الصماء ← إشارات كيميائية أبطأ."
+    },
+    {
+     "en": "Nerve cell membranes are high in lipid; RBC membranes are high in protein.",
+     "ar": "أغشية الخلايا العصبية غنية بالدهون؛ وأغشية كريات الدم الحمراء غنية بالبروتين."
+    },
+    {
+     "en": "Phospholipid head = hydrophilic; tail = hydrophobic.",
+     "ar": "رأس الدهون المفسفرة محب للماء؛ والذيل كاره للماء."
+    },
+    {
+     "en": "Cholesterol gives the membrane its fluidity.",
+     "ar": "الكوليسترول يمنح الغشاء سيولته."
+    },
+    {
+     "en": "The nucleolus is the site of ribosome production.",
+     "ar": "النُّوَيّة هي موقع إنتاج الرايبوسومات."
+    },
+    {
+     "en": "Smooth ER lacks ribosomes and does not synthesize proteins.",
+     "ar": "الشبكة الملساء تفتقر إلى الرايبوسومات ولا تُخلّق البروتينات."
+    },
+    {
+     "en": "Mitochondria contain their own small amount of DNA.",
+     "ar": "تحتوي المايتوكوندريا على كمية صغيرة من الحمض النووي الخاص بها."
+    },
+    {
+     "en": "Negative charges pass faster because the pore lining is positive.",
+     "ar": "الشحنات السالبة تمرّ أسرع لأن بطانة الثقب موجبة."
+    },
+    {
+     "en": "Hypertonic → cell shrinks; hypotonic → cell swells and may burst.",
+     "ar": "المحلول عالي التوتر ← تنكمش الخلية؛ منخفض التوتر ← تنتفخ وقد تنفجر."
+    },
+    {
+     "en": "Primary active transport consumes about 38-50 % of the cell's ATP.",
+     "ar": "النقل الفعّال الأولي يستهلك نحو 38-50 % من ATP الخلية."
+    },
+    {
+     "en": "Symport = same direction; antiport = opposite directions.",
+     "ar": "النقل المتوافق = الاتجاه نفسه؛ النقل المعاكس = اتجاهان متعاكسان."
+    }
+   ]
+  },
+  {
+   "t": "keyterms",
+   "items": [
+    {
+     "en": "Homeostasis",
+     "ar": "الاتزان الداخلي"
+    },
+    {
+     "en": "Cell physiology",
+     "ar": "فسلجة الخلية"
+    },
+    {
+     "en": "Pathophysiology",
+     "ar": "الفسلجة المرضية"
+    },
+    {
+     "en": "Nuclear envelope",
+     "ar": "الغلاف النووي"
+    },
+    {
+     "en": "Chromatin",
+     "ar": "الكروماتين"
+    },
+    {
+     "en": "Nucleolus",
+     "ar": "النُّوَيّة"
+    },
+    {
+     "en": "Phospholipid",
+     "ar": "الدهون المفسفرة"
+    },
+    {
+     "en": "Integral protein",
+     "ar": "البروتين المندمج"
+    },
+    {
+     "en": "Peripheral protein",
+     "ar": "البروتين المحيطي"
+    },
+    {
+     "en": "Protoplasm",
+     "ar": "البروتوبلازم"
+    },
+    {
+     "en": "Cytosol",
+     "ar": "العُصارة الخلوية"
+    },
+    {
+     "en": "Ribosome",
+     "ar": "الرايبوسوم"
+    },
+    {
+     "en": "Endoplasmic reticulum",
+     "ar": "الشبكة الإندوبلازمية"
+    },
+    {
+     "en": "Golgi apparatus",
+     "ar": "جهاز كولجي"
+    },
+    {
+     "en": "Lysosome",
+     "ar": "الجسم الحالّ"
+    },
+    {
+     "en": "Peroxisome",
+     "ar": "الجسم البيروكسيدي"
+    },
+    {
+     "en": "Mitochondria",
+     "ar": "المايتوكوندريا"
+    },
+    {
+     "en": "Cristae",
+     "ar": "الأعراف"
+    },
+    {
+     "en": "Centrosome",
+     "ar": "الجسم المركزي"
+    },
+    {
+     "en": "Cytoskeleton",
+     "ar": "الهيكل الخلوي"
+    },
+    {
+     "en": "Simple diffusion",
+     "ar": "الانتشار البسيط"
+    },
+    {
+     "en": "Facilitated diffusion",
+     "ar": "الانتشار الميسَّر"
+    },
+    {
+     "en": "Osmosis",
+     "ar": "الأزموزية"
+    },
+    {
+     "en": "Isotonic",
+     "ar": "متساوي التوتر"
+    },
+    {
+     "en": "Hypertonic",
+     "ar": "عالي التوتر"
+    },
+    {
+     "en": "Hypotonic",
+     "ar": "منخفض التوتر"
+    },
+    {
+     "en": "Active transport",
+     "ar": "النقل الفعّال"
+    },
+    {
+     "en": "Symport",
+     "ar": "النقل المتوافق"
+    },
+    {
+     "en": "Antiport",
+     "ar": "النقل المعاكس"
+    },
+    {
+     "en": "Endocytosis",
+     "ar": "الإدخال الخلوي"
+    },
+    {
+     "en": "Phagocytosis",
+     "ar": "البلعمة"
+    },
+    {
+     "en": "Pinocytosis",
+     "ar": "الشرب الخلوي"
+    },
+    {
+     "en": "Dialysis",
+     "ar": "الديلزة"
+    },
+    {
+     "en": "Catabolism",
+     "ar": "الهدم"
+    },
+    {
+     "en": "Anabolism",
+     "ar": "البناء"
+    }
+   ]
+  }
+ ]
+}

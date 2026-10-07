@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 196" role="img" aria-label="BIOS">
+  <defs>
+    <linearGradient id="eg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8364a"/><stop offset=".45" stop-color="#8a2233"/><stop offset="1" stop-color="#4f0f1c"/>
+    </linearGradient>
+    <linearGradient id="eau" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0cf86"/><stop offset=".55" stop-color="#d4a54e"/><stop offset="1" stop-color="#a87a2c"/>
+    </linearGradient>
+    <linearGradient id="efold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a87a2c"/><stop offset=".5" stop-color="#d4a54e"/><stop offset="1" stop-color="#f0cf86"/>
+    </linearGradient>
+    <clipPath id="ec"><path d="M34 8 H270 L304 42 V156 Q233 144 162 172 Q91 144 20 156 V22 Q20 8 34 8 Z"/></clipPath>
+    <pattern id="edots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".9" fill="#fff" opacity=".10"/>
+    </pattern>
+  </defs>
+  <!-- page block under the tile (book thickness) -->
+  <path d="M20 156 Q91 144 162 172 Q233 144 304 156 V163 Q233 151 162 179 Q91 151 20 163 Z" fill="#f8eedc"/>
+  <path d="M20 163 Q91 151 162 179 Q233 151 304 163 V168 Q233 156 162 185 Q91 156 20 168 Z" fill="url(#eau)"/>
+  <!-- tile -->
+  <path d="M34 8 H270 L304 42 V156 Q233 144 162 172 Q91 144 20 156 V22 Q20 8 34 8 Z" fill="url(#eg)"/>
+  <g clip-path="url(#ec)">
+    <rect x="0" y="0" width="324" height="196" fill="url(#edots)"/>
+    <path d="M150 -10 L222 -10 L110 200 L38 200 Z" fill="#fff" opacity=".055"/>
+    <path d="M236 -10 L256 -10 L144 200 L124 200 Z" fill="#fff" opacity=".04"/>
+    <path d="M162 40 V172" stroke="#4f0f1c" stroke-width="1" opacity=".0"/>
+  </g>
+  <path d="M40 16 H266 L295 45 V148 Q232 137 162 162 Q92 137 29 148 V28 Q29 16 40 16 Z" fill="none" stroke="#d4a54e" stroke-width="1" opacity=".5"/>
+  <!-- folded corner -->
+  <path d="M270 8 L304 42 H281 Q270 42 270 31 Z" fill="url(#efold)"/>
+  <path d="M270 8 L304 42" stroke="#a87a2c" stroke-width=".8" opacity=".6"/>
+  <!-- translation bubbles -->
+  <g transform="translate(-6 -5)">
+    <path d="M38 22 h34 a7 7 0 0 1 7 7 v18 a7 7 0 0 1 -7 7 h-18 l-9 8 v-8 h-7 a7 7 0 0 1 -7 -7 v-18 a7 7 0 0 1 7 -7 z" fill="#f8eedc"/>
+    <text x="51" y="45.5" font-family="Mada" font-weight="900" font-size="21" fill="#8a2233" text-anchor="middle">A</text>
+    <path d="M70 34 h28 a7 7 0 0 1 7 7 v16 a7 7 0 0 1 -7 7 h-5 v8 l-9 -8 h-14 a7 7 0 0 1 -7 -7 v-16 a7 7 0 0 1 7 -7 z"
+      fill="url(#eau)" stroke="#8a2233" stroke-width="2.2"/>
+    <text x="84" y="56" font-family="WenQuanYi Zen Hei, Noto Sans CJK SC, sans-serif" font-weight="700" font-size="16" fill="#4f0f1c" text-anchor="middle">文</text>
+  </g>
+  <!-- wordmark: B · nib · O S -->
+  <g transform="translate(0 0)">
+    <text x="121" y="118" font-family="Mada" font-weight="900" font-size="72" fill="#f8eedc" text-anchor="end" letter-spacing="0">B</text>
+    <g transform="translate(136 0)">
+      <path d="M-8 64 H8 V73 Q15 86 11 99 L0 122 L-11 99 Q-15 86 -8 73 Z" fill="url(#eau)"/>
+      <path d="M-8 73 H8" stroke="#4f0f1c" stroke-width="1.6" opacity=".7"/>
+      <circle cx="0" cy="95" r="3.4" fill="#8a2233"/>
+      <path d="M0 98 V119" stroke="#8a2233" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text x="153" y="118" font-family="Mada" font-weight="900" font-size="72" fill="#f8eedc" letter-spacing="1">OS</text>
+  </g>
+  <g font-family="Mada" font-weight="800" text-anchor="middle">
+    <line x1="48" y1="133.5" x2="72" y2="133.5" stroke="#d4a54e" stroke-width="1.2"/>
+    <line x1="252" y1="133.5" x2="276" y2="133.5" stroke="#d4a54e" stroke-width="1.2"/>
+    <rect x="72.5" y="131" width="5" height="5" transform="rotate(45 75 133.5)" fill="#d4a54e"/>
+    <rect x="246.5" y="131" width="5" height="5" transform="rotate(45 249 133.5)" fill="#d4a54e"/>
+    <text x="162" y="137.6" font-size="10" letter-spacing="2.1" fill="#f0cf86">LECTURE TRANSLATION</text>
+  </g>
+</svg>
