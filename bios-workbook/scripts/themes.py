@@ -16,6 +16,10 @@ THEMES = {
     "hematology": dict(p="#8c2735", pdk="#5c1621", p2="#c46a74", acc="#3f6e8c", accdk="#2b4f66",
                        tint="#f6e9eb", soft="#fbf4f5", warm="#fbf3ec", warm_line="#efdccb", line="#ead5d8",
                        art=None, keys=["hemato", "haemato", "دم"]),
+    "knight": dict(p="#3a424b", pdk="#1c2126", p2="#b08a46", acc="#9b1c26", accdk="#6e1219",
+                   tint="#ece9e2", soft="#f5f2ec", warm="#f8f1e4", warm_line="#e6d5b3", line="#d9d4c9",
+                   gold="#c39a4a", gold_lt="#ecd08c", bar_end="#56606b",
+                   art="knight.svg", keys=[]),
     "default": dict(p="#2f5d73", pdk="#1d3d4d", p2="#6fa3b5", acc="#d98e4f", accdk="#a8662f",
                     tint="#e8f0f3", soft="#f3f7f9", warm="#fbf3e8", warm_line="#efdcc4", line="#d6e1e6",
                     art=None, keys=[]),
@@ -35,4 +39,7 @@ def pick(meta):
 def css_vars(key):
     t = THEMES[key]
     names = ["p", "pdk", "p2", "acc", "accdk", "tint", "soft", "warm", "warm_line", "line"]
-    return ";".join(f"--{n.replace('_', '-')}:{t[n]}" for n in names)
+    extra = {"gold": t.get("gold", t["acc"]), "gold_lt": t.get("gold_lt", t["warm_line"]),
+             "bar_end": t.get("bar_end", t["p2"])}
+    return ";".join([f"--{n.replace('_', '-')}:{t[n]}" for n in names] +
+                    [f"--{k.replace('_', '-')}:{v}" for k, v in extra.items()])

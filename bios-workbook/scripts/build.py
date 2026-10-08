@@ -78,6 +78,19 @@ def parse_bw(text):
             flush()
             cur = {"t": s, "items": []}
             continue
+        if s.startswith("note "):
+            flush()
+            cur = {"t": "note", "kind": s[5:].strip(), "items": []}
+            continue
+        if s.startswith("flow "):
+            flush()
+            en, ar = split2(s[5:])
+            cur = {"t": "flow", "en": en, "ar": ar, "items": []}
+            continue
+        if s.startswith("table "):
+            flush()
+            cur = {"t": "table", "head": [list(split2(c)) for c in s[6:].split(" ; ")], "items": []}
+            continue
         if s.startswith("fig "):
             flush()
             parts = [x.strip() for x in s[4:].split("|")]
@@ -96,9 +109,13 @@ def parse_bw(text):
         # content lines inside a block
         if cur is None:
             raise SystemExit(f"line outside block: {s[:60]}")
-        if cur["t"] == "keyterms":
-            a, _, b = s.partition(" = ")
-            cur["items"].append({"en": a.strip(), "ar": b.strip()})
+        if cur["t"] in ("keyterms", "flow"):
+            hl = s.startswith("! ")
+            a, _, b = (s[2:] if hl else s).partition(" = ")
+            cur["items"].append({"en": a.strip(), "ar": b.strip(), "hl": hl})
+            continue
+        if cur["t"] == "table":
+            cur["items"].append([list(split2(c)) for c in s.split(" ; ")])
             continue
         if cur["t"] in ("ol", "ul"):
             if s.startswith("** "):
@@ -127,7 +144,7 @@ def parse_bw(text):
 LAT = r"A-Za-z0-9°˚μµ⁺⁻₀-₉Å"
 RUN = re.compile(
     rf"\([^()؀-ۿ]*[A-Za-z0-9][^()؀-ۿ]*\)"            # (English …)
-    rf"|[{LAT}~^*=][{LAT}\s\-\+,./%~^*'’:=–]*[{LAT}+\-%~^*=]"           # bare latin / numbers
+    rf"|[{LAT}~^*=!][{LAT}\s\-\+,./%~^*'’:=–!]*[{LAT}+\-%~^*=!]"           # bare latin / numbers
     rf"|[{LAT}]"
 )
 
@@ -136,6 +153,7 @@ def inline(s):
     s = html.escape(s, quote=False)
     s = re.sub(r"(\d) (%|nm|A˚|μm|°C|ml)", "\\1\u00a0\\2", s)
     s = re.sub(r"==(.+?)==", r'<b class="term">\1</b>', s)
+    s = re.sub(r"!!(.+?)!!", r'<mark class="hl">\1</mark>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", s)
     s = re.sub(r"~(.+?)~", r"<sub>\1</sub>", s)
@@ -148,13 +166,33 @@ def md(s, ar=False):
         return inline(s)
     out, last = [], 0
     for m in RUN.finditer(s):
-        tok = m.group(0)
+        a, b = m.start(), m.end()
+        # never swallow half of a markup pair (e.g. "ATP **" opening a bold Arabic word)
+        MK, LT = "*=!", re.compile(rf"[{LAT}(]")
+        for _ in range(4):
+            st = a
+            while st < b and s[st] in MK:
+                st += 1
+            if st > a and (st == b or not LT.match(s[st]) or s[a:b].count(s[a]) % 2):
+                a = st
+            while a < b and s[a] in " :;,":
+                a += 1
+            e = b
+            while e > a and s[e - 1] in MK:
+                e -= 1
+            if e < b and (e == a or s[e - 1] == " " or s[a:b].count(s[b - 1]) % 2):
+                b = e
+            while b > a and s[b - 1] == " ":
+                b -= 1
+        if a < last or a >= b:
+            continue
+        tok = s[a:b]
         # don't isolate pure markup tokens like "**" or "=="
         if not re.search(rf"[{LAT}]", tok):
             continue
-        out.append(inline_open(s[last:m.start()]))
+        out.append(inline_open(s[last:a]))
         out.append(("ISO", tok))
-        last = m.end()
+        last = b
     out.append(inline_open(s[last:]))
     # rebuild string with placeholders, then run inline markup on whole thing so ** spanning works
     buf, isos = "", []
@@ -173,6 +211,14 @@ def inline_open(s):
 
 
 # ───────────────────────── HTML rendering ─────────────────────────
+NOTE_KINDS = {
+    "compare": ("Compare", "مقارنة"),
+    "alert": ("Exam Alert", "تنبيه امتحاني"),
+    "tip": ("Memory Tip", "طريقة للحفظ"),
+    "remember": ("Remember", "تذكّر"),
+}
+
+
 def badge(kind):
     return f'<span class="badge b-{kind}">{"EN" if kind == "en" else "AR"}</span>'
 
@@ -237,7 +283,10 @@ def render_block(b, ctx):
                 f'<div class="t-en">{md(b["en"])}</div><div class="t-ar" dir="rtl">{md(b["ar"], True)}</div>{sub}</div></div>'
                 f'<div class="blk key" data-k="key"><span class="k k-en">EN · Lecture text</span>'
                 f'<span class="k k-ar" dir="rtl">AR · الترجمة العربية</span>'
-                f'<span class="k k-nt" dir="rtl">✍︎ ملاحظات الطالب أسفل كل صفحة</span></div>')
+                + ('<span class="k k-nt" dir="rtl">✍︎ ملاحظات الطالب أسفل كل صفحة</span>'
+                   if int(meta.get("notes_lines", 3)) else
+                   '<span class="k k-nb" dir="rtl">◆ صناديق BIOS: إضافات للفهم والحفظ</span>')
+                + '</div>')
     if t == "section":
         ctx["sec"] += 1
         n = ctx["sec"]
@@ -283,6 +332,29 @@ def render_block(b, ctx):
                         for x in b["items"])
         return (f'<div class="blk card keyterms split" data-k="kt" data-head="1"><div class="box-h kt-h">'
                 f'<span>Aa KEY TERMS</span><span dir="rtl">المصطلحات الأساسية</span></div>{chips}</div>')
+    if t == "note":
+        en_l, ar_l = NOTE_KINDS[b["kind"]]
+        rows = "".join(pair_html(x["en"], x["ar"]) for x in b["items"])
+        return (f'<div class="blk note n-{b["kind"]} split" data-k="note" data-head="1"><div class="nt-h">'
+                f'<span class="stk">{ctx["stickers"][b["kind"]]}</span><span class="nt-en">{en_l}</span>'
+                f'<span class="nt-tag" dir="rtl">إضافة BIOS · ليست من نص المحاضرة</span>'
+                f'<span class="nt-ar" dir="rtl">{ar_l}</span></div>{rows}</div>')
+    if t == "flow":
+        chips = []
+        for i, x in enumerate(b["items"]):
+            if i:
+                chips.append('<span class="fl-ar">→</span>')
+            chips.append(f'<span class="fl-c{" on" if x.get("hl") else ""}"><i dir="ltr">{md(x["en"])}</i>'
+                         f'<em dir="rtl">{md(x["ar"], True)}</em></span>')
+        return (f'<div class="blk card flow" data-k="flow"><div class="fl-h"><span>{md(b["en"])}</span>'
+                f'<span dir="rtl">{md(b["ar"], True)}</span></div><div class="fl-row">{"".join(chips)}</div></div>')
+    if t == "table":
+        def cell(c, tag="div"):
+            return (f'<{tag} class="tc"><span class="tc-en" dir="ltr">{md(c[0])}</span>'
+                    f'<span class="tc-ar" dir="rtl">{md(c[1], True)}</span></{tag}>')
+        head = "".join(cell(c) for c in b["head"])
+        rows = "".join(f'<div class="tr">{"".join(cell(c) for c in r)}</div>' for r in b["items"])
+        return (f'<div class="blk card tbl split" data-k="tbl" data-head="1"><div class="tr th">{head}</div>{rows}</div>')
     if t == "pagebreak":
         return '<div class="blk pagebreak" data-k="br"></div>'
     raise SystemExit(f"unknown block {t}")
@@ -342,7 +414,12 @@ def build(src, out_base, html_only=False):
     meta = data["meta"]
     tk = themes.pick(meta)
     th = themes.THEMES[tk]
-    ctx = {"meta": meta, "sec": 0, "fig": 0, "imgdir": os.path.join(os.path.dirname(os.path.abspath(src)), "img")}
+    stickers = {}
+    for k in NOTE_KINDS:
+        sp = os.path.join(ROOT, "assets", "stickers", k + ".svg")
+        stickers[k] = open(sp, encoding="utf-8").read() if os.path.exists(sp) else ""
+    ctx = {"meta": meta, "sec": 0, "fig": 0, "stickers": stickers,
+           "imgdir": os.path.join(os.path.dirname(os.path.abspath(src)), "img")}
     meta["_title"] = next(b for b in data["blocks"] if b["t"] == "title")
     body = "\n".join(render_block(b, ctx) for b in data["blocks"])
 
@@ -375,7 +452,7 @@ def build(src, out_base, html_only=False):
     page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <title>{html.escape(meta.get("subject", ""))} – {unit} {n}</title>
 <style>:root{{{themes.css_vars(tk)}}}{css}</style></head>
-<body>
+<body class="th-{tk}">
 {cover_html(meta, tk, art, logo)}
 <div id="flow">{body}</div>
 <script>window.HDR={json.dumps(hdr, ensure_ascii=False)};</script>

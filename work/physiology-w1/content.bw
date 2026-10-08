@@ -7,7 +7,8 @@
 @type: theory
 @unit: week
 @lecture: 1
-@theme: physiology
+@theme: knight
+@notes_lines: 0
 
 = General introduction to physiology || مقدمة عامة في علم وظائف الأعضاء
 =+ Cell physiology: General functions, Cell Membrane transport || فسلجة الخلية: الوظائف العامة، والنقل عبر غشاء الخلية
@@ -32,6 +33,14 @@ When many **identical cells** are organized together it is called a ==tissue== (
 Various **tissues** organized together for a common purpose are called ==organs== (e. g. the stomach is an organ, and so is the skin, and the brain).
 > أما **الأنسجة** المختلفة التي تنتظم معًا لأداء غرض مشترك فتُسمى ==الأعضاء (Organs)==؛ فالمعدة مثلًا عضو، وكذلك الجلد والدماغ.
 
+flow Levels of organization || مستويات التنظيم
+Molecules = الجزيئات
+Cell = الخلية
+Tissue = النسيج
+Organ = العضو
+System = الجهاز
+! Organism = الكائن الحي
+
 fig levels.jpg
 lab Organism = الكائن الحي ; Organ Systems = الأجهزة العضوية ; Organs = الأعضاء ; Tissues = الأنسجة ; Cells = الخلايا ; Organelles = العُضيّات ; Molecules = الجزيئات ; Genes = الجينات
 
@@ -46,6 +55,10 @@ The body‘s systems are not isolated but **work together**.
 > أجهزة الجسم ليست معزولة بعضها عن بعض، بل **تعمل معًا**.
 The **nervous systems** provide **fast communication**, while the **endocrine system** uses **slower chemical signals**.
 > إذ يوفّر **الجهاز العصبي (Nervous system)** **تواصلًا سريعًا**، في حين يستخدم **جهاز الغدد الصماء (Endocrine system)** **إشارات كيميائية أبطأ**.
+
+note compare
+**Nervous system** = fast communication. | **Endocrine system** = slower chemical signals.
+> **الجهاز العصبي** = تواصل سريع. | **جهاز الغدد الصماء** = إشارات كيميائية أبطأ.
 
 ## Why human physiology is important || لماذا يُعدّ علم وظائف الأعضاء البشري مهمًا؟
 
@@ -76,6 +89,12 @@ ol
 > مثل فسلجة القلب والأوعية الدموية، وفسلجة التنفس، وفسلجة التناسل وغيرها.
 * 4. ==Pathophysiology==: It is the **study** of the **effects of diseases** on **organs** or **system** function.
 > ==الفسلجة المرضية (Pathophysiology)==: وهي **دراسة** **تأثيرات الأمراض** في وظيفة **الأعضاء** أو **الأجهزة**.
+
+note alert
+**Special** physiology = function of **special organs** (e.g. kidney → renal physiology).
+> الفسلجة **الخاصة** = وظيفة **أعضاء خاصة** (مثل الكلية ← فسلجة الكلية).
+**Systemic** physiology = function of a **body system** (e.g. cardiovascular). | **Pathophysiology** = **effects of diseases** on organs or systems.
+> الفسلجة **الجهازية** = وظيفة **جهاز** من أجهزة الجسم (مثل القلب والأوعية الدموية). | **الفسلجة المرضية** = **تأثيرات الأمراض** في الأعضاء أو الأجهزة.
 
 # Cell physiology || فسلجة الخلية
 
@@ -138,7 +157,7 @@ The **nucleus** is separated from the cytoplasm by a **nuclear membrane**, and t
 p
 The **nucleus**​ is a membrane bound structure that contains the cell's **hereditary** information and **controls** the cell's **growth** and **reproduction.**
 > **النواة** تركيب محاط بغشاء، يحتوي على المعلومات **الوراثية** للخلية، و**يتحكّم** في **نمو** الخلية و**تكاثرها**.
-The cell nucleus is bound by a double membrane called the **nuclear envelope**.
+The cell nucleus is bound by a !!double membrane!! called the **nuclear envelope**.
 > تُحاط نواة الخلية بغشاء مزدوج يُسمّى **الغلاف النووي (Nuclear envelope)**.
 This membrane separates the contents of the nucleus from the cytoplasm.
 > ويفصل هذا الغشاء محتويات النواة عن السيتوبلازم.
@@ -175,13 +194,18 @@ Transcription creates different types of RNA from DNA.
 The central rule of biology states that DNA is copied into RNA, and then proteins.
 > وتنصّ القاعدة المركزية في علم الأحياء على أن الحمض النووي (DNA) يُنسخ إلى RNA، ثم إلى بروتينات.
 
+flow The central rule of biology || القاعدة المركزية في علم الأحياء
+DNA = الحمض النووي
+RNA = الحمض النووي الريبي
+! Proteins = البروتينات
+
 fig nucleus.jpg | Structure of Nucleus | تركيب النواة
 lab Anatomy of the Nucleus = تشريح النواة ; Nuclear Envelope = الغلاف النووي ; Chromatin = الكروماتين ; Nucleolus = النُّوَيّة ; Endoplasmic Reticulum = الشبكة الإندوبلازمية ; Ribosomes = الرايبوسومات ; Nuclear Pore = الثقب النووي
 
 # Cell Membrane || غشاء الخلية
 
 p
-==Cell membrane== (also called the **plasma membrane**), which envelops the cell, is a thin, elastic structure only 7.5 to 10 in thick.
+==Cell membrane== (also called the **plasma membrane**), which envelops the cell, is a thin, elastic structure only !!7.5 to 10!! in thick.
 > ==غشاء الخلية (Cell membrane)==، ويُسمّى أيضًا **الغشاء البلازمي (Plasma membrane)**، وهو الذي يُغلّف الخلية، تركيب رقيق مرن لا يتجاوز سمكه 7.5 إلى 10 (in).
 ==Chemical composition== of cell membrane: Is composed of **lipid** and **protein**, the ratio of lipid to protein is variable depending on the type and function of cell.
 > ==التركيب الكيميائي== لغشاء الخلية: يتكوّن من **الدهون** و**البروتين**، وتختلف نسبة الدهون إلى البروتين بحسب نوع الخلية ووظيفتها.
@@ -211,10 +235,14 @@ ol
 > و**البروتينات المحيطية (Peripheral proteins)** التي ترتبط بسطح واحد فقط من سطحي الغشاء.
 
 p
-The membrane occasionally **perforated** to form membrane **pore**; the diameter between this 7-10 A˚.
-> يكون الغشاء **مثقّبًا** في بعض المواضع مكوّنًا **ثقوبًا** غشائية، ويتراوح قطر هذه الثقوب بين 7-10 A˚.
+The membrane occasionally **perforated** to form membrane **pore**; the diameter between this !!7-10 A˚!!.
+> يكون الغشاء **مثقّبًا** في بعض المواضع مكوّنًا **ثقوبًا** غشائية، ويتراوح قطر هذه الثقوب بين !!7-10 A˚!!.
 These **pores** used to **transport materials** across membrane.
 > وتُستخدم هذه **الثقوب** **لنقل المواد** عبر الغشاء.
+
+note alert
+Do not mix the two numbers: membrane **thickness** = !!7.5 to 10!! (generally about !!7.5 nm!!), while pore **diameter** = !!7-10 A˚!!.
+> لا تخلط بين الرقمين: **سُمك** الغشاء = !!7.5 to 10!! (نحو !!7.5 nm!! عمومًا)، بينما **قطر** الثقب = !!7-10 A˚!!.
 
 ## Membrane proteins functions || وظائف بروتينات الغشاء
 
@@ -279,7 +307,7 @@ It consists of **Cytosol**
 > ==العُصارة الخلوية (Cytosol)==: سائل تُعلَّق فيه العناصر الأخرى.
 The different substances that make up the cell are collectively called **protoplasm**.
 > تُسمّى المواد المختلفة التي تُكوّن الخلية مجتمعةً **البروتوبلازم (Protoplasm)**.
-==Protoplasm==: Is composed mainly of five basic substances: **water**, **electrolytes**, **proteins**, **lipids**, and **carbohydrates.**
+==Protoplasm==: Is composed mainly of !!five basic substances!!: **water**, **electrolytes**, **proteins**, **lipids**, and **carbohydrates.**
 > ==البروتوبلازم==: يتكوّن أساسًا من خمس مواد رئيسية: **الماء**، و**الأملاح المتأيّنة (الإلكتروليتات)**، و**البروتينات**، و**الدهون**، و**الكربوهيدرات**.
 The cell is not only a bag of fluid, enzymes, and chemicals; it also contains highly organized physical structures, called **intracellular organelles**.
 > ليست الخلية مجرد كيس من السوائل والإنزيمات والمواد الكيميائية، بل تحتوي أيضًا على تراكيب فيزيائية عالية التنظيم تُسمّى **العُضيّات داخل الخلوية (Intracellular organelles)**.
@@ -366,6 +394,12 @@ p
 ==Smooth endoplasmic reticulum==: Functions in **cholesterol synthesis** and breakdown, **fat metabolism**, and **detoxification of drugs.**
 > ==الشبكة الإندوبلازمية الملساء==: تعمل في **تخليق الكوليسترول** وتفكيكه، و**أيض الدهون**، و**إزالة سمّية الأدوية**.
 
+note compare
+**RER** = carries ribosomes → **synthesis of proteins**.
+> **الشبكة الخشنة (RER)** = تحمل الرايبوسومات ← **تخليق البروتينات**.
+**SER** = **lacks ribosomes** → fatty acids, steroids (estrogens, testosterone), cholesterol, fat metabolism, detoxification of drugs.
+> **الشبكة الملساء (SER)** = **تفتقر إلى الرايبوسومات** ← الأحماض الدهنية، والستيرويدات (الإستروجينات، والتستوستيرون)، والكوليسترول، وأيض الدهون، وإزالة سمية الأدوية.
+
 ## 3. Golgi apparatus || ٣. جهاز كولجي
 
 p
@@ -392,7 +426,7 @@ p
 p
 is a membrane-bound organelle found in many animal cells.
 > عُضيّة محاطة بغشاء توجد في كثير من الخلايا الحيوانية.
-They are spherical vesicles surrounded by a single membrane and contain highly acidic fluid that contain hydrolytic enzymes that can break down many kinds of biomolecules such as carbohydrates, lipids, proteins, nucleic acids bacteria and cell debris.
+They are spherical vesicles surrounded by a !!single membrane!! and contain !!highly acidic fluid!! that contain hydrolytic enzymes that can break down many kinds of biomolecules such as carbohydrates, lipids, proteins, nucleic acids bacteria and cell debris.
 > وهي حويصلات كروية يحيط بها غشاء مفرد، وتحتوي على سائل عالي الحموضة فيه إنزيمات حالّة مائيًا (Hydrolytic enzymes) قادرة على تفكيك أنواع كثيرة من الجزيئات الحيوية، مثل الكربوهيدرات والدهون والبروتينات والأحماض النووية والبكتيريا وحطام الخلايا.
 Also play an important role in the cells of the immune system.
 > كما تؤدي دورًا مهمًا في خلايا الجهاز المناعي.
@@ -437,6 +471,12 @@ p
 They detoxify harmful substances and break down free radicals.
 > وهي تُزيل سمّية المواد الضارة وتُفكّك الجذور الحرة.
 
+note compare
+**Lysosomes** = hydrolytic enzymes in highly acidic fluid → digestion (intracellular and extracellular).
+> **الأجسام الحالّة** = إنزيمات حالّة مائيًا في سائل شديد الحموضة ← الهضم (داخل الخلية وخارجها).
+**Peroxisomes** = oxidase enzymes + **catalase**: H~2~O~2~ → water + oxygen → detoxification.
+> **الأجسام البيروكسيدية** = إنزيمات مؤكسدة + **الكاتاليز (Catalase)**: H~2~O~2~ ← ماء + أوكسجين ← إزالة السمية.
+
 ## 6. Mitochondria || ٦. المايتوكوندريا
 
 p
@@ -450,7 +490,7 @@ Through a series of chemical reactions, mitochondria break down glucose into an 
 > فمن خلال سلسلة من التفاعلات الكيميائية، تُفكّك المايتوكوندريا الكلوكوز إلى جزيئة طاقة تُعرف بثلاثي فوسفات الأدينوسين (ATP)، التي تُستخدم لتزويد العمليات الخلوية الأخرى بالطاقة.
 
 ul
-* Each mitochondrion is surrounded by two membranes.
+* Each mitochondrion is surrounded by !!two membranes!!.
 > تُحاط كل مايتوكوندريا بغشاءين.
 + The outer membrane is smooth, while the inner one is folded into tubule structure called cristae.
 > الغشاء الخارجي أملس، أما الداخلي فمطويّ على هيئة تراكيب نُبيبية تُسمّى الأعراف (Cristae).
@@ -487,7 +527,7 @@ Centrosomes are associated with the nuclear membrane during prophase of the cell
 > وترتبط الأجسام المركزية بالغشاء النووي خلال الطور التمهيدي (Prophase) من دورة الخلية.
 In mitosis the nuclear membrane breaks down and the centrosome can interact with the chromosomes to build the mitotic spindle
 > وفي الانقسام الخيطي (Mitosis) يتفكّك الغشاء النووي، ويمكن للجسم المركزي أن يتفاعل مع الكروموسومات لبناء المغزل الانقسامي.
-==Centrioles==: Centrioles are self- replicating organelles made up of nine bundles of microtubules.
+==Centrioles==: Centrioles are self- replicating organelles made up of !!nine bundles!! of microtubules.
 > ==المريكزات (Centrioles)==: عُضيّات ذاتية التضاعف تتكوّن من تسع حزم من الأنيبيبات الدقيقة.
 They appear to help in organizing cell division, but aren’t essential to the process.
 > ويبدو أنها تساعد في تنظيم انقسام الخلية، لكنها ليست ضرورية لهذه العملية.
@@ -497,6 +537,16 @@ It provides the cell with an internal framework.
 > ويزوّد الخلية بإطار داخلي.
 For example, Microfilaments ad Microtubules.
 > ومن أمثلته: الخيوط الدقيقة (Microfilaments) والأنيبيبات الدقيقة (Microtubules).
+
+table Organelle || العُضيّة ; Main function || الوظيفة الرئيسية
+Ribosomes || الرايبوسومات ; Protein synthesis || تخليق البروتين
+Rough ER || الشبكة الإندوبلازمية الخشنة ; Synthesis of proteins (carries ribosomes) || تخليق البروتينات (تحمل الرايبوسومات)
+Smooth ER || الشبكة الإندوبلازمية الملساء ; Fatty acids, steroids, cholesterol synthesis, fat metabolism, detoxification of drugs || الأحماض الدهنية، والستيرويدات، وتخليق الكوليسترول، وأيض الدهون، وإزالة سمية الأدوية
+Golgi apparatus || جهاز كولجي ; Transporting, modifying and packaging proteins and lipids || نقل البروتينات والدهون وتعديلها وتغليفها
+Lysosomes || الأجسام الحالّة ; Digest not usable materials (hydrolytic enzymes) || هضم المواد غير الصالحة للاستعمال (إنزيمات حالّة مائيًا)
+Peroxisomes || الأجسام البيروكسيدية ; Detoxify harmful substances, break down free radicals || إزالة سمية المواد الضارة وتفكيك الجذور الحرة
+Mitochondria || المايتوكوندريا ; ATP — powerhouse of the cell || إنتاج ATP — محطة الطاقة في الخلية
+Centrioles || المريكزات ; Help in organizing cell division || المساعدة في تنظيم انقسام الخلية
 
 # Cell membranes || أغشية الخلية
 
@@ -513,8 +563,8 @@ The nucleus and other organelles in the cell are bound by similar membranous str
 > وتُحاط النواة والعُضيّات الأخرى في الخلية بتراكيب غشائية مماثلة.
 Although the chemical structures of membranes and their properties vary considerably from one location to another, they have certain common features.
 > وعلى الرغم من أن التراكيب الكيميائية للأغشية وخصائصها تختلف كثيرًا من موضع إلى آخر، فإن لها سمات مشتركة معينة.
-They are generally about 7.5 nm.
-> ويبلغ سمكها عمومًا نحو 7.5 nm.
+They are generally about !!7.5 nm!!.
+> ويبلغ سمكها عمومًا نحو !!7.5 nm!!.
 
 p
 The major **lipids** are **phospholipids** such as **phosphatidylcholine**, **phosphatidylserine**, and **phosphatidylethanolamine**.
@@ -534,6 +584,12 @@ The **membrane proteins** are classified into two categories: **integral protein
 
 fig cell.jpg | Figure 1: Structure of the human Cell | الشكل 1: تركيب خلية الإنسان
 lab nuclear envelope = الغلاف النووي ; nucleus = النواة ; nuclear pore = الثقب النووي ; nucleolus = النُّوَيّة ; chromatin = الكروماتين ; mitochondrion = المايتوكوندريا ; ribosomes = الرايبوسومات ; centrioles = المريكزات ; microtubules = الأنيبيبات الدقيقة ; vacuole = الفجوة ; lysosome = الجسم الحالّ ; cytoplasm = السيتوبلازم ; plasma membrane = الغشاء البلازمي ; secretory vesicle = الحويصلة الإفرازية ; smooth endoplasmic reticulum = الشبكة الإندوبلازمية الملساء ; rough endoplasmic reticulum = الشبكة الإندوبلازمية الخشنة ; Golgi apparatus = جهاز كولجي
+
+note remember
+**Cholesterol** → fluidity of the membrane. | Phospholipid **head** = hydrophilic; **tail** = hydrophobic → **amphipathic** molecule.
+> **الكوليسترول** ← سيولة الغشاء. | **رأس** الدهون المفسفرة = محب للماء؛ **الذيل** = كاره للماء ← جزيئة **مزدوجة الألفة (Amphipathic)**.
+**Integral** (intrinsic) proteins pass through the whole membrane; **peripheral** (extrinsic) proteins sit on one surface only.
+> البروتينات **المندمجة** (الداخلية) تخترق الغشاء كاملًا؛ أما **المحيطية** (الخارجية) فترتبط بسطح واحد فقط.
 
 ## Cell membrane Functions || وظائف غشاء الخلية
 
@@ -599,7 +655,7 @@ p
 > ==أ. الانتشار البسيط (Simple diffusion)==: حركة الجزيئات عبر الثقب وفقًا لانحدار التركيز.
 The size of these molecules should be less than the size of pore, ex: Na, K, H~2~O, Ca.
 > ويجب أن يكون حجم هذه الجزيئات أصغر من حجم الثقب، مثل: Na و K و H~2~O و Ca.
-They all have less than 7 A˚.
+They all have !!less than 7 A˚!!.
 > وجميعها أقل من 7 A˚.
 ==Simple diffusion==: Is the net movement of substances from an area of higher concentration to an area of lower concentration.
 > ==الانتشار البسيط==: هو الحركة الصافية للمواد من منطقة ذات تركيز أعلى إلى منطقة ذات تركيز أقل.
@@ -624,6 +680,12 @@ Water can pass freely through the plasma membrane without the aid of specialized
 fig facilitated-diffusion.jpg | Figure 4: Facilitated Diffusion | الشكل 4: الانتشار الميسَّر
 lab Facilitated Diffusion = الانتشار الميسَّر ; Movement of particles from high to low concentration using a protein = حركة الجسيمات من التركيز العالي إلى المنخفض باستخدام بروتين ; Same concentration = تركيز متساوٍ ; Diffusion by channel protein = الانتشار عبر بروتين قناتي ; Diffusion by carrier protein = الانتشار عبر بروتين حامل
 
+note compare
+**Simple diffusion** = through the pore, molecule smaller than the pore (!!less than 7 A˚!!), no carrier.
+> **الانتشار البسيط** = عبر الثقب، والجزيئة أصغر من الثقب (!!less than 7 A˚!!)، دون حامل.
+**Facilitated diffusion** = molecule larger than the pore → needs a specific **carrier** or **channel** protein.
+> **الانتشار الميسَّر** = الجزيئة أكبر من الثقب ← تحتاج إلى **بروتين حامل** أو **قناتي** خاص بها.
+
 ### Factors that influence passive transport || العوامل المؤثرة في النقل السلبي
 
 ol
@@ -631,7 +693,7 @@ ol
 > ==الذوبانية (Solubility)==: تنتقل المواد الذائبة في الدهون نقلًا سلبيًا عبر غشاء الخلية، لأن غشاء الخلية يحتوي على كمية كبيرة من الدهون.
 * 2. ==Size of molecules==: Must be smaller than (7-10 A˚) they can movement faster.
 > ==حجم الجزيئات==: يجب أن يكون أصغر من (7-10 A˚)، وعندها تتحرك أسرع.
-* 3. ==Charge of molecules==: Negative charge is faster than positive charge because the lining of the pore is positive charge.
+* 3. ==Charge of molecules==: !!Negative charge is faster!! than positive charge because the lining of the pore is positive charge.
 > ==شحنة الجزيئات==: الشحنة السالبة أسرع من الشحنة الموجبة، لأن بطانة الثقب موجبة الشحنة.
 * 4. ==Concentration gradient==.
 > ==انحدار التركيز (Concentration gradient)==.
@@ -667,6 +729,10 @@ ul
 fig osmosis.jpg | Figure 5: Osmosis | الشكل 5: الأزموزية
 lab Tonicity = التوتّر (التوترية) ; Hypertonic = عالي التوتر ; Isotonic = متساوي التوتر ; Hypotonic = منخفض التوتر ; H₂O = الماء
 
+note tip
+Hyp**O**tonic → the cell swells like an “**O**” and may burst. | Hyp**er**tonic → the cell shrivels. | **Iso** = same → normal shape.
+> Hyp**O**tonic ← الخلية تنتفخ مثل حرف «**O**» وقد تنفجر. | Hyp**er**tonic ← الخلية تنكمش. | **Iso** = متساوٍ ← شكل طبيعي.
+
 ## Active transport || النقل الفعّال
 
 p
@@ -684,8 +750,8 @@ p
 > ==النقل الفعّال الأولي (Primary Active Transport)==: ويُسمّى أيضًا النقل الفعّال المباشر، ويستخدم الطاقة مباشرةً لنقل الجزيئات عبر الغشاء.
 It depends on electricity generating proton pump H+ -ATPase – in the cell membrane which transform the energy of ATP from inside cell into proton chemoelectrical gradient that work to drive absorption of sugars, amino acids, inorganic ions (e.g., Sodium-Potassium Pump).
 > ويعتمد على مضخة البروتونات المولِّدة للكهرباء H+ -ATPase في غشاء الخلية، التي تُحوّل طاقة ATP من داخل الخلية إلى انحدار كهروكيميائي للبروتونات، يعمل على دفع امتصاص السكريات والأحماض الأمينية والأيونات غير العضوية، مثل مضخة الصوديوم والبوتاسيوم (Sodium-Potassium Pump).
-It consume about 38-50 % of ATP in the cell.
-> وهو يستهلك نحو 38-50 % من ATP في الخلية.
+It consume about !!38-50 %!! of ATP in the cell.
+> وهو يستهلك نحو !!38-50 %!! من ATP في الخلية.
 
 fig na-k-pump.jpg | Figure 6: The action of the sodium-potassium pump is an example of primary active transport. | الشكل 6: عمل مضخة الصوديوم والبوتاسيوم مثال على النقل الفعّال الأولي.
 lab Active Transport in Cells = النقل الفعّال في الخلايا ; Cell membrane = غشاء الخلية ; Intracellular space = الحيّز داخل الخلية ; ATP = ثلاثي فوسفات الأدينوسين ; ADP = ثنائي فوسفات الأدينوسين ; Concentration = التركيز
@@ -714,6 +780,12 @@ ol
 
 fig symport-antiport.jpg | Figure 7: Secondary Active Transport (symport and antiport). | الشكل 7: النقل الفعّال الثانوي (النقل المتوافق والنقل المعاكس).
 lab Uniporter = ناقل أحادي ; Symporter = ناقل متوافق ; Antiporter = ناقل معاكس
+
+note compare
+**Symport** = same direction (glucose + two Na⁺). | **Antiport** = opposite directions (sodium-calcium exchanger).
+> **النقل المتوافق (Symport)** = الاتجاه نفسه (غلوكوز + أيونا صوديوم). | **النقل المعاكس (Antiport)** = اتجاهان متعاكسان (مبادل الصوديوم والكالسيوم).
+**Primary** active transport uses ATP **directly**; **secondary** uses **electrochemical** energy of an ion gradient.
+> النقل الفعّال **الأولي** يستعمل ATP **مباشرة**؛ و**الثانوي** يستعمل الطاقة **الكهروكيميائية** لممال أيوني.
 
 ## Transport of very large molecules || نقل الجزيئات الكبيرة جدًا
 
@@ -756,6 +828,10 @@ p
 ==Dialysis==: Is the diffusion of solutes across a selectively permeable membrane
 > ==الديلزة (Dialysis)==: هي انتشار المواد المذابة عبر غشاء اختياري النفاذية.
 
+note alert
+**Osmosis** = diffusion of **water** across a selectively permeable membrane. | **Dialysis** = diffusion of **solutes**.
+> **الأزموزية** = انتشار **الماء** عبر غشاء انتقائي النفاذية. | **الديلزة** = انتشار **المواد المذابة**.
+
 ## Active transport across the cell membrane || النقل الفعّال عبر غشاء الخلية
 
 p
@@ -793,6 +869,12 @@ In this portion of metabolism, the cell consumes energy to produce larger molecu
 > ففي هذا الجزء من الأيض، تستهلك الخلية الطاقة لإنتاج جزيئات أكبر من جزيئات أصغر.
 Carbohydrates literally undergo combustion to retrieve the large amounts of energy in their bonds.
 > وتخضع الكربوهيدرات حرفيًا للاحتراق لاستخلاص الكميات الكبيرة من الطاقة المخزونة في أواصرها.
+
+note compare
+**Catabolism** = breakdown → **releases** energy. | **Anabolism** = building larger molecules → **consumes** energy.
+> **الهدم** = تفكيك ← **يحرّر** الطاقة. | **البناء** = تكوين جزيئات أكبر ← **يستهلك** الطاقة.
+Both happen at the same time, twenty four hours a day.
+> ويحدث الاثنان في الوقت نفسه، طوال أربع وعشرين ساعة يوميًا.
 
 summary
 Physiology is the science that studies the normal functions of the human body; its central aim is to understand how body components work together to maintain homeostasis.

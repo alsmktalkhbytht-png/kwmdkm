@@ -37,7 +37,8 @@
       `<div class="hdr-mark">${H.mark}</div>` +
       `<div class="hdr-doc"><b>${H.doctor}</b><span dir="rtl">${H.line2}</span></div>` +
       `<div class="body"><div class="content"></div>` +
-      `<div class="notes"><div class="nh"><span class="pill">✎ Student Notes</span><span class="ar" dir="rtl">ملاحظات الطالب</span></div>${lines}</div></div>` +
+      (H.notes ? `<div class="notes"><div class="nh"><span class="pill">✎ Student Notes</span><span class="ar" dir="rtl">ملاحظات الطالب</span></div>${lines}</div>` : '') +
+      `</div>` +
       `<div class="foot"><div class="ttl"><span>${H.foot_en}</span><span class="sep">│</span><em dir="rtl">${H.foot_ar}</em></div></div>` +
       `<div class="ptab">${pageNo}</div>`;
     document.body.appendChild(s);
@@ -158,7 +159,7 @@
   }
   function sideBySide() {
     const q = (el, s) => Array.from(el.querySelectorAll(s));
-    q(document, '#flow .para').forEach(c => trySide(q(c, '.pair')));
+    q(document, '#flow .para, #flow .note').forEach(c => trySide(q(c, '.pair')));
     q(document, '#flow .summary .srow').forEach(r => trySide(q(r, '.pair')));
     q(document, '#flow .list').forEach(list => {
       let group = [];

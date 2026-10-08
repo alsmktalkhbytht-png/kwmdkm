@@ -9,7 +9,8 @@
   "type": "theory",
   "unit": "week",
   "lecture": 1,
-  "theme": "physiology"
+  "theme": "knight",
+  "notes_lines": 0
  },
  "blocks": [
   {
@@ -59,6 +60,43 @@
     {
      "en": "Various **tissues** organized together for a common purpose are called ==organs== (e. g. the stomach is an organ, and so is the skin, and the brain).",
      "ar": "أما **الأنسجة** المختلفة التي تنتظم معًا لأداء غرض مشترك فتُسمى ==الأعضاء (Organs)==؛ فالمعدة مثلًا عضو، وكذلك الجلد والدماغ."
+    }
+   ]
+  },
+  {
+   "t": "flow",
+   "en": "Levels of organization",
+   "ar": "مستويات التنظيم",
+   "items": [
+    {
+     "en": "Molecules",
+     "ar": "الجزيئات",
+     "hl": false
+    },
+    {
+     "en": "Cell",
+     "ar": "الخلية",
+     "hl": false
+    },
+    {
+     "en": "Tissue",
+     "ar": "النسيج",
+     "hl": false
+    },
+    {
+     "en": "Organ",
+     "ar": "العضو",
+     "hl": false
+    },
+    {
+     "en": "System",
+     "ar": "الجهاز",
+     "hl": false
+    },
+    {
+     "en": "Organism",
+     "ar": "الكائن الحي",
+     "hl": true
     }
    ]
   },
@@ -123,6 +161,16 @@
     {
      "en": "The **nervous systems** provide **fast communication**, while the **endocrine system** uses **slower chemical signals**.",
      "ar": "إذ يوفّر **الجهاز العصبي (Nervous system)** **تواصلًا سريعًا**، في حين يستخدم **جهاز الغدد الصماء (Endocrine system)** **إشارات كيميائية أبطأ**."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "compare",
+   "items": [
+    {
+     "en": "**Nervous system** = fast communication. | **Endocrine system** = slower chemical signals.",
+     "ar": "**الجهاز العصبي** = تواصل سريع. | **جهاز الغدد الصماء** = إشارات كيميائية أبطأ."
     }
    ]
   },
@@ -198,6 +246,20 @@
      "en": "4. ==Pathophysiology==: It is the **study** of the **effects of diseases** on **organs** or **system** function.",
      "more": [],
      "ar": "==الفسلجة المرضية (Pathophysiology)==: وهي **دراسة** **تأثيرات الأمراض** في وظيفة **الأعضاء** أو **الأجهزة**."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "alert",
+   "items": [
+    {
+     "en": "**Special** physiology = function of **special organs** (e.g. kidney → renal physiology).",
+     "ar": "الفسلجة **الخاصة** = وظيفة **أعضاء خاصة** (مثل الكلية ← فسلجة الكلية)."
+    },
+    {
+     "en": "**Systemic** physiology = function of a **body system** (e.g. cardiovascular). | **Pathophysiology** = **effects of diseases** on organs or systems.",
+     "ar": "الفسلجة **الجهازية** = وظيفة **جهاز** من أجهزة الجسم (مثل القلب والأوعية الدموية). | **الفسلجة المرضية** = **تأثيرات الأمراض** في الأعضاء أو الأجهزة."
     }
    ]
   },
@@ -351,7 +413,7 @@
      "ar": "**النواة** تركيب محاط بغشاء، يحتوي على المعلومات **الوراثية** للخلية، و**يتحكّم** في **نمو** الخلية و**تكاثرها**."
     },
     {
-     "en": "The cell nucleus is bound by a double membrane called the **nuclear envelope**.",
+     "en": "The cell nucleus is bound by a !!double membrane!! called the **nuclear envelope**.",
      "ar": "تُحاط نواة الخلية بغشاء مزدوج يُسمّى **الغلاف النووي (Nuclear envelope)**."
     },
     {
@@ -438,6 +500,28 @@
    ]
   },
   {
+   "t": "flow",
+   "en": "The central rule of biology",
+   "ar": "القاعدة المركزية في علم الأحياء",
+   "items": [
+    {
+     "en": "DNA",
+     "ar": "الحمض النووي",
+     "hl": false
+    },
+    {
+     "en": "RNA",
+     "ar": "الحمض النووي الريبي",
+     "hl": false
+    },
+    {
+     "en": "Proteins",
+     "ar": "البروتينات",
+     "hl": true
+    }
+   ]
+  },
+  {
    "t": "figure",
    "src": "nucleus.jpg",
    "caption": [
@@ -484,7 +568,7 @@
    "t": "p",
    "items": [
     {
-     "en": "==Cell membrane== (also called the **plasma membrane**), which envelops the cell, is a thin, elastic structure only 7.5 to 10 in thick.",
+     "en": "==Cell membrane== (also called the **plasma membrane**), which envelops the cell, is a thin, elastic structure only !!7.5 to 10!! in thick.",
      "ar": "==غشاء الخلية (Cell membrane)==، ويُسمّى أيضًا **الغشاء البلازمي (Plasma membrane)**، وهو الذي يُغلّف الخلية، تركيب رقيق مرن لا يتجاوز سمكه 7.5 إلى 10 (in)."
     },
     {
@@ -560,12 +644,22 @@
    "t": "p",
    "items": [
     {
-     "en": "The membrane occasionally **perforated** to form membrane **pore**; the diameter between this 7-10 A˚.",
-     "ar": "يكون الغشاء **مثقّبًا** في بعض المواضع مكوّنًا **ثقوبًا** غشائية، ويتراوح قطر هذه الثقوب بين 7-10 A˚."
+     "en": "The membrane occasionally **perforated** to form membrane **pore**; the diameter between this !!7-10 A˚!!.",
+     "ar": "يكون الغشاء **مثقّبًا** في بعض المواضع مكوّنًا **ثقوبًا** غشائية، ويتراوح قطر هذه الثقوب بين !!7-10 A˚!!."
     },
     {
      "en": "These **pores** used to **transport materials** across membrane.",
      "ar": "وتُستخدم هذه **الثقوب** **لنقل المواد** عبر الغشاء."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "alert",
+   "items": [
+    {
+     "en": "Do not mix the two numbers: membrane **thickness** = !!7.5 to 10!! (generally about !!7.5 nm!!), while pore **diameter** = !!7-10 A˚!!.",
+     "ar": "لا تخلط بين الرقمين: **سُمك** الغشاء = !!7.5 to 10!! (نحو !!7.5 nm!! عمومًا)، بينما **قطر** الثقب = !!7-10 A˚!!."
     }
    ]
   },
@@ -729,7 +823,7 @@
      "ar": "تُسمّى المواد المختلفة التي تُكوّن الخلية مجتمعةً **البروتوبلازم (Protoplasm)**."
     },
     {
-     "en": "==Protoplasm==: Is composed mainly of five basic substances: **water**, **electrolytes**, **proteins**, **lipids**, and **carbohydrates.**",
+     "en": "==Protoplasm==: Is composed mainly of !!five basic substances!!: **water**, **electrolytes**, **proteins**, **lipids**, and **carbohydrates.**",
      "ar": "==البروتوبلازم==: يتكوّن أساسًا من خمس مواد رئيسية: **الماء**، و**الأملاح المتأيّنة (الإلكتروليتات)**، و**البروتينات**، و**الدهون**، و**الكربوهيدرات**."
     },
     {
@@ -1000,6 +1094,20 @@
    ]
   },
   {
+   "t": "note",
+   "kind": "compare",
+   "items": [
+    {
+     "en": "**RER** = carries ribosomes → **synthesis of proteins**.",
+     "ar": "**الشبكة الخشنة (RER)** = تحمل الرايبوسومات ← **تخليق البروتينات**."
+    },
+    {
+     "en": "**SER** = **lacks ribosomes** → fatty acids, steroids (estrogens, testosterone), cholesterol, fat metabolism, detoxification of drugs.",
+     "ar": "**الشبكة الملساء (SER)** = **تفتقر إلى الرايبوسومات** ← الأحماض الدهنية، والستيرويدات (الإستروجينات، والتستوستيرون)، والكوليسترول، وأيض الدهون، وإزالة سمية الأدوية."
+    }
+   ]
+  },
+  {
    "t": "sub",
    "en": "3. Golgi apparatus",
    "ar": "٣. جهاز كولجي"
@@ -1093,7 +1201,7 @@
      "ar": "عُضيّة محاطة بغشاء توجد في كثير من الخلايا الحيوانية."
     },
     {
-     "en": "They are spherical vesicles surrounded by a single membrane and contain highly acidic fluid that contain hydrolytic enzymes that can break down many kinds of biomolecules such as carbohydrates, lipids, proteins, nucleic acids bacteria and cell debris.",
+     "en": "They are spherical vesicles surrounded by a !!single membrane!! and contain !!highly acidic fluid!! that contain hydrolytic enzymes that can break down many kinds of biomolecules such as carbohydrates, lipids, proteins, nucleic acids bacteria and cell debris.",
      "ar": "وهي حويصلات كروية يحيط بها غشاء مفرد، وتحتوي على سائل عالي الحموضة فيه إنزيمات حالّة مائيًا (Hydrolytic enzymes) قادرة على تفكيك أنواع كثيرة من الجزيئات الحيوية، مثل الكربوهيدرات والدهون والبروتينات والأحماض النووية والبكتيريا وحطام الخلايا."
     },
     {
@@ -1240,6 +1348,20 @@
    ]
   },
   {
+   "t": "note",
+   "kind": "compare",
+   "items": [
+    {
+     "en": "**Lysosomes** = hydrolytic enzymes in highly acidic fluid → digestion (intracellular and extracellular).",
+     "ar": "**الأجسام الحالّة** = إنزيمات حالّة مائيًا في سائل شديد الحموضة ← الهضم (داخل الخلية وخارجها)."
+    },
+    {
+     "en": "**Peroxisomes** = oxidase enzymes + **catalase**: H~2~O~2~ → water + oxygen → detoxification.",
+     "ar": "**الأجسام البيروكسيدية** = إنزيمات مؤكسدة + **الكاتاليز (Catalase)**: H~2~O~2~ ← ماء + أوكسجين ← إزالة السمية."
+    }
+   ]
+  },
+  {
    "t": "sub",
    "en": "6. Mitochondria",
    "ar": "٦. المايتوكوندريا"
@@ -1270,7 +1392,7 @@
    "items": [
     {
      "lvl": 1,
-     "en": "Each mitochondrion is surrounded by two membranes.",
+     "en": "Each mitochondrion is surrounded by !!two membranes!!.",
      "more": [
       {
        "en": "The outer membrane is smooth, while the inner one is folded into tubule structure called cristae.",
@@ -1387,7 +1509,7 @@
      "ar": "وفي الانقسام الخيطي (Mitosis) يتفكّك الغشاء النووي، ويمكن للجسم المركزي أن يتفاعل مع الكروموسومات لبناء المغزل الانقسامي."
     },
     {
-     "en": "==Centrioles==: Centrioles are self- replicating organelles made up of nine bundles of microtubules.",
+     "en": "==Centrioles==: Centrioles are self- replicating organelles made up of !!nine bundles!! of microtubules.",
      "ar": "==المريكزات (Centrioles)==: عُضيّات ذاتية التضاعف تتكوّن من تسع حزم من الأنيبيبات الدقيقة."
     },
     {
@@ -1406,6 +1528,101 @@
      "en": "For example, Microfilaments ad Microtubules.",
      "ar": "ومن أمثلته: الخيوط الدقيقة (Microfilaments) والأنيبيبات الدقيقة (Microtubules)."
     }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Organelle",
+     "العُضيّة"
+    ],
+    [
+     "Main function",
+     "الوظيفة الرئيسية"
+    ]
+   ],
+   "items": [
+    [
+     [
+      "Ribosomes",
+      "الرايبوسومات"
+     ],
+     [
+      "Protein synthesis",
+      "تخليق البروتين"
+     ]
+    ],
+    [
+     [
+      "Rough ER",
+      "الشبكة الإندوبلازمية الخشنة"
+     ],
+     [
+      "Synthesis of proteins (carries ribosomes)",
+      "تخليق البروتينات (تحمل الرايبوسومات)"
+     ]
+    ],
+    [
+     [
+      "Smooth ER",
+      "الشبكة الإندوبلازمية الملساء"
+     ],
+     [
+      "Fatty acids, steroids, cholesterol synthesis, fat metabolism, detoxification of drugs",
+      "الأحماض الدهنية، والستيرويدات، وتخليق الكوليسترول، وأيض الدهون، وإزالة سمية الأدوية"
+     ]
+    ],
+    [
+     [
+      "Golgi apparatus",
+      "جهاز كولجي"
+     ],
+     [
+      "Transporting, modifying and packaging proteins and lipids",
+      "نقل البروتينات والدهون وتعديلها وتغليفها"
+     ]
+    ],
+    [
+     [
+      "Lysosomes",
+      "الأجسام الحالّة"
+     ],
+     [
+      "Digest not usable materials (hydrolytic enzymes)",
+      "هضم المواد غير الصالحة للاستعمال (إنزيمات حالّة مائيًا)"
+     ]
+    ],
+    [
+     [
+      "Peroxisomes",
+      "الأجسام البيروكسيدية"
+     ],
+     [
+      "Detoxify harmful substances, break down free radicals",
+      "إزالة سمية المواد الضارة وتفكيك الجذور الحرة"
+     ]
+    ],
+    [
+     [
+      "Mitochondria",
+      "المايتوكوندريا"
+     ],
+     [
+      "ATP — powerhouse of the cell",
+      "إنتاج ATP — محطة الطاقة في الخلية"
+     ]
+    ],
+    [
+     [
+      "Centrioles",
+      "المريكزات"
+     ],
+     [
+      "Help in organizing cell division",
+      "المساعدة في تنظيم انقسام الخلية"
+     ]
+    ]
    ]
   },
   {
@@ -1441,8 +1658,8 @@
      "ar": "وعلى الرغم من أن التراكيب الكيميائية للأغشية وخصائصها تختلف كثيرًا من موضع إلى آخر، فإن لها سمات مشتركة معينة."
     },
     {
-     "en": "They are generally about 7.5 nm.",
-     "ar": "ويبلغ سمكها عمومًا نحو 7.5 nm."
+     "en": "They are generally about !!7.5 nm!!.",
+     "ar": "ويبلغ سمكها عمومًا نحو !!7.5 nm!!."
     }
    ]
   },
@@ -1556,6 +1773,20 @@
      "Golgi apparatus",
      "جهاز كولجي"
     ]
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "remember",
+   "items": [
+    {
+     "en": "**Cholesterol** → fluidity of the membrane. | Phospholipid **head** = hydrophilic; **tail** = hydrophobic → **amphipathic** molecule.",
+     "ar": "**الكوليسترول** ← سيولة الغشاء. | **رأس** الدهون المفسفرة = محب للماء؛ **الذيل** = كاره للماء ← جزيئة **مزدوجة الألفة (Amphipathic)**."
+    },
+    {
+     "en": "**Integral** (intrinsic) proteins pass through the whole membrane; **peripheral** (extrinsic) proteins sit on one surface only.",
+     "ar": "البروتينات **المندمجة** (الداخلية) تخترق الغشاء كاملًا؛ أما **المحيطية** (الخارجية) فترتبط بسطح واحد فقط."
+    }
    ]
   },
   {
@@ -1784,7 +2015,7 @@
      "ar": "ويجب أن يكون حجم هذه الجزيئات أصغر من حجم الثقب، مثل: Na و K و H~2~O و Ca."
     },
     {
-     "en": "They all have less than 7 A˚.",
+     "en": "They all have !!less than 7 A˚!!.",
      "ar": "وجميعها أقل من 7 A˚."
     },
     {
@@ -1896,6 +2127,20 @@
    ]
   },
   {
+   "t": "note",
+   "kind": "compare",
+   "items": [
+    {
+     "en": "**Simple diffusion** = through the pore, molecule smaller than the pore (!!less than 7 A˚!!), no carrier.",
+     "ar": "**الانتشار البسيط** = عبر الثقب، والجزيئة أصغر من الثقب (!!less than 7 A˚!!)، دون حامل."
+    },
+    {
+     "en": "**Facilitated diffusion** = molecule larger than the pore → needs a specific **carrier** or **channel** protein.",
+     "ar": "**الانتشار الميسَّر** = الجزيئة أكبر من الثقب ← تحتاج إلى **بروتين حامل** أو **قناتي** خاص بها."
+    }
+   ]
+  },
+  {
    "t": "sub2",
    "en": "Factors that influence passive transport",
    "ar": "العوامل المؤثرة في النقل السلبي"
@@ -1917,7 +2162,7 @@
     },
     {
      "lvl": 1,
-     "en": "3. ==Charge of molecules==: Negative charge is faster than positive charge because the lining of the pore is positive charge.",
+     "en": "3. ==Charge of molecules==: !!Negative charge is faster!! than positive charge because the lining of the pore is positive charge.",
      "more": [],
      "ar": "==شحنة الجزيئات==: الشحنة السالبة أسرع من الشحنة الموجبة، لأن بطانة الثقب موجبة الشحنة."
     },
@@ -2030,6 +2275,16 @@
    ]
   },
   {
+   "t": "note",
+   "kind": "tip",
+   "items": [
+    {
+     "en": "Hyp**O**tonic → the cell swells like an “**O**” and may burst. | Hyp**er**tonic → the cell shrivels. | **Iso** = same → normal shape.",
+     "ar": "Hyp**O**tonic ← الخلية تنتفخ مثل حرف «**O**» وقد تنفجر. | Hyp**er**tonic ← الخلية تنكمش. | **Iso** = متساوٍ ← شكل طبيعي."
+    }
+   ]
+  },
+  {
    "t": "sub",
    "en": "Active transport",
    "ar": "النقل الفعّال"
@@ -2068,8 +2323,8 @@
      "ar": "ويعتمد على مضخة البروتونات المولِّدة للكهرباء H+ -ATPase في غشاء الخلية، التي تُحوّل طاقة ATP من داخل الخلية إلى انحدار كهروكيميائي للبروتونات، يعمل على دفع امتصاص السكريات والأحماض الأمينية والأيونات غير العضوية، مثل مضخة الصوديوم والبوتاسيوم (Sodium-Potassium Pump)."
     },
     {
-     "en": "It consume about 38-50 % of ATP in the cell.",
-     "ar": "وهو يستهلك نحو 38-50 % من ATP في الخلية."
+     "en": "It consume about !!38-50 %!! of ATP in the cell.",
+     "ar": "وهو يستهلك نحو !!38-50 %!! من ATP في الخلية."
     }
    ]
   },
@@ -2180,6 +2435,20 @@
      "Antiporter",
      "ناقل معاكس"
     ]
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "compare",
+   "items": [
+    {
+     "en": "**Symport** = same direction (glucose + two Na⁺). | **Antiport** = opposite directions (sodium-calcium exchanger).",
+     "ar": "**النقل المتوافق (Symport)** = الاتجاه نفسه (غلوكوز + أيونا صوديوم). | **النقل المعاكس (Antiport)** = اتجاهان متعاكسان (مبادل الصوديوم والكالسيوم)."
+    },
+    {
+     "en": "**Primary** active transport uses ATP **directly**; **secondary** uses **electrochemical** energy of an ion gradient.",
+     "ar": "النقل الفعّال **الأولي** يستعمل ATP **مباشرة**؛ و**الثانوي** يستعمل الطاقة **الكهروكيميائية** لممال أيوني."
+    }
    ]
   },
   {
@@ -2329,6 +2598,16 @@
    ]
   },
   {
+   "t": "note",
+   "kind": "alert",
+   "items": [
+    {
+     "en": "**Osmosis** = diffusion of **water** across a selectively permeable membrane. | **Dialysis** = diffusion of **solutes**.",
+     "ar": "**الأزموزية** = انتشار **الماء** عبر غشاء انتقائي النفاذية. | **الديلزة** = انتشار **المواد المذابة**."
+    }
+   ]
+  },
+  {
    "t": "sub",
    "en": "Active transport across the cell membrane",
    "ar": "النقل الفعّال عبر غشاء الخلية"
@@ -2410,6 +2689,20 @@
     {
      "en": "Carbohydrates literally undergo combustion to retrieve the large amounts of energy in their bonds.",
      "ar": "وتخضع الكربوهيدرات حرفيًا للاحتراق لاستخلاص الكميات الكبيرة من الطاقة المخزونة في أواصرها."
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "kind": "compare",
+   "items": [
+    {
+     "en": "**Catabolism** = breakdown → **releases** energy. | **Anabolism** = building larger molecules → **consumes** energy.",
+     "ar": "**الهدم** = تفكيك ← **يحرّر** الطاقة. | **البناء** = تكوين جزيئات أكبر ← **يستهلك** الطاقة."
+    },
+    {
+     "en": "Both happen at the same time, twenty four hours a day.",
+     "ar": "ويحدث الاثنان في الوقت نفسه، طوال أربع وعشرين ساعة يوميًا."
     }
    ]
   },
@@ -2516,143 +2809,178 @@
    "items": [
     {
      "en": "Homeostasis",
-     "ar": "الاتزان الداخلي"
+     "ar": "الاتزان الداخلي",
+     "hl": false
     },
     {
      "en": "Cell physiology",
-     "ar": "فسلجة الخلية"
+     "ar": "فسلجة الخلية",
+     "hl": false
     },
     {
      "en": "Pathophysiology",
-     "ar": "الفسلجة المرضية"
+     "ar": "الفسلجة المرضية",
+     "hl": false
     },
     {
      "en": "Nuclear envelope",
-     "ar": "الغلاف النووي"
+     "ar": "الغلاف النووي",
+     "hl": false
     },
     {
      "en": "Chromatin",
-     "ar": "الكروماتين"
+     "ar": "الكروماتين",
+     "hl": false
     },
     {
      "en": "Nucleolus",
-     "ar": "النُّوَيّة"
+     "ar": "النُّوَيّة",
+     "hl": false
     },
     {
      "en": "Phospholipid",
-     "ar": "الدهون المفسفرة"
+     "ar": "الدهون المفسفرة",
+     "hl": false
     },
     {
      "en": "Integral protein",
-     "ar": "البروتين المندمج"
+     "ar": "البروتين المندمج",
+     "hl": false
     },
     {
      "en": "Peripheral protein",
-     "ar": "البروتين المحيطي"
+     "ar": "البروتين المحيطي",
+     "hl": false
     },
     {
      "en": "Protoplasm",
-     "ar": "البروتوبلازم"
+     "ar": "البروتوبلازم",
+     "hl": false
     },
     {
      "en": "Cytosol",
-     "ar": "العُصارة الخلوية"
+     "ar": "العُصارة الخلوية",
+     "hl": false
     },
     {
      "en": "Ribosome",
-     "ar": "الرايبوسوم"
+     "ar": "الرايبوسوم",
+     "hl": false
     },
     {
      "en": "Endoplasmic reticulum",
-     "ar": "الشبكة الإندوبلازمية"
+     "ar": "الشبكة الإندوبلازمية",
+     "hl": false
     },
     {
      "en": "Golgi apparatus",
-     "ar": "جهاز كولجي"
+     "ar": "جهاز كولجي",
+     "hl": false
     },
     {
      "en": "Lysosome",
-     "ar": "الجسم الحالّ"
+     "ar": "الجسم الحالّ",
+     "hl": false
     },
     {
      "en": "Peroxisome",
-     "ar": "الجسم البيروكسيدي"
+     "ar": "الجسم البيروكسيدي",
+     "hl": false
     },
     {
      "en": "Mitochondria",
-     "ar": "المايتوكوندريا"
+     "ar": "المايتوكوندريا",
+     "hl": false
     },
     {
      "en": "Cristae",
-     "ar": "الأعراف"
+     "ar": "الأعراف",
+     "hl": false
     },
     {
      "en": "Centrosome",
-     "ar": "الجسم المركزي"
+     "ar": "الجسم المركزي",
+     "hl": false
     },
     {
      "en": "Cytoskeleton",
-     "ar": "الهيكل الخلوي"
+     "ar": "الهيكل الخلوي",
+     "hl": false
     },
     {
      "en": "Simple diffusion",
-     "ar": "الانتشار البسيط"
+     "ar": "الانتشار البسيط",
+     "hl": false
     },
     {
      "en": "Facilitated diffusion",
-     "ar": "الانتشار الميسَّر"
+     "ar": "الانتشار الميسَّر",
+     "hl": false
     },
     {
      "en": "Osmosis",
-     "ar": "الأزموزية"
+     "ar": "الأزموزية",
+     "hl": false
     },
     {
      "en": "Isotonic",
-     "ar": "متساوي التوتر"
+     "ar": "متساوي التوتر",
+     "hl": false
     },
     {
      "en": "Hypertonic",
-     "ar": "عالي التوتر"
+     "ar": "عالي التوتر",
+     "hl": false
     },
     {
      "en": "Hypotonic",
-     "ar": "منخفض التوتر"
+     "ar": "منخفض التوتر",
+     "hl": false
     },
     {
      "en": "Active transport",
-     "ar": "النقل الفعّال"
+     "ar": "النقل الفعّال",
+     "hl": false
     },
     {
      "en": "Symport",
-     "ar": "النقل المتوافق"
+     "ar": "النقل المتوافق",
+     "hl": false
     },
     {
      "en": "Antiport",
-     "ar": "النقل المعاكس"
+     "ar": "النقل المعاكس",
+     "hl": false
     },
     {
      "en": "Endocytosis",
-     "ar": "الإدخال الخلوي"
+     "ar": "الإدخال الخلوي",
+     "hl": false
     },
     {
      "en": "Phagocytosis",
-     "ar": "البلعمة"
+     "ar": "البلعمة",
+     "hl": false
     },
     {
      "en": "Pinocytosis",
-     "ar": "الشرب الخلوي"
+     "ar": "الشرب الخلوي",
+     "hl": false
     },
     {
      "en": "Dialysis",
-     "ar": "الديلزة"
+     "ar": "الديلزة",
+     "hl": false
     },
     {
      "en": "Catabolism",
-     "ar": "الهدم"
+     "ar": "الهدم",
+     "hl": false
     },
     {
      "en": "Anabolism",
-     "ar": "البناء"
+     "ar": "البناء",
+     "hl": false
     }
    ]
   }

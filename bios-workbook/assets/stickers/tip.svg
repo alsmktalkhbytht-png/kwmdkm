@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs>
+  <linearGradient id="stst" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7d8893"/><stop offset=".35" stop-color="#c9d0d6"/>
+    <stop offset=".55" stop-color="#7d8893"/><stop offset="1" stop-color="#3a424b"/></linearGradient>
+  <linearGradient id="stsd" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3a424b"/><stop offset="1" stop-color="#1c2126"/></linearGradient>
+  <linearGradient id="stau" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ecd08c"/><stop offset=".55" stop-color="#c39a4a"/><stop offset="1" stop-color="#8a6424"/></linearGradient>
+  <linearGradient id="stauh" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8a6424"/><stop offset=".5" stop-color="#ecd08c"/><stop offset="1" stop-color="#8a6424"/></linearGradient>
+  <linearGradient id="stcr" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c8323c"/><stop offset=".6" stop-color="#9b1c26"/><stop offset="1" stop-color="#5e0f17"/></linearGradient>
+  <linearGradient id="stbl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#9aa4ad"/><stop offset=".48" stop-color="#eef2f5"/>
+    <stop offset=".52" stop-color="#b7c0c8"/><stop offset="1" stop-color="#6f7a85"/></linearGradient>
+</defs><path d="M50 3 L91 18 V52 Q91 80 50 97 Q9 80 9 52 V18 Z" fill="url(#stau)"/><path d="M50 9 L85 22 V52 Q85 75 50 90 Q15 75 15 52 V22 Z" fill="url(#stsd)"/><path d="M62 48 q14 -10 22 -16 q-4 12 -20 22 Z" fill="#c39a4a" stroke="#8a6424" stroke-width=".8"/><path d="M62 42 q17 -13 24 -18 q-4 13 -22 24 Z" fill="#ecd08c" stroke="#8a6424" stroke-width=".8"/><path d="M62 36 q20 -16 26 -20 q-4 14 -24 26 Z" fill="#c39a4a" stroke="#8a6424" stroke-width=".8"/><path d="M62 30 q23 -19 28 -22 q-4 15 -26 28 Z" fill="#ecd08c" stroke="#8a6424" stroke-width=".8"/><path d="M26.0 80.0 L26.0 47.8 Q26.0 34.0 46.0 33.1 Q66.0 34.0 66.0 47.8 L66.0 80.0 Q46.0 84.6 26.0 80.0 Z" fill="url(#stst)" stroke="#1c2126" stroke-width="1"/><path d="M46.0 33.1 Q66.0 34.0 66.0 47.8 L66.0 80.0 Q56.0 83.2 46.0 82.3 Z" fill="#1c2126" opacity=".28"/><path d="M28.4 52.4 Q46.0 50.1 63.6 52.4 L63.6 56.3 Q46.0 54.0 28.4 56.3 Z" fill="#1c2126"/><path d="M26.0 46.4 Q46.0 42.7 66.0 46.4" fill="none" stroke="url(#stauh)" stroke-width="2.3"/><path d="M27.6 59.3 Q46.0 57.0 64.4 59.3" fill="none" stroke="url(#stauh)" stroke-width="1.6"/><rect x="44.2" y="34.9" width="3.6" height="42.3" rx="0.8" fill="url(#stau)" opacity=".95"/><circle cx="38.0" cy="64.4" r="0.9" fill="#1c2126"/><circle cx="34.0" cy="64.4" r="0.9" fill="#1c2126"/><circle cx="38.0" cy="68.0" r="0.9" fill="#1c2126"/><circle cx="34.0" cy="68.0" r="0.9" fill="#1c2126"/><circle cx="38.0" cy="71.7" r="0.9" fill="#1c2126"/><circle cx="34.0" cy="71.7" r="0.9" fill="#1c2126"/><circle cx="54.0" cy="64.4" r="0.9" fill="#1c2126"/><circle cx="58.0" cy="64.4" r="0.9" fill="#1c2126"/><circle cx="54.0" cy="68.0" r="0.9" fill="#1c2126"/><circle cx="58.0" cy="68.0" r="0.9" fill="#1c2126"/><circle cx="54.0" cy="71.7" r="0.9" fill="#1c2126"/><circle cx="58.0" cy="71.7" r="0.9" fill="#1c2126"/><path d="M30 40 Q46 30 62 40" fill="none" stroke="url(#stauh)" stroke-width="2.6"/></svg>

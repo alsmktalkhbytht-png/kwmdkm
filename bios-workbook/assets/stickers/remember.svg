@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs>
+  <linearGradient id="srst" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7d8893"/><stop offset=".35" stop-color="#c9d0d6"/>
+    <stop offset=".55" stop-color="#7d8893"/><stop offset="1" stop-color="#3a424b"/></linearGradient>
+  <linearGradient id="srsd" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3a424b"/><stop offset="1" stop-color="#1c2126"/></linearGradient>
+  <linearGradient id="srau" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ecd08c"/><stop offset=".55" stop-color="#c39a4a"/><stop offset="1" stop-color="#8a6424"/></linearGradient>
+  <linearGradient id="srauh" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8a6424"/><stop offset=".5" stop-color="#ecd08c"/><stop offset="1" stop-color="#8a6424"/></linearGradient>
+  <linearGradient id="srcr" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c8323c"/><stop offset=".6" stop-color="#9b1c26"/><stop offset="1" stop-color="#5e0f17"/></linearGradient>
+  <linearGradient id="srbl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#9aa4ad"/><stop offset=".48" stop-color="#eef2f5"/>
+    <stop offset=".52" stop-color="#b7c0c8"/><stop offset="1" stop-color="#6f7a85"/></linearGradient>
+</defs><path d="M50 3 L91 18 V52 Q91 80 50 97 Q9 80 9 52 V18 Z" fill="url(#srau)"/><path d="M50 9 L85 22 V52 Q85 75 50 90 Q15 75 15 52 V22 Z" fill="url(#srsd)"/><path d="M22 30 Q48 14 76 30" fill="#5e0f17"/><path d="M24 30.0 l-6.0 -12.0" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M28 28.4 l-5.7 -13.6" stroke="#c8323c" stroke-width="4" stroke-linecap="round"/><path d="M32 27.0 l-5.4 -15.0" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M36 25.8 l-5.1 -16.2" stroke="#c8323c" stroke-width="4" stroke-linecap="round"/><path d="M40 24.8 l-4.8 -17.2" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M44 24.2 l-4.5 -17.8" stroke="#c8323c" stroke-width="4" stroke-linecap="round"/><path d="M48 24.0 l-4.2 -18.0" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M52 24.2 l-3.9 -17.8" stroke="#c8323c" stroke-width="4" stroke-linecap="round"/><path d="M56 24.8 l-3.6 -17.2" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M60 25.8 l-3.3 -16.2" stroke="#c8323c" stroke-width="4" stroke-linecap="round"/><path d="M64 27.0 l-3.0 -15.0" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M68 28.4 l-2.7 -13.6" stroke="#c8323c" stroke-width="4" stroke-linecap="round"/><path d="M72 30.0 l-2.4 -12.0" stroke="#9b1c26" stroke-width="4" stroke-linecap="round"/><path d="M24 34 Q50 22 74 38 Q80 50 74 62 L62 62 L62 80 L44 84 Q30 76 26 58 Q22 46 24 34 Z" fill="url(#srst)" stroke="#1c2126" stroke-width="1.2"/><path d="M46 50 Q60 46 74 52 L74 58 Q60 54 48 58 Z" fill="#1c2126"/><path d="M56 58 L56 80" stroke="#1c2126" stroke-width="3"/><path d="M24 34 Q50 22 74 38" fill="none" stroke="url(#srauh)" stroke-width="3"/><path d="M28 44 Q44 40 50 48" fill="none" stroke="#c39a4a" stroke-width="1.6"/></svg>
