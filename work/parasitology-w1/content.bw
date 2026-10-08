@@ -1,0 +1,704 @@
+@subject: Medical Parasitology
+@subject_ar: علم الطفيليات الطبية
+@doctor: Prof. Dr. AL-Khafaji Nazar
+@doctor_ar: أ.د. نزار الخفاجي
+@stage: 2
+@term: 1
+@type: theory
+@unit: week
+@lecture: 1
+@theme: knight
+@art: knight-parasitology.svg
+@notes_lines: 0
+
+= General Introduction || مقدمة عامة
+
+# 1-General Introduction || ١- مقدمة عامة
+
+p
+Introduction; Parasites; Host; Zoonosis; Host-parasite relationships; Life cycle of Parasites; Sources of infection; Mode of Infection; Pathogenesis; Immunity in parasitic infection; Laboratory Diagnosis
+> المقدمة؛ الطفيليات؛ العائل؛ الأمراض حيوانية المنشأ (Zoonosis)؛ العلاقات بين العائل والطفيلي؛ دورة حياة الطفيليات؛ مصادر العدوى؛ طريقة العدوى؛ الإمراضية (Pathogenesis)؛ المناعة في العدوى الطفيلية؛ التشخيص المختبري.
+**1st Semester**
+> **الفصل الدراسي الأول**
+
+# Protozoa || الأوالي (Protozoa)
+
+p
+==Protozoa==:
+> ==الأوالي (Protozoa)==:
+
+ul
+* Protista
+> الطلائعيات (Protista)
+* Unicellular; Single- celled
+> وحيدة الخلية
+* Microorganism
+> كائنات مجهرية
+* Eukaryotic
+> حقيقية النواة (Eukaryotic)
+* Few of them are parasitic causing a disease; large numbers of them non- pathogenic
+> قليل منها طفيلي يسبب المرض، وأعداد كبيرة منها غير ممرضة
+* Has **direct life cycle**; **One host**
+> لها **دورة حياة مباشرة**، و**عائل واحد**
+* Reproduce mainly by **asexual method** (simple division).
+> تتكاثر أساسًا **بطريقة لاجنسية** (الانقسام البسيط).
+
+## Disease caused by Protozoa (Protozoal disease) || الأمراض التي تسببها الأوالي (الأمراض الأوالية)
+
+table Parasite || الطفيلي ; Disease || المرض
+*Entamoeba histolytica* || الأميبا الحالّة للنسيج ; Amoebiasis; Amebic dysentery; Amebic hepatitis; Amebic liver abscess; Amebic lung abscess || داء الأميبات؛ الزحار الأميبي؛ التهاب الكبد الأميبي؛ خراج الكبد الأميبي؛ خراج الرئة الأميبي
+*Giardia lamblia* || الجيارديا اللامبلية ; Giardiasis; Lambliasis || داء الجيارديات؛ داء اللامبليات
+*Trichomonas vaginalis* || المشعّرة المهبلية ; Trichomoniasis || داء المشعّرات
+*Trypanosoma* || المثقّبيات ; Trypanosomiasis || داء المثقّبيات
+*Trypanosoma gambiense*; and *Trypanosoma rhodesiense* || المثقّبة الغامبية والمثقّبة الروديسية ; Sleeping sickness || مرض النوم
+*Trypanosoma cruzi* || المثقّبة الكروزية ; Chagas’ disease || داء شاغاس
+*Leishmania* || الليشمانيا ; Leishmaniasis || داء الليشمانيات
+*Leishmania donovani* || الليشمانيا الدونوفانية ; Visceral leishmaniasis; Kala azar; Dumdum || الليشمانيا الحشوية؛ الكالا آزار؛ حمّى دمدم
+*Leishmania tropica* || الليشمانيا المدارية ; Cutaneous leishmaniasis; Baghdad boil, Delhi boil, Oriental sore || الليشمانيا الجلدية؛ حبّة بغداد، دمّل دلهي، القرحة الشرقية
+*Plasmodium falciparum*; *P. ovale*; *P. vivax*; *P. malariae* || المتصوّرات: المنجلية، والبيضوية، والنشيطة، والملارية ; Malaria || الملاريا
+*Toxoplasma gondii* || المقوّسة الغوندية ; Toxoplasmosis || داء المقوّسات
+*Balantidium coli* || القِرْبية القولونية ; Balantidiasis || داء القِرْبيات
+*Cryptosporidium parvum* || خفيّة الأبواغ الصغيرة ; Cryptosporidiosis || داء خفيّات الأبواغ
+*Isospora belli* || متساوية الأبواغ البيلية ; Isosporiosis || داء متساويات الأبواغ
+
+## Classification according to organelles of motion || التصنيف حسب عُضيّات الحركة
+
+table Organelle of motion || عُضيّة الحركة ; Examples || الأمثلة
+Pseudopodia || الأقدام الكاذبة ; *Entamoeba* || الأميبا
+Flagellum || السوط ; *Giardia lamblia*; *Trichomonas vaginalis*; *Trypanosoma*; *Leishmania* || الجيارديا اللامبلية؛ المشعّرة المهبلية؛ المثقّبيات؛ الليشمانيا
+Cilium || الهُدب ; *Balantidium coli* || القِرْبية القولونية
+No locomotory organelles || لا توجد عُضيّات حركة ; Coccidia; *Toxoplasma*; *Cryptosporidia*; *Isospora*; *Sarcocytis*. || الأكريات (Coccidia)؛ المقوّسة؛ خفيّات الأبواغ؛ متساويات الأبواغ؛ الساركوسيستس.
+
+## Trophozoite and Cyst || الطور الخضري والكيس
+
+p
+Nearly all protozoa present in one / or two forms: ==Trophozoite== and ==Cyst==
+> توجد جميع الأوالي تقريبًا بشكل واحد أو بشكلين: ==الطور الخضري (Trophozoite)== و==الكيس (Cyst)==.
+
+ul
+* ==Trophozoite==: Vegetative; Active; Reproductive; Motile; Present inside the host in digestive tract and other tissue; **Infective stage**; and **may be diagnostic stage**
+> ==الطور الخضري (Trophozoite)==: خضري؛ نشط؛ متكاثر؛ متحرك؛ يوجد داخل العائل في القناة الهضمية والأنسجة الأخرى؛ وهو **الطور المُعدي**، و**قد يكون الطور التشخيصي**.
+* ==Cyst==: Non- vegetative; Encysted; Non- reproductive; Non- Motile; Present in outside of host; !!Diagnostic and infective stage!!.
+> ==الكيس (Cyst)==: غير خضري؛ متكيّس؛ غير متكاثر؛ غير متحرك؛ يوجد خارج العائل؛ وهو !!الطور التشخيصي والمُعدي معًا!!.
+
+note compare
+**Trophozoite** = active, motile, reproductive, inside the host; infective, and **may be** diagnostic.
+> **الطور الخضري** = نشط، متحرك، متكاثر، داخل العائل؛ مُعدٍ، و**قد يكون** تشخيصيًا.
+**Cyst** = non-motile, non-reproductive, outside the host; **both** diagnostic **and** infective.
+> **الكيس** = غير متحرك، غير متكاثر، خارج العائل؛ تشخيصي **ومُعدٍ** معًا.
+
+# Introduction || مقدمة
+
+p
+==Parasitology== is the study of **host- parasite relationships**.
+> ==علم الطفيليات (Parasitology)== هو دراسة **العلاقات بين العائل والطفيلي**.
+Focusing on organisms called parasites, which live on or within a host, benefiting at the host’s expense.
+> ويركّز على كائنات تُسمّى الطفيليات، تعيش على العائل أو داخله، وتنتفع على حسابه.
+==Medical parasitology== specifically examines parasites that infect humans, the diseases they cause, and their life cycles.
+> أما ==علم الطفيليات الطبية (Medical parasitology)== فيدرس تحديدًا الطفيليات التي تصيب الإنسان، والأمراض التي تسببها، ودورات حياتها.
+The field is interdisciplinary drawing from various biological sciences to understand parasite biology, host interaction, infection dynamics, and the development of treatments and diagnostic methods.
+> وهو مجال متعدد التخصصات، يستمد من العلوم الحيوية المختلفة لفهم بيولوجيا الطفيلي، وتفاعله مع العائل، وديناميكية العدوى، وتطوير العلاجات وطرق التشخيص.
+
+p
+==Medical Parasitology==: Is the medical science, that deals with parasites living in / or within the human body (the host).
+> ==علم الطفيليات الطبية (Medical Parasitology)==: هو العلم الطبي الذي يتناول الطفيليات التي تعيش على جسم الإنسان (العائل) أو داخله.
+==Parasitology==: Is the science, that specializes in studying all aspects of life in parasitic animal, as movement, nutrition, reproduction, respiration, excretion, secretion, sensation and even susceptibility to disease.
+> ==علم الطفيليات (Parasitology)==: هو العلم المتخصص في دراسة جميع جوانب الحياة في الحيوان الطفيلي، كالحركة، والتغذية، والتكاثر، والتنفس، والإخراج، والإفراز، والإحساس، وحتى قابليته للإصابة بالمرض.
+
+# Parasites || الطفيليات
+
+p
+==Parasite==: Is an organism that is entirely dependent on another organism (**host**) for all or part of its life cycle and metabolic requirements.
+> ==الطفيلي (Parasite)==: كائن حي يعتمد اعتمادًا كاملًا على كائن آخر (**العائل**) في دورة حياته كلها أو جزء منها، وفي متطلباته الأيضية.
+All animals have parasites; hence there are !!more parasites than free- living animals!!.
+> لجميع الحيوانات طفيليات؛ ولذلك فإن !!عدد الطفيليات أكبر من عدد الحيوانات حرّة المعيشة!!.
+
+## Types of Parasites || أنواع الطفيليات
+
+p
+Parasite is of two types:
+> الطفيلي نوعان:
+
+ol
+* 1. ==Microparasites==: Small, unicellular and multiplies within its vertebrate host, often inside cells.
+> ==الطفيليات الدقيقة (Microparasites)==: صغيرة، وحيدة الخلية، وتتكاثر داخل عائلها الفقاري، وغالبًا داخل الخلايا.
++ **Protozoa** are microparasites.
+> و**الأوالي** طفيليات دقيقة.
+* 2. ==Macroparasites==: Large, multicellular, and has not direct reproduction within its vertebrate host.
+> ==الطفيليات الكبيرة (Macroparasites)==: كبيرة، متعددة الخلايا، ولا تتكاثر تكاثرًا مباشرًا داخل عائلها الفقاري.
++ This category includes **helminths**.
+> وتشمل هذه الفئة **الديدان الطفيلية (Helminths)**.
+
+p
+Parasites can be divided according to the **habitat** into:
+> يمكن تقسيم الطفيليات حسب **موطن المعيشة** إلى:
+
+ol
+* a. ==Ectoparasite==- A parasite lives on the **outer surface** of its host e.g., lice, ticks, mites etc.
+> ==الطفيلي الخارجي (Ectoparasite)==: طفيلي يعيش على **السطح الخارجي** لعائله، مثل القمل والقراد والحلم وغيرها.
++ The infection by these parasites is known as !!infestation!!.
+> وتُعرف الإصابة بهذه الطفيليات باسم !!الإصابة الخارجية (Infestation)!!.
+* b. ==Endoparasite==: Parasite that is lives **inside** boy of host e.g. worms and protozoa. e.g. *Entamoeba histolytica*.
+> ==الطفيلي الداخلي (Endoparasite)==: طفيلي يعيش **داخل** جسم العائل، مثل الديدان والأوالي، ومثاله *Entamoeba histolytica*.
++ The invasion by endoparasite is known as !!infection!!.
+> ويُعرف غزو الطفيلي الداخلي باسم !!العدوى (Infection)!!.
+
+note alert
+**Ectoparasite** (on the outer surface) → **infestation**. | **Endoparasite** (inside the body) → **infection**.
+> **الطفيلي الخارجي** (على السطح الخارجي) ← **Infestation**. | **الطفيلي الداخلي** (داخل الجسم) ← **Infection**.
+
+p
+Endoparasite can be further subdivided into following types:
+> ويمكن تقسيم الطفيلي الداخلي أيضًا إلى الأنواع الآتية:
+
+### 1. According to the nature of living || ١. حسب طبيعة المعيشة
+
+p
+Parasites can be divided according to the nature of living into:
+> يمكن تقسيم الطفيليات حسب طبيعة معيشتها إلى:
+
+ol
+* a. ==Obligate parasite==- This parasite is completely dependent on its host and can't survive without it.
+> ==الطفيلي الإجباري (Obligate parasite)==: يعتمد اعتمادًا كاملًا على عائله، ولا يستطيع البقاء حيًا من دونه.
++ e. g. *Plasmodium spp.*; *Toxoplasma gondii*
+> مثل *Plasmodium spp.* و*Toxoplasma gondii*.
+* b. ==Facultative parasite==- Parasite that exhibits both parasitic and non – parasitic modes of living; does not absolutely depend on the parasitic way of life, e.g., *Naegleria fowleri*; *Acanthamoeba spp.*
+> ==الطفيلي الاختياري (Facultative parasite)==: طفيلي يُظهر نمطَي المعيشة الطفيلي وغير الطفيلي، ولا يعتمد اعتمادًا مطلقًا على الحياة الطفيلية، مثل *Naegleria fowleri* و*Acanthamoeba spp.*
+* c. ==Aberrant parasites==: Organisms that attack a host where they cannot live or develop further e.g. *Toxocara canis* in man
+> ==الطفيليات الشاذّة (Aberrant parasites)==: كائنات تهاجم عائلًا لا تستطيع أن تعيش فيه أو تكمل تطورها، مثل *Toxocara canis* في الإنسان.
+* d. ==Accidental parasite==: When a parasite (Organism) attacks an unusual host e.g. *Echinococcus granulosus* in man; *Hymenolepis diminuta* (rat tapeworm).
+> ==الطفيلي العرضي (Accidental parasite)==: عندما يهاجم الطفيلي (الكائن) عائلًا غير معتاد، مثل *Echinococcus granulosus* في الإنسان، و*Hymenolepis diminuta* (الدودة الشريطية للجرذ).
+* e. ==Free- living==: The nonparasitic stages existence which are lived independently of a host, e.g. hookworms have active free -living stages in the soil.
+> ==حرّ المعيشة (Free-living)==: وجود أطوار غير طفيلية تعيش مستقلة عن العائل، فالديدان الخطافية مثلًا لها أطوار نشطة حرّة المعيشة في التربة.
+
+### 2. According to the length of time with the host || ٢. حسب مدة البقاء مع العائل
+
+p
+Parasites can be divided according to the length of time it spends with the host:
+> يمكن تقسيم الطفيليات حسب المدة التي تقضيها مع العائل:
+
+ol
+* a. ==Temporary parasite==: Parasites that visit their host only when feeding then it leaves after it get the food like mosquitoes sucking human blood
+> ==الطفيلي المؤقت (Temporary parasite)==: طفيليات تزور عائلها عند التغذي فقط، ثم تتركه بعد حصولها على الغذاء، مثل البعوض الذي يمتص دم الإنسان.
+* b. ==Stationary parasites==: Parasite that live a specific period of their life in or on their host
+> ==الطفيليات المقيمة (Stationary parasites)==: طفيليات تعيش مدة محددة من حياتها داخل عائلها أو عليه.
+* c. ==Periodic parasites==: Parasite that can be divided into two groups one of them live a period of time with its host and then leave its host to live free
+> ==الطفيليات الدورية (Periodic parasites)==: طفيليات يمكن تقسيمها إلى مجموعتين، إحداهما تعيش مدة من الزمن مع عائلها ثم تتركه لتعيش حرّة.
+* d. ==Permanent parasite==: Parasite that spent all its life with its host
+> ==الطفيلي الدائم (Permanent parasite)==: طفيلي يقضي حياته كلها مع عائله.
+
+### 3. According to the number of hosts || ٣. حسب عدد العوائل
+
+p
+Parasites can be divided according to the number of hosts which parasite required:
+> يمكن تقسيم الطفيليات حسب عدد العوائل التي يحتاجها الطفيلي:
+
+ol
+* a. ==Monoxenous parasite==: Which have one host.
+> ==الطفيلي أحادي العائل (Monoxenous parasite)==: له عائل واحد.
+* b. ==Heteroxenous parasite==: Which have more than one host.
+> ==الطفيلي متعدد العوائل (Heteroxenous parasite)==: له أكثر من عائل واحد.
+
+note tip
+**Mono**xenous → *mono* = one → **one host**. | **Hetero**xenous → *hetero* = different → **more than one host**.
+> **Mono**xenous ← *mono* = واحد ← **عائل واحد**. | **Hetero**xenous ← *hetero* = مختلف ← **أكثر من عائل**.
+
+# Host || العائل
+
+p
+==Host==: Is the organism that the parasite lives in or on it and get its nutrients with protection from it
+> ==العائل (Host)==: هو الكائن الحي الذي يعيش الطفيلي داخله أو عليه، ويحصل منه على غذائه وحمايته.
+
+## Types of hosts || أنواع العوائل
+
+ol
+* 1. ==Definitive (Final) host==: A host that harbors a parasite in the **adult stage** or where the parasite undergoes **sexual method of reproduction**.
+> ==العائل النهائي (Definitive host)==: عائل يؤوي الطفيلي في **الطور البالغ**، أو يتكاثر فيه الطفيلي **بالطريقة الجنسية**.
++ Like a human being for *Schistosoma* parasite
+> مثل الإنسان بالنسبة لطفيلي *Schistosoma*.
+* 2. ==Intermediate host==: Is the host in which the **larval stages** of the parasite or an **asexual phase** of parasite development occurs.
+> ==العائل الوسيط (Intermediate host)==: هو العائل الذي تحدث فيه **الأطوار اليرقية** للطفيلي، أو **مرحلة لاجنسية** من تطوره.
++ Some parasites require two intermediate hosts for completion of their life cycle.
+> وتحتاج بعض الطفيليات إلى عائلين وسيطين لإكمال دورة حياتها.
++ These are referred to as first and second intermediate hosts like a human being for *Schistosoma* parasite
+> ويُسمّيان العائل الوسيط الأول والعائل الوسيط الثاني، مثل الإنسان بالنسبة لطفيلي *Schistosoma*.
+* 3. ==Reservoir host==- A host that makes the parasite available for the transmission to another host and is usually **not affected** by the infection.
+> ==العائل الخازن (Reservoir host)==: عائل يجعل الطفيلي متاحًا للانتقال إلى عائل آخر، ولا يتأثر **عادةً** بالعدوى.
+* 4. ==Paratenic or carrier host==: Parasite - harboring host that is not exhibiting any clinical symptom but can infect others **without any development** for larval stage of parasite
+> ==العائل الباراتيني أو الحامل (Paratenic or carrier host)==: عائل يؤوي الطفيلي دون أن تظهر عليه أي أعراض سريرية، لكنه يستطيع نقل العدوى إلى غيره **دون أي تطور** للطور اليرقي للطفيلي.
+* 5. ==Compromised host==: A compromised host is a host in which normal defense mechanisms are impaired such as AIDS, absent as congenital deficiencies, or by passed e.g. penetration of skin barrier, these hosts are extremely susceptible to a variety of common as well as opportunistic pathogens.
+> ==العائل ضعيف المناعة (Compromised host)==: عائل تكون آليات دفاعه الطبيعية مختلّة كما في الإيدز، أو غائبة كما في العيوب الخلقية، أو مُتجاوَزة كما في اختراق حاجز الجلد. وهذه العوائل شديدة القابلية للإصابة بطائفة من الممرضات الشائعة والانتهازية.
+
+note alert
+**Definitive host** = **adult** stage / **sexual** reproduction. | **Intermediate host** = **larval** stages / **asexual** phase.
+> **العائل النهائي** = الطور **البالغ** / التكاثر **الجنسي**. | **العائل الوسيط** = الأطوار **اليرقية** / المرحلة **اللاجنسية**.
+**Reservoir host** makes the parasite available for transmission; **paratenic host** transmits it **without** larval development.
+> **العائل الخازن** يجعل الطفيلي متاحًا للانتقال؛ و**العائل الباراتيني** ينقله **دون** تطور يرقي.
+
+ul
+* ==Natural host==: A host that is naturally infected with certain species of parasite.
+> ==العائل الطبيعي (Natural host)==: عائل يُصاب طبيعيًا بنوع معين من الطفيليات.
+* ==Accidental host==: A host that is under normal circumstances not infected with the parasite.
+> ==العائل العرضي (Accidental host)==: عائل لا يُصاب بالطفيلي في الظروف الطبيعية.
+* ==Dead – end host==: This is the host in which the disease cannot be transmitted to another animal.
+> ==العائل المسدود (Dead-end host)==: هو العائل الذي لا يمكن أن ينتقل منه المرض إلى حيوان آخر.
++ Any host organism from which a parasite cannot escape to continue its life cycle.
+> وهو أي كائن عائل لا يستطيع الطفيلي الخروج منه ليكمل دورة حياته.
++ e.g., !!humans are dead end hosts for trichinosis!! because the larvae encysted in the muscle and human flesh are unlikely to be a source of food for other animals susceptible to the parasite.
+> فمثلًا: !!الإنسان عائل مسدود لداء الشعرينات (Trichinosis)!!، لأن اليرقات تتكيّس في العضلات، ومن غير المرجّح أن يكون لحم الإنسان مصدر غذاء لحيوانات أخرى قابلة للإصابة بالطفيلي.
+* ==Predilection host==: Is the host most preferred by the parasite.
+> ==العائل المفضَّل (Predilection host)==: هو العائل الأكثر تفضيلًا لدى الطفيلي.
+* ==Transfer or transport host==: A host which is used until the appropriate host is reached, but is not necessarily to complete the life cycle of the parasite.
+> ==عائل النقل (Transfer or transport host)==: عائل يُستخدم إلى أن يصل الطفيلي إلى العائل المناسب، لكنه ليس ضروريًا لإكمال دورة حياة الطفيلي.
+
+## Vector || الناقل
+
+p
+A ==vector== is an agent, usually an insect, that transmits an infection from one human host to another.
+> ==الناقل (Vector)== عامل، يكون عادةً حشرة، ينقل العدوى من عائل بشري إلى آخر.
+It is of two types:
+> وهو نوعان:
+
+ol
+* 1-==Mechnical vector==: Is **not essential** in the life cycle of the parasite
+> ==الناقل الميكانيكي (Mechanical vector)==: **ليس أساسيًا** في دورة حياة الطفيلي.
+* 2-==Biological vector==: in which the pathogens **undergo developmental changes** with or without multiplication
+> ==الناقل الحيوي (Biological vector)==: تمرّ فيه الممرضات **بتغيرات تطورية**، مع التكاثر أو من دونه.
+
+# Zoonosis || الأمراض حيوانية المنشأ
+
+p
+This term is used to describe an animal infection that is naturally transmissible to humans either directly or indirectly via a vector.
+> يُستخدم مصطلح ==Zoonosis== لوصف عدوى حيوانية تنتقل طبيعيًا إلى الإنسان، إما مباشرة أو بطريقة غير مباشرة عبر ناقل.
+Examples of parasitic disease that are zoonosis include **leishmaniasis**, **trypanosomiasis**, **hydatid disease**.
+> ومن أمثلة الأمراض الطفيلية حيوانية المنشأ: **داء الليشمانيات**، و**داء المثقّبيات**، و**داء الأكياس العُدارية (Hydatid disease)**.
+
+# Host- parasite Relationship || العلاقة بين العائل والطفيلي
+
+p
+==Infection== is the result of entry and development within the body of any injurious organism regardless of its size.
+> ==العدوى (Infection)== هي نتيجة دخول أي كائن مؤذٍ إلى الجسم وتطوره فيه، بصرف النظر عن حجمه.
+Once the infecting organism is introduced into the body of the host, it reacts in different ways and this could result in:
+> وما إن يدخل الكائن المُعدي جسم العائل حتى يتفاعل معه بطرق مختلفة، وقد ينتج عن ذلك:
+
+ol
+* a. ==Carrier state==- A **perfect** host parasite relationship where tissue destruction by a parasite is balanced with the host's tissue repair, at this point the parasite and the host live harmoniously, and i.e., they are at **equilibrium**.
+> ==حالة الحمل (Carrier state)==: علاقة **مثالية** بين العائل والطفيلي، يتوازن فيها تخريب الطفيلي للأنسجة مع إصلاح العائل لها؛ وعندها يعيش الطفيلي والعائل في انسجام، أي أنهما في حالة **توازن**.
+* b. ==Disease state==- This is due to an **imperfect** host parasite relationship where the **parasite** dominants the upper hand.
+> ==حالة المرض (Disease state)==: تنتج عن علاقة **غير مثالية** بين العائل والطفيلي، تكون فيها اليد العليا **للطفيلي**.
++ It can result either from **lower resistance of the host** or a **higher pathogenicity of the parasite**.
+> وقد تنتج إما عن **انخفاض مقاومة العائل**، أو عن **ارتفاع إمراضية الطفيلي**.
+* c. ==Parasite destruction==- Occurs when the **host** takes the upper hand.
+> ==القضاء على الطفيلي (Parasite destruction)==: يحدث عندما تكون اليد العليا **للعائل**.
+
+p
+==Scientific nomenclature==: Each parasite belongs to a phylum, class, order, family, genus, and species; the scientific designation of a parasite is **binomial**, a generic name (genus) and a specific name (species).
+> ==التسمية العلمية (Scientific nomenclature)==: ينتمي كل طفيلي إلى شعبة، وصف، ورتبة، وعائلة، وجنس، ونوع؛ والتسمية العلمية للطفيلي **ثنائية**: اسم الجنس (Genus) واسم النوع (Species).
+
+flow Scientific nomenclature || التسمية العلمية
+Phylum = الشعبة
+Class = الصف
+Order = الرتبة
+Family = العائلة
+Genus = الجنس
+! Species = النوع
+
+## Host- Parasite Relationships || العلاقات بين العائل والطفيلي
+
+p
+Host – Parasite relationships are of the following types:
+> العلاقات بين العائل والطفيلي على الأنواع الآتية:
+==Symbiosis==: Mutual benefit, but the two organisms cannot live independently.
+> ==التكافل (Symbiosis)==: منفعة متبادلة، لكن الكائنين لا يستطيعان العيش مستقلين.
+==Symbiosis==: Any organism that spends a portion or all of its life cycle intimately associated with another organism of a different species is considered as **Symbiont** (symbiote) and the relationship is called **symbiosis** (symbiotic relationships).
+> ==التكافل (Symbiosis)==: أي كائن يقضي جزءًا من دورة حياته أو كلها مرتبطًا ارتباطًا وثيقًا بكائن آخر من نوع مختلف يُعدّ **متكافلًا (Symbiont)**، وتُسمّى العلاقة **تكافلًا (Symbiosis)**.
+The following are the three common symbiotic relationships between two organisms:
+> وفيما يأتي العلاقات التكافلية الثلاث الشائعة بين كائنين:
+
+ol
+* ==Commensalism==: One partner benefit (**commensal**) while the other (**host**) is unaffected.
+> ==المعايشة (Commensalism)==: ينتفع أحد الطرفين (**المُعايش**) بينما لا يتأثر الآخر (**العائل**).
++ It may be called a non- pathogenic parasite.
+> وقد يُسمّى طفيليًا غير ممرض.
+* ==Mutualism==: Association of two different species of organisms that is **beneficial to both**
+> ==التقايض (Mutualism)==: ارتباط بين كائنين من نوعين مختلفين **ينتفع منه كلاهما**.
+* ==Parasitism==: An association of two different species of organisms that is **beneficial to one and harm to other**.
+> ==التطفل (Parasitism)==: ارتباط بين كائنين من نوعين مختلفين **ينتفع منه أحدهما ويتضرر الآخر**.
++ e.g., worms like *Ascaris lumbricoides* reside in the gastrointestinal tract of man
+> مثل الديدان كـ *Ascaris lumbricoides* التي تستوطن القناة الهضمية للإنسان.
+
+ul
+* ==Phoresis==: Is the relationship in which one organism (a **phoront**) attaches itself to another (the host) for the travel with **no physiological or biochemical dependence** such as ticks and mites travels on cattle
+> ==الارتحال (Phoresis)==: علاقة يتعلق فيها كائن (**المرتحِل Phoront**) بكائن آخر (العائل) من أجل التنقل، **دون أي اعتماد فسلجي أو كيموحيوي**، مثل القراد والحلم التي تتنقل على الماشية.
+* ==Predation==: Is a biological interaction where one organism (the **predator**) kills and eats another organism (its **prey**)
+> ==الافتراس (Predation)==: تفاعل حيوي يقتل فيه كائن (**المفترس**) كائنًا آخر (**فريسته**) ويأكله.
+
+note remember
+**Commensalism** = one benefits, the other unaffected. | **Mutualism** = both benefit. | **Parasitism** = one benefits, the other harmed.
+> **المعايشة** = أحدهما ينتفع والآخر لا يتأثر. | **التقايض** = كلاهما ينتفع. | **التطفل** = أحدهما ينتفع والآخر يتضرر.
+**Phoresis** = attachment for travel only (no dependence). | **Predation** = the predator kills and eats its prey.
+> **الارتحال** = تعلّق من أجل التنقل فقط (دون اعتماد). | **الافتراس** = المفترس يقتل فريسته ويأكلها.
+
+# Life cycle of parasite || دورة حياة الطفيلي
+
+p
+The route followed by a parasite from the time of entry to the host to exit, including the **extracorporeal** (outside the host) life.
+> هي المسار الذي يسلكه الطفيلي من وقت دخوله إلى العائل حتى خروجه منه، بما في ذلك حياته **خارج الجسم (Extracorporeal)**، أي خارج العائل.
+It can either be:
+> وقد تكون:
+
+ol
+* 1. ==Simple==, when only **one host** is involved.
+> ==بسيطة (Simple)==: عندما يشترك فيها **عائل واحد** فقط.
+* 2. ==Complex==, involving **one or more intermediate hosts**.
+> ==معقدة (Complex)==: تتضمن **عائلًا وسيطًا واحدًا أو أكثر**.
+
+p
+Parasite's life cycle consists of two common phases
+> تتكون دورة حياة الطفيلي من مرحلتين شائعتين:
+
+ol
+* 1. One phase involves the route a parasite follows **inside** the body.
+> مرحلة تتضمن المسار الذي يسلكه الطفيلي **داخل** الجسم.
+* 2. The other phase, the route a parasite follows **outside** of the body,
+> والمرحلة الأخرى هي المسار الذي يسلكه الطفيلي **خارج** الجسم.
+
+## Life cycle of Parasites || دورات حياة الطفيليات
+
+p
+==Indirect life cycle== (**heteroxenous**) - Is a type of a life cycle wherein a parasite is transmitted from one host to another by using a **vector** or by an **intermediate host** of another species.
+> ==دورة الحياة غير المباشرة (Indirect life cycle)== (**متعددة العوائل Heteroxenous**): نوع من دورات الحياة ينتقل فيه الطفيلي من عائل إلى آخر باستخدام **ناقل** أو **عائل وسيط** من نوع آخر.
+Indirect life cycles are characterized by two host stages, definitive and intermediate host.
+> وتتميز دورات الحياة غير المباشرة بمرحلتين من العوائل: العائل النهائي والعائل الوسيط.
+Indirect life cycles some filarial, Nematoda, plasmodium and leishmania.
+> ومن أمثلة دورات الحياة غير المباشرة: بعض الفلاريات (Filarial)، والديدان الخيطية (Nematoda)، والمتصوّرات (Plasmodium)، والليشمانيا (Leishmania).
+A parasite with an indirect life cycle would therefore require **more than one type of host species** to complete their life cycle.
+> ولذلك يحتاج الطفيلي ذو دورة الحياة غير المباشرة إلى **أكثر من نوع واحد من العوائل** لإكمال دورة حياته.
+
+p
+==Direct (monoxenous)==: Parasite with direct life cycles spend most of their adult lives in **one host**, known as **parasitic stage**, with their progeny transmitted from one host to another, known as the **free – living stage**.
+> ==دورة الحياة المباشرة (Direct, monoxenous)==: تقضي الطفيليات ذات دورة الحياة المباشرة معظم حياتها البالغة في **عائل واحد**، وتُعرف هذه **بالمرحلة الطفيلية**، بينما تنتقل ذريتها من عائل إلى آخر، وتُعرف هذه **بالمرحلة الحرّة المعيشة**.
+Direct life cycle, nematodes, *Cryptosporidium*.
+> ومن أمثلة دورة الحياة المباشرة: الديدان الخيطية (Nematodes)، و*Cryptosporidium*.
+Direct life cycle host and free living.
+> فدورة الحياة المباشرة: عائل، ثم حياة حرّة.
+
+note compare
+**Indirect** (heteroxenous) = vector or intermediate host → **definitive + intermediate** hosts (filarial, Nematoda, *Plasmodium*, *Leishmania*).
+> **غير المباشرة** (متعددة العوائل) = ناقل أو عائل وسيط ← عائل **نهائي + وسيط** (الفلاريات، والديدان الخيطية، و*Plasmodium*، و*Leishmania*).
+**Direct** (monoxenous) = **one host** (parasitic stage) + **free-living stage** (nematodes, *Cryptosporidium*).
+> **المباشرة** (أحادية العائل) = **عائل واحد** (المرحلة الطفيلية) + **مرحلة حرّة المعيشة** (الديدان الخيطية، و*Cryptosporidium*).
+
+# Sources of infection || مصادر العدوى
+
+ol
+* 1. Fecal -contaminated food and drink, containing the infective stage e.g. Protozoa infection through ingestion of infected cyst
+> الطعام والشراب الملوثان بالبراز، والحاويان على الطور المُعدي، مثل العدوى بالأوالي عن طريق ابتلاع الكيس المُعدي.
+* 2. ==Vector==: Through insect vector
+> ==الناقل (Vector)==: عن طريق حشرة ناقلة.
+* 3. Patients – diseases carrier
+> المرضى وحاملو الأمراض.
+
+## Sources of Infection || مصادر العدوى (بالتفصيل)
+
+p
+The source of infection means a parasite become contact with its host to produces infections, these sources are:
+> يقصد بمصدر العدوى المصدرُ الذي يتصل عن طريقه الطفيلي بعائله فيُحدث العدوى، وهذه المصادر هي:
+
+ol
+* 1. ==Contaminated soil and water==: Soil polluted with human feces acts as a source of infection with *Ascaris lumbricoides*, *Trichuris trichiura*, *Ancylostoma duodenale*, *Necator americanus* and *Strongyloides stercoralis*.
+> ==التربة والماء الملوثان (Contaminated soil and water)==: تُعدّ التربة الملوثة ببراز الإنسان مصدرًا للعدوى بكل من *Ascaris lumbricoides* و*Trichuris trichiura* و*Ancylostoma duodenale* و*Necator americanus* و*Strongyloides stercoralis*.
++ Eggs of these parasites undergo certain development in the soil. These are known as **soil-transmitted helminths**.
+> وتمرّ بيوض هذه الطفيليات بتطور معين في التربة، وتُعرف هذه **بالديدان المنقولة بالتربة (Soil-transmitted helminths)**.
++ Water also polluted with human feces may contain viable cysts of *Entamoeba histolytica*, *Giardia lamblia*, *Balantidium coli*, egg of *Taenia solium*, *Hymenolepis nana*, and the infective cercarial stage of *Schistosoma haematobium*, *Schistosoma mansoni* and *Schistosoma japonicum*,
+> وقد يحتوي الماء الملوث ببراز الإنسان أيضًا على أكياس حيّة لـ *Entamoeba histolytica* و*Giardia lamblia* و*Balantidium coli*، وعلى بيوض *Taenia solium* و*Hymenolepis nana*، وعلى الطور المذنّب المُعدي (Cercarial stage) لـ *Schistosoma haematobium* و*Schistosoma mansoni* و*Schistosoma japonicum*.
++ the diseases that transport by water which is named **water borne diseases**. While the diseases that transport by food which is termed **food borne disease**.
+> والأمراض التي تنتقل بالماء تُسمّى **الأمراض المنقولة بالماء (Water borne diseases)**، أما الأمراض التي تنتقل بالطعام فتُسمّى **الأمراض المنقولة بالغذاء (Food borne disease)**.
+* 2. ==Fresh water fishes== constitute the source of *Diphyllobothrium latum* and *Clonorchis sinensis*
+> ==أسماك المياه العذبة (Fresh water fishes)==: مصدر *Diphyllobothrium latum* و*Clonorchis sinensis*.
+* 3. ==Crab and crayfishes==: Are the sources of *Paragonimus westermani*
+> ==السرطانات وجراد البحر (Crab and crayfishes)==: مصدر *Paragonimus westermani*.
+* 4. ==Raw or undercooked pork==: Is the source of *Trichinella spiralis*, *Taenia solium* and *Sarcocystis suihominis*
+> ==لحم الخنزير النيء أو غير المطهو جيدًا (Raw or undercooked pork)==: مصدر *Trichinella spiralis* و*Taenia solium* و*Sarcocystis suihominis*.
+* 5. ==Raw or undercooked beef==: Is the source of *Taenia saginata*, *Toxoplasma gondii*
+> ==لحم البقر النيء أو غير المطهو جيدًا (Raw or undercooked beef)==: مصدر *Taenia saginata* و*Toxoplasma gondii*.
+* 6. ==Water cress==: Is the source of *Fasciola hepatica*
+> ==الجرجير المائي (Water cress)==: مصدر *Fasciola hepatica*.
+* 7. ==Blood - sucking insects==: Transmit *Plasmodium spp.*; *Wuchereria bancrofti*; *Trypanosoma spp.*; *Leishmania spp.* and *Babesia spp.*
+> ==الحشرات الماصّة للدم (Blood-sucking insects)==: تنقل *Plasmodium spp.* و*Wuchereria bancrofti* و*Trypanosoma spp.* و*Leishmania spp.* و*Babesia spp.*
+* 8. ==House fly==: (**Mechanical carrier**) is the source of *E. histolytica*
+> ==الذبابة المنزلية (House fly)==: (**حامل ميكانيكي**) مصدر *E. histolytica*.
+* 9. ==Dog==: Is the source of *Echinococcus granulosus* (Hydatid cyst), and *Toxocara canis* (Visceral lavas migrans)
+> ==الكلب (Dog)==: مصدر *Echinococcus granulosus* (الكيس العُداري Hydatid cyst)، و*Toxocara canis* (هجرة اليرقات الحشوية Visceral larva migrans).
+* 10. ==Cat==: Is the source of *Toxoplasma gondii*
+> ==القطة (Cat)==: مصدر *Toxoplasma gondii*.
+* 11. ==Man==: Is the source of *E. histolytica*, *Giardia lamblia* and *Enterobius vermicularis*
+> ==الإنسان (Man)==: مصدر *E. histolytica* و*Giardia lamblia* و*Enterobius vermicularis*.
+* 12. ==Autoinfection==: May occur with *Enterobius vermicularis* and *Strongyoides stercoralis* leading to **hyperinfection**.
+> ==العدوى الذاتية (Autoinfection)==: قد تحدث مع *Enterobius vermicularis* و*Strongyloides stercoralis*، فتؤدي إلى **فرط العدوى (Hyperinfection)**.
+
+note alert
+**Cat** → *Toxoplasma gondii*; it also comes from **raw or undercooked beef**. | **Dog** → hydatid cyst and *Toxocara canis*. | **Water cress** → *Fasciola hepatica*.
+> **القطة** ← *Toxoplasma gondii*، ويأتي أيضًا من **لحم البقر النيء أو غير المطهو**. | **الكلب** ← الكيس العُداري و*Toxocara canis*. | **الجرجير المائي** ← *Fasciola hepatica*.
+
+# Portal of Entry into the body || منافذ الدخول إلى الجسم
+
+ol
+* 1. ==Mouth==: Through contaminated food, water, soiled fingers or fomites can enter host, *E. histolytica*, *G. lamblia*, *Balantidium coli*.
+> ==الفم (Mouth)==: يمكن أن تدخل العائلَ عن طريق الطعام أو الماء الملوثين، أو الأصابع المتسخة، أو الأدوات الملوثة (Fomites)، مثل *E. histolytica* و*G. lamblia* و*Balantidium coli*.
+* 2. ==Skin==: The entry of parasites by skin.
+> ==الجلد (Skin)==: دخول الطفيليات عن طريق الجلد.
++ *Ancylostoma duodenale*, *Necator americanus* and *Strongyloides stercoralis*, **Filariform larvae** are penetrated the unbroken skin by walking over fecal soil.
+> فاليرقات الخيطية الشكل (**Filariform larvae**) لـ *Ancylostoma duodenale* و*Necator americanus* و*Strongyloides stercoralis* تخترق الجلد السليم عند المشي على تربة ملوثة بالبراز.
++ *Schistosoma haematobium*. *Schistosoma mansoni* and *Schistosoma japonium*; **cercaria** larvae in water, penetrate the skin,
+> و*Schistosoma haematobium* و*Schistosoma mansoni* و*Schistosoma japonicum*: يرقات **المذنّبات (Cercaria)** في الماء تخترق الجلد.
++ *Plasmodium spp.* *Leishmania spp.* are infected host by bloodsucking arthropods for skin
+> أما *Plasmodium spp.* و*Leishmania spp.* فتُصيب العائل عن طريق المفصليات الماصّة للدم عبر الجلد.
+* 3- ==Sexual contact==: *Trichomonas vaginalis* is transmitted by sexual contact
+> ==الاتصال الجنسي (Sexual contact)==: تنتقل *Trichomonas vaginalis* بالاتصال الجنسي.
+* 4-==Kissing==: *Entamoeba gingivalis* is transmitted from person – to – person by kissing
+> ==التقبيل (Kissing)==: تنتقل *Entamoeba gingivalis* من شخص إلى آخر بالتقبيل.
+* 5-==Congenital==: Infection with *Toxoplasma gondii* and *Plasmodium spp.*, may be transmitted from mother to fetus **transplacentally**.
+> ==خلقيًا (Congenital)==: قد تنتقل العدوى بـ *Toxoplasma gondii* و*Plasmodium spp.* من الأم إلى الجنين **عبر المشيمة**.
+* 6- ==Inhalation==: Air born eggs of *Enterobius vermicularis* may be inhaled into pharynx leading to infection
+> ==الاستنشاق (Inhalation)==: قد تُستنشق بيوض *Enterobius vermicularis* المحمولة بالهواء إلى البلعوم فتُحدث العدوى.
+* 7-==Latrogenic infection==: Malaria parasites may be transmitted by transfusion of blood from the donor with malaria
+> ==العدوى علاجية المنشأ (Iatrogenic infection)==: قد تنتقل طفيليات الملاريا بنقل الدم من متبرع مصاب بالملاريا.
+
+## Modes of infections || طرق العدوى
+
+p
+**Major methods of transmission**
+> **الطرق الرئيسية للانتقال**
+
+ol
+* 1. ==Oral-transmission==: !!The most common method of transmission is oral!! through contaminated food, water, soil, fomites
+> ==الانتقال الفموي (Oral transmission)==: !!أكثر طرق الانتقال شيوعًا هي الطريق الفموي!!، عن طريق الطعام أو الماء أو التربة أو الأدوات الملوثة.
+* 2. ==Skin== e.g. Hook worm infection or through bite of vector
+> ==الجلد (Skin)==: مثل العدوى بالديدان الخطافية، أو عن طريق لدغة الناقل.
+* 3. ==Direct transmission== person – to -person contact as in kissing *E. gingivalis*
+> ==الانتقال المباشر (Direct transmission)==: بالتلامس من شخص إلى آخر، كما في التقبيل مع *E. gingivalis*.
+* 4. ==Inhalation== of air – borne egg e.g. *Naeglirea fowleri*
+> ==الاستنشاق (Inhalation)==: للبيوض المحمولة بالهواء، مثل *Naegleria fowleri*.
+* 5. ==Sexual transmission== e.g. *Trichomonas vaginalis*
+> ==الانتقال الجنسي (Sexual transmission)==: مثل *Trichomonas vaginalis*.
+* 6. ==Congenital== e.g. *Toxoplasma gondii*
+> ==الانتقال الخلقي (Congenital)==: مثل *Toxoplasma gondii*.
+
+# Pathogenesis || الإمراضية
+
+p
+==Pathogenic==: The ability of organism to cause disease
+> ==مُمرِض (Pathogenic)==: قدرة الكائن الحي على إحداث المرض.
+==Pathogenesis==: Protozoal infection results in tissue damage leading to disease
+> ==الإمراضية (Pathogenesis)==: تؤدي العدوى بالأوالي إلى تلف الأنسجة، مما يؤدي إلى المرض.
+In **chronic infection**, tissue damage is often due to:
+> وفي **العدوى المزمنة** يرجع تلف الأنسجة غالبًا إلى:
+
+ol
+* 1. immune response to the parasite and / or to host antigens
+> الاستجابة المناعية للطفيلي و/أو لمستضدات العائل.
+* 2. Due to toxics protozoal products
+> النواتج السامة للأوالي.
+* 3. and / or mechanical damage
+> و/أو التلف الميكانيكي.
+
+# Immunity in parasitic infection || المناعة في العدوى الطفيلية
+
+p
+Protozoa cause **chronic and persistent infection** because:
+> تسبب الأوالي **عدوى مزمنة ومستمرة** لأن:
+
+ol
+* a. **Natural immunity** against protozoa is **weak**.
+> **المناعة الطبيعية** ضد الأوالي **ضعيفة**.
+* b. Because protozoa have evolved multiple mechanisms for evading
+> ولأن الأوالي طوّرت آليات متعددة للمراوغة،
+* c. Resisting specific immunity
+> ولمقاومة المناعة النوعية.
+
+p
+protozoa may be **phagocytosed by macrophage** but many are **resistant to phagocytic killing** and may even **replicate within macrophage**
+> قد تُبلعَم الأوالي **بواسطة البلاعم (Macrophage)**، لكن كثيرًا منها **يقاوم القتل البلعمي**، بل قد **يتكاثر داخل البلاعم**.
+*Trypanosoma brucei gambianse* is the best example of protozoa which can induce **humoral immune response** because of the **extracellular location**.
+> و*Trypanosoma brucei gambiense* أفضل مثال على الأوالي التي تستطيع تحفيز **استجابة مناعية خلطية (Humoral)** بسبب **موقعها خارج الخلايا**.
+In *leishmania spp.* infections **cellular defense mechanism** depend upon **T. lymphocytes** and **activate macrophages** as effectors cells
+> وفي العدوى بـ *Leishmania spp.* تعتمد **آلية الدفاع الخلوية** على **الخلايا اللمفاوية التائية (T lymphocytes)**، و**البلاعم المنشَّطة** بوصفها خلايا مُنفِّذة.
+*Plasmodium spp.* is a protozoan which show the diversity of defense mechanism which can be **cellular or humoral** depending on Ag and protozoa’s location
+> و*Plasmodium spp.* من الأوالي التي تُظهر تنوع آليات الدفاع، فقد تكون **خلوية أو خلطية** حسب المستضد (Ag) وموقع الطفيلي.
+
+note compare
+*Trypanosoma brucei gambiense* → **humoral** (extracellular). | *Leishmania* → **cellular** (T lymphocytes + activated macrophages). | *Plasmodium* → **cellular or humoral**.
+> *Trypanosoma brucei gambiense* ← **خلطية** (خارج الخلايا). | *Leishmania* ← **خلوية** (الخلايا التائية + البلاعم المنشَّطة). | *Plasmodium* ← **خلوية أو خلطية**.
+
+## The way of protozoal resisting of specific immunity || طرق مقاومة الأوالي للمناعة النوعية
+
+ol
+* a. ==Anatomic sequestration== is commonly observed with protozoa plasma and *T. gondii*
+> ==الاحتجاز التشريحي (Anatomic sequestration)==: يُلاحظ عادةً مع الأوالي كالمتصوّرات (Plasmodium) و*T. gondii*.
+* b. Some protozoa can become **resistant to immunity effector mechanisms**. *Trypanosoma*, *Leishmania* and *T. gondii*
+> يمكن أن تصبح بعض الأوالي **مقاومة للآليات المناعية المُنفِّذة**، مثل *Trypanosoma* و*Leishmania* و*T. gondii*.
+* c. Some protozoa developed effective mechanisms for **varying their surface antigens** *plasmodium* and *Trypansomes*
+> طوّرت بعض الأوالي آليات فعّالة **لتغيير مستضداتها السطحية**، مثل *Plasmodium* والمثقّبيات (Trypanosomes).
+* d. Some protozoa **shed their antigen coats** either spontaneously or after binding with specific antibodies *E. histolytica*
+> بعض الأوالي **تنزع غلافها المستضدي** إما تلقائيًا أو بعد ارتباطه بأجسام مضادة نوعية، مثل *E. histolytica*.
+* e. Some protozoa alter host immune response by nonspecific and generalized **immunosuppression**. *Trypanosoma*, *Leishmania*, *Toxoplasma*, *Entamoeba*
+> بعض الأوالي تغيّر الاستجابة المناعية للعائل عن طريق **كبت مناعي (Immunosuppression)** غير نوعي وعام، مثل *Trypanosoma* و*Leishmania* و*Toxoplasma* و*Entamoeba*.
+
+# Laboratory Diagnosis || التشخيص المختبري
+
+p
+Depending on the nature of parasitic infection: The following specimens are selected for laboratory diagnosis
+> اعتمادًا على طبيعة العدوى الطفيلية تُختار العينات الآتية للتشخيص المختبري:
+
+ol
+* a. ==Blood==: Examination of blood film is one of the main procedures for specific diagnosis e.g. **malaria** found in the **red blood cells**.
+> ==الدم (Blood)==: فحص مسحة الدم من الإجراءات الرئيسية للتشخيص النوعي، فمثلًا **الملاريا** توجد في **خلايا الدم الحمراء**.
++ In Bancrofti and Malayan filariasis **microfilaria** found in **blood plasma**
+> وفي داء الفلاريات البنكروفتي والملايوي توجد **الميكروفلاريا (Microfilaria)** في **بلازما الدم**.
+* b. ==Stool== for diagnosis of intestinal parasite, or those localized in biliary tract and discharge their eggs into the intestine.
+> ==البراز (Stool)==: لتشخيص الطفيليات المعوية، أو الطفيليات المستوطنة في القناة الصفراوية التي تطرح بيوضها في الأمعاء.
++ In Protozoa either trophozoites or cysts. !!Trophozoite during acute active phase and cysts during chronic phases!! e. g. amebiasis; Giardiasis
+> وفي الأوالي نجد إما الأطوار الخضرية أو الأكياس: !!الطور الخضري خلال المرحلة الحادة النشطة، والأكياس خلال المراحل المزمنة!!، مثل داء الأميبات وداء الجيارديات.
+* c. ==Urine==: When parasite habitat in urinary tract as in **urinary Schistosomiasis**, eggs of *Schistosoma haematobium* can be detected in urine.
+> ==الإدرار (Urine)==: عندما يستوطن الطفيلي المسالك البولية كما في **البلهارزيا البولية**، يمكن الكشف عن بيوض *Schistosoma haematobium* في الإدرار.
++ In case of **Chyluria** caused by *Wuchereria bancrofti*, microfilariae are found in urine.
+> وفي حالة **البيلة الكيلوسية (Chyluria)** التي تسببها *Wuchereria bancrofti* توجد الميكروفلاريا في الإدرار.
+* d. ==Sputum== in amoebic abscess of lung, or in case of amoebic liver abscess, bursting into the lung; trophozoites of *Entamoeba histolytica* are detected in sputum.
+> ==القشع (Sputum)==: في الخراج الأميبي للرئة، أو في حالة انفجار الخراج الأميبي للكبد إلى الرئة، يُكشف عن الأطوار الخضرية لـ *Entamoeba histolytica* في القشع.
++ *Paragonimus wastermanii* eggs found in sputum.
+> وتوجد بيوض *Paragonimus westermani* في القشع.
+* e. ==Biopsy material==; spleen puncture in case of **Kala -azar**; Muscle biopsy in cysticercus; Trichinelliasis (Trichinosis) and Chagas disease; skin snip for Onchocerciasis
+> ==مواد الخزعة (Biopsy material)==: بزل الطحال في حالة **الكالا آزار**؛ وخزعة العضلات في الكيسات المذنّبة (Cysticercus) وداء الشعرينات (Trichinosis) وداء شاغاس؛ والقُصاصة الجلدية (Skin snip) لداء كلابية الذنب (Onchocerciasis).
+* f. ==Urethral or vaginal discharge==; in *Trichomonas vaginalis*
+> ==إفرازات الإحليل أو المهبل (Urethral or vaginal discharge)==: في *Trichomonas vaginalis*.
+* g. ==Indirect evidences==: indicate of intestinal parasites infection
+> ==الأدلة غير المباشرة (Indirect evidences)==: تدل على العدوى بالطفيليات المعوية:
+** a. Cytological changes in blood, **eosinophilia** indication of **tissue invasion by helminths**
+> تغيرات خلوية في الدم: **كثرة الحَمِضات (Eosinophilia)** دلالة على **غزو الديدان للأنسجة**.
+** b. !!Reduction of white blood cells count in Kala – azar!!
+> !!انخفاض عدد خلايا الدم البيضاء في الكالا آزار!!.
+** c. **Anemia** in **malaria** and **hook worm** infestation
+> **فقر الدم** في **الملاريا** والإصابة **بالديدان الخطافية**.
+** d. **Serological test**; laboratory where special antigens are available
+> **الاختبارات المصلية (Serological test)**: في المختبرات التي تتوفر فيها مستضدات خاصة.
+
+note alert
+**Malaria** → red blood cells (blood film). | **Microfilaria** → blood plasma (and urine in chyluria). | **Kala-azar** → spleen puncture + reduced WBC count.
+> **الملاريا** ← خلايا الدم الحمراء (مسحة الدم). | **الميكروفلاريا** ← بلازما الدم (والإدرار في البيلة الكيلوسية). | **الكالا آزار** ← بزل الطحال + انخفاض عدد خلايا الدم البيضاء.
+**Sputum** → *E. histolytica* trophozoites and *Paragonimus* eggs. | **Urine** → *Schistosoma haematobium* eggs.
+> **القشع** ← الأطوار الخضرية لـ *E. histolytica* وبيوض *Paragonimus*. | **الإدرار** ← بيوض *Schistosoma haematobium*.
+
+# Infective stages || الأطوار المُعدية
+
+p
+It refers to the stage of the life cycle of the parasite, if the parasite comes into contact with the host, it causes infection to the patient, these stages are:
+> يُقصد بها طور دورة حياة الطفيلي الذي إذا اتصل بالعائل أحدث العدوى للمريض، وهذه الأطوار هي:
+
+ol
+* 1. ==Egg or ovum==
+> ==البيضة (Egg or ovum)==
++ It is infective stage for many worms.
+> وهي الطور المُعدي لكثير من الديدان.
++ Some of eggs **directly** causes infection after releasing as *Hymenolepis nana* eggs, while in another, egg **requires a time** to become infected as *Ascaris lumbricoides* eggs
+> فبعض البيوض تُحدث العدوى **مباشرة** بعد طرحها مثل بيوض *Hymenolepis nana*، بينما تحتاج البيضة في غيرها **إلى وقت** لتصبح مُعدية مثل بيوض *Ascaris lumbricoides*.
+* 2. ==Larva==:
+> ==اليرقة (Larva)==:
++ It is the infective stages for many worms, it is may be living free in the soil and penetrate the skin as *Ancylostoma duodenale* larvae, or swimming in water and penetrate skin as *Schistosoma spp.* larvae, or swimming in human blood as *Wuchereria bancrofti* larvae and infected human by insect bite.
+> وهي الطور المُعدي لكثير من الديدان؛ فقد تعيش حرّة في التربة وتخترق الجلد مثل يرقات *Ancylostoma duodenale*، أو تسبح في الماء وتخترق الجلد مثل يرقات *Schistosoma spp.*، أو تسبح في دم الإنسان مثل يرقات *Wuchereria bancrofti* وتُصيب الإنسان بلدغة الحشرة.
++ Some larvae are cystic in animal meat such as *Taenia spp.* or on plants as **metacercaria** of *Fasciola hepatica*
+> وبعض اليرقات تكون متكيّسة في لحوم الحيوانات مثل *Taenia spp.*، أو على النباتات مثل **المذنّبات المتكيّسة (Metacercaria)** لـ *Fasciola hepatica*.
+* 3. ==Cyst==
+> ==الكيس (Cyst)==
++ Cyst stage in protozoa, transmitted by contaminated water and food, it **resistant for environmental conditions** also some worm larvae are cystic as *Taenia sp.*
+> طور الكيس في الأوالي، وينتقل بالماء والطعام الملوثين، وهو **مقاوم للظروف البيئية**؛ كما أن بعض يرقات الديدان تكون متكيّسة مثل *Taenia sp.*
+* 4. ==Adult==: Protozoa that have **only trophozoite stage**, this stage represents the adult stage and the infective stage, as in *Trichomonas vaginalis*
+> ==الطور البالغ (Adult)==: في الأوالي التي ليس لها **إلا الطور الخضري**، يمثّل هذا الطور الطورَ البالغ والطورَ المُعدي معًا، كما في *Trichomonas vaginalis*.
+
+flow Infective stages || الأطوار المُعدية
+Egg = البيضة
+Larva = اليرقة
+Cyst = الكيس
+! Adult = الطور البالغ
+
+summary
+Protozoa are unicellular eukaryotic microorganisms with a direct life cycle and one host; they reproduce mainly by asexual division.
+> الأوالي كائنات مجهرية وحيدة الخلية حقيقية النواة، لها دورة حياة مباشرة وعائل واحد، وتتكاثر أساسًا بالانقسام اللاجنسي.
+Protozoa are classified by organelles of motion: pseudopodia, flagellum, cilium, or no locomotory organelles.
+> تُصنَّف الأوالي حسب عُضيّات الحركة: أقدام كاذبة، أو سوط، أو هُدب، أو لا توجد عُضيّات حركة.
+The trophozoite is the active, motile, reproductive form inside the host; the cyst is the non-motile form outside the host and is both diagnostic and infective.
+> الطور الخضري هو الشكل النشط المتحرك المتكاثر داخل العائل؛ والكيس هو الشكل غير المتحرك خارج العائل، وهو تشخيصي ومُعدٍ معًا.
+Parasites are micro- or macroparasites; ectoparasites (infestation) or endoparasites (infection); and are classified by nature of living, time spent with the host, and number of hosts.
+> الطفيليات دقيقة أو كبيرة؛ وخارجية (Infestation) أو داخلية (Infection)؛ وتُصنَّف حسب طبيعة المعيشة، والمدة مع العائل، وعدد العوائل.
+The definitive host harbors the adult or sexual stage; the intermediate host harbors larval or asexual stages; other hosts include reservoir, paratenic, compromised, natural, accidental, dead-end, predilection and transfer hosts.
+> العائل النهائي يؤوي الطور البالغ أو الجنسي؛ والعائل الوسيط يؤوي الأطوار اليرقية أو اللاجنسية؛ ومن العوائل الأخرى: الخازن، والباراتيني، وضعيف المناعة، والطبيعي، والعرضي، والمسدود، والمفضَّل، وعائل النقل.
+A vector is mechanical (not essential) or biological (the pathogen develops in it).
+> الناقل إما ميكانيكي (ليس أساسيًا) أو حيوي (يتطور فيه الممرض).
+Host-parasite relationships include symbiosis, commensalism, mutualism, parasitism, phoresis and predation.
+> تشمل العلاقات بين العائل والطفيلي: التكافل، والمعايشة، والتقايض، والتطفل، والارتحال، والافتراس.
+Life cycles are direct (monoxenous, one host) or indirect (heteroxenous, with a vector or intermediate host).
+> دورات الحياة مباشرة (أحادية العائل) أو غير مباشرة (متعددة العوائل، بناقل أو عائل وسيط).
+The most common mode of transmission is oral; others are skin, direct contact, inhalation, sexual, congenital and iatrogenic.
+> أكثر طرق الانتقال شيوعًا هي الطريق الفموي؛ ومن الطرق الأخرى: الجلد، والتلامس المباشر، والاستنشاق، والاتصال الجنسي، والانتقال الخلقي، والانتقال علاجي المنشأ.
+Protozoa cause chronic infection because natural immunity is weak and they evade or resist specific immunity.
+> تسبب الأوالي عدوى مزمنة لأن المناعة الطبيعية ضعيفة، ولأنها تراوغ المناعة النوعية أو تقاومها.
+Laboratory diagnosis uses blood, stool, urine, sputum, biopsy and discharges, plus indirect evidence such as eosinophilia and anemia.
+> يعتمد التشخيص المختبري على الدم، والبراز، والإدرار، والقشع، والخزعة، والإفرازات، إضافة إلى أدلة غير مباشرة مثل كثرة الحمضات وفقر الدم.
+Infective stages are the egg, larva, cyst, and adult (in protozoa with a trophozoite stage only).
+> الأطوار المُعدية هي: البيضة، واليرقة، والكيس، والطور البالغ (في الأوالي التي ليس لها إلا الطور الخضري).
+
+keypoints
+Protozoa reproduce mainly by asexual simple division.
+> تتكاثر الأوالي أساسًا بالانقسام البسيط اللاجنسي.
+Cyst = both diagnostic and infective stage.
+> الكيس = الطور التشخيصي والمُعدي معًا.
+Ectoparasite → infestation; endoparasite → infection.
+> الطفيلي الخارجي ← Infestation؛ والطفيلي الداخلي ← Infection.
+Definitive host = adult stage or sexual reproduction.
+> العائل النهائي = الطور البالغ أو التكاثر الجنسي.
+Humans are dead-end hosts for trichinosis.
+> الإنسان عائل مسدود لداء الشعرينات.
+Mechanical vector is not essential in the life cycle.
+> الناقل الميكانيكي ليس أساسيًا في دورة الحياة.
+The most common method of transmission is oral.
+> أكثر طرق الانتقال شيوعًا هي الطريق الفموي.
+Trophozoites in acute phase, cysts in chronic phase (stool).
+> الأطوار الخضرية في المرحلة الحادة، والأكياس في المرحلة المزمنة (في البراز).
+Eosinophilia indicates tissue invasion by helminths.
+> كثرة الحمضات تدل على غزو الديدان للأنسجة.
+
+keyterms
+Protozoa = الأوالي
+Trophozoite = الطور الخضري
+Cyst = الكيس
+Parasitology = علم الطفيليات
+Parasite = الطفيلي
+Host = العائل
+Microparasite = طفيلي دقيق
+Macroparasite = طفيلي كبير
+Ectoparasite = طفيلي خارجي
+Endoparasite = طفيلي داخلي
+Infestation = الإصابة الخارجية
+Obligate parasite = طفيلي إجباري
+Facultative parasite = طفيلي اختياري
+Monoxenous = أحادي العائل
+Heteroxenous = متعدد العوائل
+Definitive host = العائل النهائي
+Intermediate host = العائل الوسيط
+Reservoir host = العائل الخازن
+Paratenic host = العائل الباراتيني
+Dead-end host = العائل المسدود
+Vector = الناقل
+Zoonosis = مرض حيواني المنشأ
+Symbiosis = التكافل
+Commensalism = المعايشة
+Mutualism = التقايض
+Parasitism = التطفل
+Phoresis = الارتحال
+Predation = الافتراس
+Autoinfection = العدوى الذاتية
+Iatrogenic = علاجي المنشأ
+Pathogenesis = الإمراضية
+Anatomic sequestration = الاحتجاز التشريحي
+Eosinophilia = كثرة الحمضات
+Metacercaria = المذنّبات المتكيّسة

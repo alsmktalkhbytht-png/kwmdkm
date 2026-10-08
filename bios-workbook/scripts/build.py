@@ -173,14 +173,14 @@ def md(s, ar=False):
             st = a
             while st < b and s[st] in MK:
                 st += 1
-            if st > a and (st == b or not LT.match(s[st]) or s[a:b].count(s[a]) % 2):
+            if st > a and (st == b or not LT.match(s[st]) or s[a:b].count(s[a:st]) % 2):
                 a = st
             while a < b and s[a] in " :;,":
                 a += 1
             e = b
             while e > a and s[e - 1] in MK:
                 e -= 1
-            if e < b and (e == a or s[e - 1] == " " or s[a:b].count(s[b - 1]) % 2):
+            if e < b and (e == a or s[e - 1] == " " or s[a:b].count(s[e:b]) % 2):
                 b = e
             while b > a and s[b - 1] == " ":
                 b -= 1
@@ -228,7 +228,7 @@ def pair_html(en, ar, cls=""):
             f'<div class="ar" dir="rtl">{badge("ar")}<div class="tx">{md(ar, True)}</div></div></div>')
 
 
-MARK = re.compile(r"^(-\s*)?((?:[0-9]{1,2}|[a-hA-H]|I{1,3}|IV|V))[.)]\s+")
+MARK = re.compile(r"^(-\s*)?((?:[0-9]{1,2}|[a-hA-H]|I{1,3}|IV|V))(?:[.)]\s+|-\s*)")
 
 
 def list_marker(text, ordered):
@@ -335,7 +335,7 @@ def render_block(b, ctx):
     if t == "note":
         en_l, ar_l = NOTE_KINDS[b["kind"]]
         rows = "".join(pair_html(x["en"], x["ar"]) for x in b["items"])
-        return (f'<div class="blk note n-{b["kind"]} split" data-k="note" data-head="1"><div class="nt-h">'
+        return (f'<div class="blk note n-{b["kind"]}" data-k="note"><div class="nt-h">'
                 f'<span class="stk">{ctx["stickers"][b["kind"]]}</span><span class="nt-en">{en_l}</span>'
                 f'<span class="nt-tag" dir="rtl">إضافة BIOS · ليست من نص المحاضرة</span>'
                 f'<span class="nt-ar" dir="rtl">{ar_l}</span></div>{rows}</div>')
@@ -378,7 +378,7 @@ def cover_html(meta, theme_key, art_svg, logo_svg):
         sub = (f'<div class="c-en2">{md(title["en2"])}</div>'
                f'<div class="c-ar2" dir="rtl">{md(title["ar2"], True)}</div>')
     return f'''
-<section class="page cover">
+<section class="page cover{'' if title.get('en2') else ' short'}">
   <div class="c-frame"></div>
   <div class="c-logo">{logo_svg}</div>
   <div class="c-subj-ar" dir="rtl">{html.escape(meta.get("subject_ar", ""))}</div>
@@ -424,8 +424,9 @@ def build(src, out_base, html_only=False):
     body = "\n".join(render_block(b, ctx) for b in data["blocks"])
 
     art = ""
-    if th.get("art"):
-        with open(os.path.join(ROOT, "assets", "art", th["art"]), encoding="utf-8") as f:
+    art_file = meta.get("art") or th.get("art")
+    if art_file:
+        with open(os.path.join(ROOT, "assets", "art", art_file), encoding="utf-8") as f:
             art = f.read()
     with open(os.path.join(ROOT, "assets", "bios-emblem.svg"), encoding="utf-8") as f:
         logo = f.read()

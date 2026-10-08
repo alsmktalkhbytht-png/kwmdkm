@@ -2,7 +2,7 @@
 
 Palette taken from the user's knight references: dark steel, antique gold, crimson.
   python3 bios-workbook/scripts/art/knight.py
-writes assets/art/knight.svg and assets/stickers/{alert,compare,tip,remember}.svg
+writes assets/art/knight.svg (ECG chest), knight-parasitology.svg (flagellate chest) and assets/stickers/{alert,compare,tip,remember}.svg
 """
 import math
 import os
@@ -109,7 +109,26 @@ def sword(cx, tip, guard, pommel, bw, u, gw=None):
 
 
 # ───────────────────────── cover ─────────────────────────
-def cover():
+def chest_parasite():
+    """gold flagellate (trypanosome-like) engraved across the chest — parasitology"""
+    top, bot = [], []
+    for i in range(41):
+        t = i / 40
+        x = 252 + t * 128
+        w = 9 * math.sin(math.pi * t) ** .8
+        y = 300 + 7 * math.sin(t * math.pi * 2)
+        top.append(f"{x:.1f} {y - w:.1f}")
+        bot.append(f"{x:.1f} {y + w:.1f}")
+    body = f'<path d="M{top[0]} L{" L".join(top[1:])} L{" L".join(reversed(bot))} Z" fill="{GOLD}" stroke="{GOLD_LT}" stroke-width="1.4" opacity=".95"/>'
+    fin = "M256 300 " + " ".join(f"L{256 + k * 3.1:.1f} {300 + 7 * math.sin((k * 3.1 + 4) / 128 * math.pi * 2) - 9 * math.sin(math.pi * (k * 3.1 + 4) / 128) ** .8 - 3 - 2.4 * (k % 2):.1f}" for k in range(1, 40))
+    flag = "M380 300 q12 -10 22 0 t22 0 t18 -2"
+    return (body + f'<path d="{fin}" fill="none" stroke="{GOLD_LT}" stroke-width="1.6" stroke-linejoin="round"/>'
+            f'<path d="{flag}" fill="none" stroke="{GOLD_LT}" stroke-width="2.6" stroke-linecap="round"/>'
+            f'<circle cx="296" cy="303" r="4.6" fill="{STEEL_DK}" stroke="{GOLD_LT}" stroke-width="1.2"/>'
+            f'<circle cx="262" cy="301" r="2" fill="{STEEL_DK}"/>')
+
+
+def cover(chest="ecg"):
     u = "kc"
     W, H = 640, 360
     cx = 320
@@ -145,8 +164,10 @@ def cover():
     # torso plate
     s.append(f'<path d="M252 214 Q320 196 388 214 L404 360 H236 Z" fill="url(#{u}sd)"/>')
     s.append(f'<path d="M262 236 Q320 220 378 236" fill="none" stroke="url(#{u}auh)" stroke-width="3"/>')
-    # ECG pulse engraved on the chest (physiology)
-    s.append(f'<path d="M248 300 H292 l7 -16 l8 32 l9 -46 l9 50 l7 -20 H392" fill="none" stroke="{GOLD_LT}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>')
+    if chest == "parasite":
+        s.append(chest_parasite())
+    else:   # ECG pulse engraved on the chest (physiology)
+        s.append(f'<path d="M248 300 H292 l7 -16 l8 32 l9 -46 l9 50 l7 -20 H392" fill="none" stroke="{GOLD_LT}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>')
     # chainmail neck
     mail = "".join(f'<circle cx="{x}" cy="{y}" r="2.1" fill="none" stroke="{STEEL_LT}" stroke-width=".9" opacity=".75"/>'
                    for y in range(186, 222, 4) for x in range(272 + (y // 4 % 2) * 2, 370, 4))
@@ -230,6 +251,8 @@ if __name__ == "__main__":
     os.makedirs(os.path.join(ROOT, "assets", "stickers"), exist_ok=True)
     with open(os.path.join(ROOT, "assets", "art", "knight.svg"), "w") as f:
         f.write(cover())
+    with open(os.path.join(ROOT, "assets", "art", "knight-parasitology.svg"), "w") as f:
+        f.write(cover("parasite"))
     for name, fn in [("alert", st_alert), ("compare", st_compare), ("tip", st_tip), ("remember", st_remember)]:
         with open(os.path.join(ROOT, "assets", "stickers", name + ".svg"), "w") as f:
             f.write(fn())
